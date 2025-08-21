@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Regular 400.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PopupViewViewController" customModule="EZAR" customModuleProvider="target">
+            <connections>
+                <outlet property="imageview" destination="Rnu-Cg-APd" id="CwA-r1-hxS"/>
+                <outlet property="popupText" destination="Qta-uW-284" id="lBf-gE-6DV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ojC-18-Pfd">
+                    <rect key="frame" x="27.666666666666657" y="289" width="320" height="250"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DoneLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Rnu-Cg-APd">
+                            <rect key="frame" x="120" y="30" width="80" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="47R-QM-Xsl"/>
+                                <constraint firstAttribute="width" constant="80" id="GE7-Cc-j0D"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qta-uW-284">
+                            <rect key="frame" x="10" y="152" width="300" height="28.333333333333343"/>
+                            <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7t-E3-bSl">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title=" "/>
+                            <connections>
+                                <action selector="btnNavigationAction:" destination="-1" eventType="touchUpInside" id="ql9-yW-qS1"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="320" id="DCO-ez-6Ub"/>
+                        <constraint firstAttribute="height" constant="250" id="Jep-Fw-fZl"/>
+                        <constraint firstItem="Qta-uW-284" firstAttribute="centerX" secondItem="Rnu-Cg-APd" secondAttribute="centerX" id="Kdc-Wa-7GC"/>
+                        <constraint firstItem="T7t-E3-bSl" firstAttribute="leading" secondItem="ojC-18-Pfd" secondAttribute="leading" id="M3x-Oo-Yrv"/>
+                        <constraint firstAttribute="bottom" secondItem="T7t-E3-bSl" secondAttribute="bottom" id="My5-Qs-YgG"/>
+                        <constraint firstItem="Qta-uW-284" firstAttribute="top" secondItem="Rnu-Cg-APd" secondAttribute="bottom" constant="42" id="aVQ-iB-wRX"/>
+                        <constraint firstItem="Rnu-Cg-APd" firstAttribute="centerX" secondItem="ojC-18-Pfd" secondAttribute="centerX" id="hRI-Tw-HzB"/>
+                        <constraint firstItem="Rnu-Cg-APd" firstAttribute="top" secondItem="ojC-18-Pfd" secondAttribute="top" constant="30" id="j9G-DO-wzt"/>
+                        <constraint firstItem="T7t-E3-bSl" firstAttribute="top" secondItem="ojC-18-Pfd" secondAttribute="top" id="m09-cT-xhB"/>
+                        <constraint firstAttribute="trailing" secondItem="Qta-uW-284" secondAttribute="trailing" constant="10" id="m1f-cD-LhI"/>
+                        <constraint firstAttribute="trailing" secondItem="T7t-E3-bSl" secondAttribute="trailing" id="vXI-q9-83O"/>
+                        <constraint firstItem="Qta-uW-284" firstAttribute="leading" secondItem="ojC-18-Pfd" secondAttribute="leading" constant="10" id="wEq-t1-fkH"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ojC-18-Pfd" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="9Vj-xc-AcT"/>
+                <constraint firstItem="ojC-18-Pfd" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="Z56-iO-RMU"/>
+            </constraints>
+            <point key="canvasLocation" x="88.799999999999997" y="19.95073891625616"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="DoneLogo" width="80" height="80"/>
+    </resources>
+</document>

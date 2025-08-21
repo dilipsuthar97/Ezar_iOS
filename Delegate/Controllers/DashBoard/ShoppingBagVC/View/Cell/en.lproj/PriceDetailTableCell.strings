@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "0"; ObjectID = "1EL-kw-h1X"; */
+"1EL-kw-h1X.text" = "0";
+
+/* Class = "UILabel"; text = "Estimated Tax"; ObjectID = "1hR-K6-CMx"; */
+"1hR-K6-CMx.text" = "Estimated Tax";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Euh-AI-SHO"; */
+"Euh-AI-SHO.text" = "0";
+
+/* Class = "UILabel"; text = "Total Payable"; ObjectID = "IN9-Aa-v7I"; */
+"IN9-Aa-v7I.text" = "Total Payable";
+
+/* Class = "UILabel"; text = "Bag Discount"; ObjectID = "M61-uG-FOU"; */
+"M61-uG-FOU.text" = "Bag Discount";
+
+/* Class = "UILabel"; text = "0%"; ObjectID = "M8C-lQ-6ca"; */
+"M8C-lQ-6ca.text" = "0%";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "WK3-ld-Rzh"; */
+"WK3-ld-Rzh.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "dRi-Sy-lS7"; */
+"dRi-Sy-lS7.text" = "0";
+
+/* Class = "UILabel"; text = "Sub Total"; ObjectID = "gtP-Wc-SM4"; */
+"gtP-Wc-SM4.text" = "Sub Total";
+
+/* Class = "UILabel"; text = "NA"; ObjectID = "kjS-4X-eIE"; */
+"kjS-4X-eIE.text" = "NA";
+
+/* Class = "UILabel"; text = "Apply Coupon"; ObjectID = "p2c-7i-1dt"; */
+"p2c-7i-1dt.text" = "Apply Coupon";
+
+/* Class = "UILabel"; text = "Bag Total"; ObjectID = "pP6-RV-Ol2"; */
+"pP6-RV-Ol2.text" = "Bag Total";
+
+/* Class = "UILabel"; text = "Coupon Discount"; ObjectID = "rwF-C9-O78"; */
+"rwF-C9-O78.text" = "Coupon Discount";
+
+/* Class = "UILabel"; text = "Delivery"; ObjectID = "xrx-cU-Pib"; */
+"xrx-cU-Pib.text" = "Delivery";

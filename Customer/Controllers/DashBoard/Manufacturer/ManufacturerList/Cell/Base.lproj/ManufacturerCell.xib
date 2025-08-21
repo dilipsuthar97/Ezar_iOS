@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Bold 700.ttf">
+            <string>Cairo-Bold</string>
+        </array>
+        <array key="Cairo Regular 400.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+        <array key="Cairo SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+        <array key="Futura Bk BT.TTF">
+            <string>FuturaBT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ManufacturerCell" rowHeight="200" id="KGk-i7-Jjw" customClass="ManufacturerCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rkP-QE-pUi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Mhp-2u-rtm">
+                                <rect key="frame" x="8" y="8" width="110" height="110"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="CHE-5B-I8j"/>
+                                    <constraint firstAttribute="width" constant="110" id="i8g-ET-ipe"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPo-Av-xXv" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                                <rect key="frame" x="287" y="8" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="ZBL-w0-b57"/>
+                                    <constraint firstAttribute="height" constant="25" id="xhc-EF-ERE"/>
+                                </constraints>
+                                <state key="normal" image="Heart"/>
+                                <state key="selected" image="FavG_Filled"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u3I-nl-RlT">
+                                <rect key="frame" x="126" y="6" width="19.5" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="CCq-Sv-j19"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-Bold" family="Cairo" pointSize="15"/>
+                                <color key="textColor" red="0.050980392156862744" green="0.050980392156862744" blue="0.050980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfA-vh-lMT">
+                                <rect key="frame" x="143" y="81" width="169" height="24.5"/>
+                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="13"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price starting from :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K3V-4n-uZK" customClass="PaddingLabel" customModule="EZAR" customModuleProvider="target">
+                                <rect key="frame" x="126" y="101" width="116" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="topInset">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pin1" translatesAutoresizingMaskIntoConstraints="NO" id="GJB-OS-PFK">
+                                <rect key="frame" x="126" y="86" width="13" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="Nbu-kt-TU5"/>
+                                    <constraint firstAttribute="width" constant="13" id="Opk-My-YM9"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last purchase - NA" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaZ-mc-OMb">
+                                <rect key="frame" x="125" y="132.5" width="187" height="21"/>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="11"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vJw-on-NM7" customClass="HCSStarRatingView">
+                                <rect key="frame" x="125" y="28" width="86" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="osS-Ix-YHg"/>
+                                    <constraint firstAttribute="height" constant="20" id="q12-QX-i20"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="starBorderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowsHalfStars" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="filledStarImage" value="star"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyStarImage" value="star_outline"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewd-4x-Xle">
+                                <rect key="frame" x="215" y="32" width="16.5" height="12"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="12" id="tC1-ux-laW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="11"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Available" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SrR-GI-luc" customClass="PaddingLabel" customModule="EZAR" customModuleProvider="target">
+                                <rect key="frame" x="125" y="54" width="53.5" height="24"/>
+                                <color key="backgroundColor" red="0.33725490196078434" green="0.58039215686274503" blue="0.42352941176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="6xw-LQ-5KR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="topInset">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomInset">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="NA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKm-aj-aYZ" customClass="PaddingLabel" customModule="EZAR" customModuleProvider="target">
+                                <rect key="frame" x="243" y="101" width="69" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                                <color key="textColor" red="0.050980392156862744" green="0.050980392156862744" blue="0.050980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="topInset">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254902119999997" green="0.97254902119999997" blue="0.97254902119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="GJB-OS-PFK" firstAttribute="leading" secondItem="Mhp-2u-rtm" secondAttribute="trailing" constant="8" symbolic="YES" id="1ML-GT-h5M"/>
+                            <constraint firstAttribute="trailing" secondItem="PfA-vh-lMT" secondAttribute="trailing" constant="8" id="4v8-l4-AaL"/>
+                            <constraint firstItem="ewd-4x-Xle" firstAttribute="leading" secondItem="vJw-on-NM7" secondAttribute="trailing" constant="4" id="50p-Mf-vr1"/>
+                            <constraint firstItem="PfA-vh-lMT" firstAttribute="top" secondItem="SrR-GI-luc" secondAttribute="bottom" constant="3" id="AGu-SF-Xw4"/>
+                            <constraint firstAttribute="trailing" secondItem="jaZ-mc-OMb" secondAttribute="trailing" constant="8" id="Dxh-XG-Ve3"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SrR-GI-luc" secondAttribute="trailing" constant="10" id="GtG-8s-rCP"/>
+                            <constraint firstItem="FKm-aj-aYZ" firstAttribute="leading" secondItem="K3V-4n-uZK" secondAttribute="trailing" constant="1" id="Gw8-zu-VxB"/>
+                            <constraint firstItem="SrR-GI-luc" firstAttribute="top" secondItem="vJw-on-NM7" secondAttribute="bottom" constant="6" id="HNv-4Y-yZd"/>
+                            <constraint firstItem="FKm-aj-aYZ" firstAttribute="centerY" secondItem="K3V-4n-uZK" secondAttribute="centerY" id="IcH-rl-JLs"/>
+                            <constraint firstAttribute="trailing" secondItem="FKm-aj-aYZ" secondAttribute="trailing" constant="8" id="MIi-d3-9dW"/>
+                            <constraint firstItem="ewd-4x-Xle" firstAttribute="centerY" secondItem="vJw-on-NM7" secondAttribute="centerY" id="MRk-GR-mVZ"/>
+                            <constraint firstItem="jaZ-mc-OMb" firstAttribute="top" secondItem="K3V-4n-uZK" secondAttribute="bottom" constant="5" id="Oj7-jX-52L"/>
+                            <constraint firstItem="hPo-Av-xXv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="u3I-nl-RlT" secondAttribute="trailing" constant="10" id="R94-0u-228"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ewd-4x-Xle" secondAttribute="trailing" constant="10" id="UTD-lC-LTj"/>
+                            <constraint firstItem="GJB-OS-PFK" firstAttribute="top" secondItem="SrR-GI-luc" secondAttribute="bottom" constant="8" symbolic="YES" id="XKO-kv-Zdq"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="jaZ-mc-OMb" secondAttribute="bottom" constant="10" id="XZ6-Ch-ji9"/>
+                            <constraint firstAttribute="trailing" secondItem="hPo-Av-xXv" secondAttribute="trailing" constant="8" id="Z2j-W1-hbQ"/>
+                            <constraint firstItem="jaZ-mc-OMb" firstAttribute="leading" secondItem="Mhp-2u-rtm" secondAttribute="trailing" constant="7" id="bqW-IQ-y05"/>
+                            <constraint firstItem="SrR-GI-luc" firstAttribute="leading" secondItem="Mhp-2u-rtm" secondAttribute="trailing" constant="7" id="d0H-to-Odm"/>
+                            <constraint firstItem="K3V-4n-uZK" firstAttribute="leading" secondItem="Mhp-2u-rtm" secondAttribute="trailing" constant="8" symbolic="YES" id="f9d-Xd-vdO"/>
+                            <constraint firstItem="vJw-on-NM7" firstAttribute="leading" secondItem="Mhp-2u-rtm" secondAttribute="trailing" constant="7" id="h7W-rl-cnF"/>
+                            <constraint firstItem="vJw-on-NM7" firstAttribute="top" secondItem="u3I-nl-RlT" secondAttribute="bottom" constant="5" id="ipj-w4-El3"/>
+                            <constraint firstItem="Mhp-2u-rtm" firstAttribute="top" secondItem="rkP-QE-pUi" secondAttribute="top" constant="8" id="jkT-xM-8Zi"/>
+                            <constraint firstItem="K3V-4n-uZK" firstAttribute="top" secondItem="GJB-OS-PFK" secondAttribute="bottom" id="piN-Dn-PuJ"/>
+                            <constraint firstItem="u3I-nl-RlT" firstAttribute="top" secondItem="rkP-QE-pUi" secondAttribute="top" constant="6" id="pxE-1s-h9H"/>
+                            <constraint firstItem="hPo-Av-xXv" firstAttribute="top" secondItem="rkP-QE-pUi" secondAttribute="top" constant="8" id="uXP-Mw-rpF"/>
+                            <constraint firstItem="PfA-vh-lMT" firstAttribute="leading" secondItem="GJB-OS-PFK" secondAttribute="trailing" constant="4" id="vqT-Cf-8gN"/>
+                            <constraint firstItem="Mhp-2u-rtm" firstAttribute="leading" secondItem="rkP-QE-pUi" secondAttribute="leading" constant="8" id="wrS-wB-h9c"/>
+                            <constraint firstItem="u3I-nl-RlT" firstAttribute="leading" secondItem="Mhp-2u-rtm" secondAttribute="trailing" constant="8" symbolic="YES" id="ySe-tM-3rr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="rkP-QE-pUi" secondAttribute="trailing" id="j5S-uE-m8a"/>
+                    <constraint firstItem="rkP-QE-pUi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="mLE-ef-r1p"/>
+                    <constraint firstAttribute="bottom" secondItem="rkP-QE-pUi" secondAttribute="bottom" id="pfg-52-9m2"/>
+                    <constraint firstItem="rkP-QE-pUi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ybi-Hp-VlK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="favouriteBtn" destination="hPo-Av-xXv" id="eFW-yl-D6F"/>
+                <outlet property="imgViewManufacturer" destination="Mhp-2u-rtm" id="e6j-7K-Hp8"/>
+                <outlet property="lblDistance" destination="PfA-vh-lMT" id="a3v-dy-EO4"/>
+                <outlet property="lblManufacturerName" destination="u3I-nl-RlT" id="QTk-vB-d0I"/>
+                <outlet property="lblRating" destination="ewd-4x-Xle" id="MHq-2a-Nxa"/>
+                <outlet property="lblTimeAgo" destination="jaZ-mc-OMb" id="7vZ-JA-hoc"/>
+                <outlet property="lblValue" destination="FKm-aj-aYZ" id="fqt-E0-Dex"/>
+                <outlet property="locationImgView" destination="GJB-OS-PFK" id="V4e-CD-aks"/>
+                <outlet property="ratingView" destination="vJw-on-NM7" id="PKj-1M-bae"/>
+                <outlet property="startFromLbl" destination="K3V-4n-uZK" id="XFa-nA-xn5"/>
+                <outlet property="statusLbl" destination="SrR-GI-luc" id="0p1-dp-ZcZ"/>
+            </connections>
+            <point key="canvasLocation" x="172.80000000000001" y="52.173913043478265"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="K3V-4n-uZK">
+            <size key="intrinsicContentSize" width="116" height="26.5"/>
+        </designable>
+        <designable name="SrR-GI-luc">
+            <size key="intrinsicContentSize" width="53.5" height="26.5"/>
+        </designable>
+        <designable name="hPo-Av-xXv">
+            <size key="intrinsicContentSize" width="21.5" height="22"/>
+        </designable>
+        <designable name="vJw-on-NM7">
+            <size key="intrinsicContentSize" width="240" height="44"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="FavG_Filled" width="21" height="18.5"/>
+        <image name="Heart" width="21.5" height="20"/>
+        <image name="pin1" width="14.5" height="20"/>
+        <image name="placeholder" width="125" height="125"/>
+        <image name="star" width="13.5" height="13"/>
+        <image name="star_outline" width="14.5" height="13.5"/>
+    </resources>
+</document>

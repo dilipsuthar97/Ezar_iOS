@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Bold 700.ttf">
+            <string>Cairo-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChangeLanguageView" customModule="EZAR" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="089-OG-amC" customClass="ChangeLanguageView" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gFQ-qi-Cdb">
+                    <rect key="frame" x="0.0" y="413" width="375" height="254"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="78" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Co0-25-grb" customClass="TPKeyboardAvoidingTableView">
+                            <rect key="frame" x="8" y="53.5" width="359" height="192.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <outlet property="dataSource" destination="089-OG-amC" id="Qe6-33-qgY"/>
+                                <outlet property="delegate" destination="089-OG-amC" id="oMq-gG-Sjy"/>
+                            </connections>
+                        </tableView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Language" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCP-Rs-SaO">
+                            <rect key="frame" x="8" y="16" width="359" height="28.5"/>
+                            <fontDescription key="fontDescription" name="Cairo-Bold" family="Cairo" pointSize="15"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="VCP-Rs-SaO" firstAttribute="leading" secondItem="gFQ-qi-Cdb" secondAttribute="leading" constant="8" id="5W4-HP-S16"/>
+                        <constraint firstAttribute="bottom" secondItem="Co0-25-grb" secondAttribute="bottom" constant="8" id="8Pt-hA-idp"/>
+                        <constraint firstItem="VCP-Rs-SaO" firstAttribute="top" secondItem="gFQ-qi-Cdb" secondAttribute="top" constant="16" id="Daw-RF-ToZ"/>
+                        <constraint firstItem="Co0-25-grb" firstAttribute="leading" secondItem="gFQ-qi-Cdb" secondAttribute="leading" constant="8" id="fSK-wo-zOZ"/>
+                        <constraint firstAttribute="trailing" secondItem="VCP-Rs-SaO" secondAttribute="trailing" constant="8" id="hk2-yf-1cG"/>
+                        <constraint firstItem="Co0-25-grb" firstAttribute="top" secondItem="VCP-Rs-SaO" secondAttribute="bottom" constant="9" id="j7J-yC-cNl"/>
+                        <constraint firstAttribute="trailing" secondItem="Co0-25-grb" secondAttribute="trailing" constant="8" id="m8U-x9-5AH"/>
+                        <constraint firstAttribute="height" constant="254" id="rEc-Yt-ojD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="QSf-IA-UiL"/>
+            <color key="backgroundColor" white="0.81000000000000005" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="QSf-IA-UiL" firstAttribute="trailing" secondItem="gFQ-qi-Cdb" secondAttribute="trailing" id="V84-wv-wFX"/>
+                <constraint firstItem="QSf-IA-UiL" firstAttribute="bottom" secondItem="gFQ-qi-Cdb" secondAttribute="bottom" id="eOX-mx-s8e"/>
+                <constraint firstItem="gFQ-qi-Cdb" firstAttribute="leading" secondItem="QSf-IA-UiL" secondAttribute="leading" id="pSV-5S-kx8"/>
+            </constraints>
+            <connections>
+                <outlet property="tableView" destination="Co0-25-grb" id="nEF-qE-Pf8"/>
+                <outlet property="titleLabel" destination="VCP-Rs-SaO" id="PuU-mE-JRy"/>
+            </connections>
+            <point key="canvasLocation" x="69.5" y="-76.5"/>
+        </view>
+    </objects>
+</document>

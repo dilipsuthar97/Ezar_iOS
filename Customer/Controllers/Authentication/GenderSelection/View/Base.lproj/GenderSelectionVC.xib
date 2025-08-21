@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Bold 700.ttf">
+            <string>Cairo-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GenderSelectionVC" customModule="EZAR" customModuleProvider="target">
+            <connections>
+                <outlet property="menButton" destination="qe3-Qc-m6S" id="B8C-J3-NMF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="womenButton" destination="z7K-Ni-0CQ" id="ZYb-a6-62e"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XsB-TR-cx3">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p19-zM-bwZ">
+                            <rect key="frame" x="122.5" y="180" width="130" height="38"/>
+                            <fontDescription key="fontDescription" name="Cairo-Bold" family="Cairo" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mennew" translatesAutoresizingMaskIntoConstraints="NO" id="DhI-jX-fFo">
+                            <rect key="frame" x="27" y="258" width="150" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="150" id="3hX-4w-94v"/>
+                                <constraint firstAttribute="width" constant="150" id="bbD-6K-82b"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qe3-Qc-m6S" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                            <rect key="frame" x="27" y="258" width="150" height="150"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title=" "/>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="womennew" translatesAutoresizingMaskIntoConstraints="NO" id="nVk-K6-UnQ">
+                            <rect key="frame" x="195" y="258" width="150" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="150" id="gxt-le-lsN"/>
+                                <constraint firstAttribute="width" constant="150" id="kKQ-1t-p6G"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z7K-Ni-0CQ" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                            <rect key="frame" x="195" y="258" width="150" height="150"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title=" "/>
+                        </button>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="RaJ-uz-HQq"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="z7K-Ni-0CQ" firstAttribute="bottom" secondItem="nVk-K6-UnQ" secondAttribute="bottom" id="2gv-zf-mVU"/>
+                        <constraint firstItem="qe3-Qc-m6S" firstAttribute="top" secondItem="DhI-jX-fFo" secondAttribute="top" id="8xF-wB-LZF"/>
+                        <constraint firstItem="z7K-Ni-0CQ" firstAttribute="top" secondItem="nVk-K6-UnQ" secondAttribute="top" id="F3w-RA-H7O"/>
+                        <constraint firstItem="p19-zM-bwZ" firstAttribute="top" secondItem="RaJ-uz-HQq" secondAttribute="top" constant="160" id="FyM-FM-LqY"/>
+                        <constraint firstItem="DhI-jX-fFo" firstAttribute="top" secondItem="p19-zM-bwZ" secondAttribute="bottom" constant="40" id="MuO-8s-TH2"/>
+                        <constraint firstItem="DhI-jX-fFo" firstAttribute="leading" secondItem="RaJ-uz-HQq" secondAttribute="leading" constant="27" id="NwN-tK-Jn7"/>
+                        <constraint firstItem="z7K-Ni-0CQ" firstAttribute="trailing" secondItem="nVk-K6-UnQ" secondAttribute="trailing" id="ReF-Tx-5iY"/>
+                        <constraint firstItem="z7K-Ni-0CQ" firstAttribute="leading" secondItem="nVk-K6-UnQ" secondAttribute="leading" id="WQb-Nd-7s0"/>
+                        <constraint firstItem="qe3-Qc-m6S" firstAttribute="trailing" secondItem="DhI-jX-fFo" secondAttribute="trailing" id="aDm-jP-szH"/>
+                        <constraint firstItem="nVk-K6-UnQ" firstAttribute="centerY" secondItem="qe3-Qc-m6S" secondAttribute="centerY" id="gOa-ZB-82g"/>
+                        <constraint firstItem="qe3-Qc-m6S" firstAttribute="bottom" secondItem="DhI-jX-fFo" secondAttribute="bottom" id="k3z-cm-Rt6"/>
+                        <constraint firstItem="nVk-K6-UnQ" firstAttribute="leading" secondItem="qe3-Qc-m6S" secondAttribute="trailing" constant="18" id="kOx-5E-s3p"/>
+                        <constraint firstItem="p19-zM-bwZ" firstAttribute="centerX" secondItem="RaJ-uz-HQq" secondAttribute="centerX" id="pZB-PQ-zxC"/>
+                        <constraint firstItem="RaJ-uz-HQq" firstAttribute="trailing" secondItem="nVk-K6-UnQ" secondAttribute="trailing" constant="30" id="xLl-TA-Vqk"/>
+                        <constraint firstItem="qe3-Qc-m6S" firstAttribute="leading" secondItem="DhI-jX-fFo" secondAttribute="leading" id="zKe-jG-c1b"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XsB-TR-cx3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="9Pu-G2-3DB"/>
+                <constraint firstItem="XsB-TR-cx3" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="-20" id="Ga5-lR-pkM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="XsB-TR-cx3" secondAttribute="trailing" id="K6r-ha-2kW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="XsB-TR-cx3" secondAttribute="bottom" id="j8Z-UD-9OY"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="-419.64017991004499"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="qe3-Qc-m6S">
+            <size key="intrinsicContentSize" width="28.5" height="34.5"/>
+        </designable>
+        <designable name="z7K-Ni-0CQ">
+            <size key="intrinsicContentSize" width="28.5" height="34.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="mennew" width="150" height="150"/>
+        <image name="womennew" width="150" height="150"/>
+    </resources>
+</document>

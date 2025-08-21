@@ -1,0 +1,27 @@
+
+/* Class = "UITextField"; text = "SHRIKANT KANAKATTI"; ObjectID = "K5a-nw-YKb"; */
+"K5a-nw-YKb.text" = "SHRIKANT KANAKATTI";
+
+/* Class = "UITextField"; text = "4586 9239 8909 9329"; ObjectID = "RzB-WB-7X7"; */
+"RzB-WB-7X7.text" = "4586 9239 8909 9329";
+
+/* Class = "UILabel"; text = "Save card for fast purchase"; ObjectID = "aWq-ZG-4eu"; */
+"aWq-ZG-4eu.text" = "حفظ البطاقة للشراء السريع";
+
+/* Class = "UILabel"; text = "Expires on"; ObjectID = "etD-1V-ebw"; */
+"etD-1V-ebw.text" = "تنتهي صلاحيته في";
+
+/* Class = "UILabel"; text = "Card Holder Name"; ObjectID = "fMR-4X-mTA"; */
+"fMR-4X-mTA.text" = "إسم صاحب البطاقة";
+
+/* Class = "UILabel"; text = "Cvv"; ObjectID = "ioR-WG-Xd7"; */
+"ioR-WG-Xd7.text" = "CVV";
+
+/* Class = "UILabel"; text = "Card number"; ObjectID = "s05-6q-WfR"; */
+"s05-6q-WfR.text" = "رقم البطاقة";
+
+/* Class = "UITextField"; text = "890"; ObjectID = "ywg-j2-T60"; */
+"ywg-j2-T60.text" = "890";
+
+/* Class = "UITextField"; text = "11/2017"; ObjectID = "znb-Ae-Nek"; */
+"znb-Ae-Nek.text" = "11/2017";

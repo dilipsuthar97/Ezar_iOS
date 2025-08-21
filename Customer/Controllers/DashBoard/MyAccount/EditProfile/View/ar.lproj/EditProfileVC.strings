@@ -1,0 +1,21 @@
+
+/* Class = "UITextField"; placeholder = "Code*"; ObjectID = "2ah-UF-zjg"; */
+"2ah-UF-zjg.placeholder" = "Code*";
+
+/* Class = "UITextField"; placeholder = "Date of Birth"; ObjectID = "9TH-iC-5Hv"; */
+"9TH-iC-5Hv.placeholder" = "Date of Birth";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "UdA-Cl-kTb"; */
+"UdA-Cl-kTb.placeholder" = "Name";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "afc-yN-GcM"; */
+"afc-yN-GcM.placeholder" = "City";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "e5j-AM-eYS"; */
+"e5j-AM-eYS.placeholder" = "Email Address";
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "is7-d8-qBG"; */
+"is7-d8-qBG.placeholder" = "Country";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "zP8-qV-dQt"; */
+"zP8-qV-dQt.placeholder" = "Mobile Number";

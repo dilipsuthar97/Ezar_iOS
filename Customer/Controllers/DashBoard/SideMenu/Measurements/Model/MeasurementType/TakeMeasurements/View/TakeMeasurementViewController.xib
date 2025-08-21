@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ElMessiri-Bold.ttf">
+            <string>ElMessiri-Bold</string>
+        </array>
+        <array key="Futura Bk BT.TTF">
+            <string>FuturaBT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TakeMeasurementViewController" customModule="EZAR" customModuleProvider="target">
+            <connections>
+                <outlet property="collection_View" destination="Ceb-8M-oMB" id="Ymu-C4-gfi"/>
+                <outlet property="pageControl" destination="Qjd-tl-ejo" id="Z0f-Dh-cmr"/>
+                <outlet property="playButton" destination="WgJ-UM-IRF" id="T8T-Rf-faK"/>
+                <outlet property="sizeTxt" destination="j4l-d2-4Gy" id="PzX-Mg-x3H"/>
+                <outlet property="sizeTxtDropDown" destination="Gpb-8j-IEL" id="asu-2C-w5n"/>
+                <outlet property="tableViewImages" destination="qdv-bY-7gl" id="3B6-6l-0g0"/>
+                <outlet property="tableViewImagesHeight" destination="sfW-vI-GdV" id="caZ-bJ-feN"/>
+                <outlet property="templateDescription" destination="T0T-jb-eaV" id="Hci-6o-gMM"/>
+                <outlet property="templateTitle" destination="pRn-MV-S7u" id="92K-Tr-NQb"/>
+                <outlet property="txtFieldHeight" destination="FiS-R6-bmd" id="e4W-DQ-7II"/>
+                <outlet property="view" destination="OgK-UI-Z7q" id="1Rg-cf-xpO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="OgK-UI-Z7q">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u9G-xy-aLW">
+                    <rect key="frame" x="0.0" y="64" width="320" height="536"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gGC-aV-Ij1">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="552"/>
+                            <subviews>
+                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Ceb-8M-oMB">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="284"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="284" id="n37-Kr-nak"/>
+                                    </constraints>
+                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lWU-FP-wE5">
+                                        <size key="itemSize" width="50" height="50"/>
+                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </collectionViewFlowLayout>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="1Ol-k0-q7l"/>
+                                        <outlet property="delegate" destination="-1" id="AYr-4o-F6T"/>
+                                    </connections>
+                                </collectionView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z1z-Fc-K6V">
+                                    <rect key="frame" x="0.0" y="284" width="320" height="238"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arm Length" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRn-MV-S7u">
+                                            <rect key="frame" x="8" y="35" width="83.5" height="25.5"/>
+                                            <fontDescription key="fontDescription" name="ElMessiri-Bold" family="El Messiri" pointSize="16"/>
+                                            <color key="textColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The arm measurement is taken from the shoulder to wrist. it inclufes the lenth(height) of Cuff." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0T-jb-eaV">
+                                            <rect key="frame" x="8" y="65.5" width="304" height="29"/>
+                                            <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="12"/>
+                                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="Qjd-tl-ejo">
+                                            <rect key="frame" x="102" y="0.0" width="116.5" height="26"/>
+                                            <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="currentPageIndicatorTintColor" name="BorderColor"/>
+                                            <connections>
+                                                <action selector="pageControlChangedWithPage:" destination="-1" eventType="valueChanged" id="61R-zb-Xav"/>
+                                            </connections>
+                                        </pageControl>
+                                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" pagingEnabled="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qdv-bY-7gl">
+                                            <rect key="frame" x="0.0" y="182.5" width="320" height="55.5"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="55.5" id="sfW-vI-GdV"/>
+                                            </constraints>
+                                            <connections>
+                                                <outlet property="dataSource" destination="-1" id="3xY-Ft-4RU"/>
+                                                <outlet property="delegate" destination="-1" id="u5p-jV-oeM"/>
+                                            </connections>
+                                        </tableView>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Size (in cm)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j4l-d2-4Gy" customClass="CustomTextField" customModule="EZAR" customModuleProvider="target">
+                                            <rect key="frame" x="58" y="134.5" width="204" height="48"/>
+                                            <color key="backgroundColor" red="0.90970492362976074" green="0.90986090898513794" blue="0.9096950888633728" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="48" id="FiS-R6-bmd"/>
+                                                <constraint firstAttribute="width" constant="204" id="gsy-YF-JpW"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="0.0"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="25"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                    <color key="value" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="paddingLeft">
+                                                    <real key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="paddingRight">
+                                                    <real key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isMandatory" value="YES"/>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <outlet property="delegate" destination="-1" id="rdH-ao-j3p"/>
+                                            </connections>
+                                        </textField>
+                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Select Size (in cm)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gpb-8j-IEL" customClass="CustomTextField" customModule="EZAR" customModuleProvider="target">
+                                            <rect key="frame" x="58" y="134.5" width="204" height="48"/>
+                                            <color key="backgroundColor" red="0.8832819462" green="0.89083927870000001" blue="0.90068644289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="paddingLeft">
+                                                    <real key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="paddingRight">
+                                                    <real key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="image" keyPath="RightImage" value="down_Black"/>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                                    <color key="value" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="isMandatory" value="YES"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="25"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="0.0"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </textField>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Gpb-8j-IEL" firstAttribute="trailing" secondItem="j4l-d2-4Gy" secondAttribute="trailing" id="0sp-Qh-RvZ"/>
+                                        <constraint firstItem="j4l-d2-4Gy" firstAttribute="top" secondItem="T0T-jb-eaV" secondAttribute="bottom" constant="40" id="8jG-KX-DBj"/>
+                                        <constraint firstItem="Qjd-tl-ejo" firstAttribute="top" secondItem="Z1z-Fc-K6V" secondAttribute="top" id="8ut-fB-zuj"/>
+                                        <constraint firstItem="pRn-MV-S7u" firstAttribute="leading" secondItem="Z1z-Fc-K6V" secondAttribute="leading" constant="8" id="Iep-94-4lF"/>
+                                        <constraint firstItem="Gpb-8j-IEL" firstAttribute="top" secondItem="j4l-d2-4Gy" secondAttribute="top" id="NX5-po-l4F"/>
+                                        <constraint firstItem="T0T-jb-eaV" firstAttribute="top" secondItem="pRn-MV-S7u" secondAttribute="bottom" constant="5" id="P2t-vT-VQT"/>
+                                        <constraint firstAttribute="bottom" secondItem="qdv-bY-7gl" secondAttribute="bottom" id="U2z-Ob-V7V"/>
+                                        <constraint firstItem="j4l-d2-4Gy" firstAttribute="centerX" secondItem="Z1z-Fc-K6V" secondAttribute="centerX" id="Ybu-ms-ufS"/>
+                                        <constraint firstAttribute="trailing" secondItem="T0T-jb-eaV" secondAttribute="trailing" constant="8" id="cNN-7z-FHa"/>
+                                        <constraint firstItem="T0T-jb-eaV" firstAttribute="leading" secondItem="Z1z-Fc-K6V" secondAttribute="leading" constant="8" id="jFH-l4-xzq"/>
+                                        <constraint firstItem="Gpb-8j-IEL" firstAttribute="leading" secondItem="j4l-d2-4Gy" secondAttribute="leading" id="jGo-T4-A88"/>
+                                        <constraint firstItem="qdv-bY-7gl" firstAttribute="top" secondItem="j4l-d2-4Gy" secondAttribute="bottom" id="laN-8q-jRB"/>
+                                        <constraint firstItem="Gpb-8j-IEL" firstAttribute="bottom" secondItem="j4l-d2-4Gy" secondAttribute="bottom" id="sxB-cz-i7Z"/>
+                                        <constraint firstItem="Qjd-tl-ejo" firstAttribute="centerX" secondItem="Z1z-Fc-K6V" secondAttribute="centerX" id="tLo-SS-MmD"/>
+                                        <constraint firstItem="qdv-bY-7gl" firstAttribute="leading" secondItem="Z1z-Fc-K6V" secondAttribute="leading" id="wnY-SK-Wuo"/>
+                                        <constraint firstItem="pRn-MV-S7u" firstAttribute="top" secondItem="Z1z-Fc-K6V" secondAttribute="top" constant="35" id="xL1-VW-67p"/>
+                                        <constraint firstAttribute="trailing" secondItem="qdv-bY-7gl" secondAttribute="trailing" id="zjc-Gu-1V0"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="Ceb-8M-oMB" firstAttribute="top" secondItem="gGC-aV-Ij1" secondAttribute="top" id="EhG-gV-3Fy"/>
+                                <constraint firstAttribute="bottom" secondItem="Z1z-Fc-K6V" secondAttribute="bottom" constant="30" id="LvJ-gA-CEH"/>
+                                <constraint firstItem="Z1z-Fc-K6V" firstAttribute="leading" secondItem="gGC-aV-Ij1" secondAttribute="leading" id="OjH-RS-8Gw"/>
+                                <constraint firstAttribute="trailing" secondItem="Ceb-8M-oMB" secondAttribute="trailing" id="oCH-Za-fDY"/>
+                                <constraint firstAttribute="trailing" secondItem="Z1z-Fc-K6V" secondAttribute="trailing" id="rRn-P0-ezV"/>
+                                <constraint firstItem="Z1z-Fc-K6V" firstAttribute="top" secondItem="Ceb-8M-oMB" secondAttribute="bottom" id="rVj-La-R98"/>
+                                <constraint firstItem="Ceb-8M-oMB" firstAttribute="leading" secondItem="gGC-aV-Ij1" secondAttribute="leading" id="xEV-eK-sg9"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="gGC-aV-Ij1" secondAttribute="bottom" id="Jeu-aI-DV8"/>
+                        <constraint firstItem="gGC-aV-Ij1" firstAttribute="height" secondItem="u9G-xy-aLW" secondAttribute="height" priority="250" id="KRW-IJ-A5B"/>
+                        <constraint firstItem="gGC-aV-Ij1" firstAttribute="width" secondItem="u9G-xy-aLW" secondAttribute="width" id="QXt-ed-oAu"/>
+                        <constraint firstAttribute="trailing" secondItem="gGC-aV-Ij1" secondAttribute="trailing" id="WA2-Yv-3IX"/>
+                        <constraint firstItem="gGC-aV-Ij1" firstAttribute="leading" secondItem="u9G-xy-aLW" secondAttribute="leading" id="cNF-45-MSE"/>
+                        <constraint firstItem="gGC-aV-Ij1" firstAttribute="top" secondItem="u9G-xy-aLW" secondAttribute="top" id="qv7-pA-9BR"/>
+                    </constraints>
+                </scrollView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WgJ-UM-IRF" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                    <rect key="frame" x="255" y="329" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="Ukd-bh-f1L"/>
+                        <constraint firstAttribute="width" secondItem="WgJ-UM-IRF" secondAttribute="height" multiplier="1:1" id="dsM-cg-Cm5"/>
+                    </constraints>
+                    <state key="normal" image="play_Icon"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Qe4-x7-et9"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Qe4-x7-et9" firstAttribute="bottom" secondItem="u9G-xy-aLW" secondAttribute="bottom" id="cyq-sG-90Q"/>
+                <constraint firstItem="Qe4-x7-et9" firstAttribute="trailing" secondItem="u9G-xy-aLW" secondAttribute="trailing" id="fqP-9b-MfS"/>
+                <constraint firstItem="u9G-xy-aLW" firstAttribute="top" secondItem="Qe4-x7-et9" secondAttribute="top" id="g4C-df-t77"/>
+                <constraint firstItem="u9G-xy-aLW" firstAttribute="leading" secondItem="Qe4-x7-et9" secondAttribute="leading" id="hz9-In-awF"/>
+                <constraint firstItem="Qe4-x7-et9" firstAttribute="trailing" secondItem="WgJ-UM-IRF" secondAttribute="trailing" constant="15" id="lTL-kM-Kkw"/>
+                <constraint firstItem="WgJ-UM-IRF" firstAttribute="top" secondItem="Ceb-8M-oMB" secondAttribute="bottom" constant="-25" id="yZj-75-YyJ"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-195" y="-95"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="Gpb-8j-IEL">
+            <size key="intrinsicContentSize" width="129" height="18.5"/>
+        </designable>
+        <designable name="WgJ-UM-IRF">
+            <size key="intrinsicContentSize" width="58.5" height="58"/>
+        </designable>
+        <designable name="j4l-d2-4Gy">
+            <size key="intrinsicContentSize" width="124.5" height="18.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="down_Black" width="10.5" height="6"/>
+        <image name="play_Icon" width="58.5" height="58"/>
+        <namedColor name="BorderColor">
+            <color red="0.21176470588235294" green="0.68235294117647061" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

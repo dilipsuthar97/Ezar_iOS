@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageIntroductionViewController" customModule="EZAR" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="94b-8a-yGs" id="1e9-dt-P68"/>
+                <outlet property="pageControl" destination="QQY-wP-g3w" id="hDt-4Y-KM0"/>
+                <outlet property="skipBtn" destination="vtq-yL-Deo" id="vu7-ND-VQ0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="94b-8a-yGs">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="i1l-V5-KhF">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="GqE-Fy-I7o"/>
+                        <outlet property="delegate" destination="-1" id="0aK-Rx-IJb"/>
+                    </connections>
+                </collectionView>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtq-yL-Deo" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                    <rect key="frame" x="10" y="498" width="60" height="30"/>
+                    <color key="backgroundColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="hRe-eY-25N"/>
+                        <constraint firstAttribute="width" constant="60" id="rUl-1S-IQ9"/>
+                    </constraints>
+                    <state key="normal" title="Skip">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                            <color key="value" name="dark_gradient"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                            <color key="value" name="light_gradient"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QQY-wP-g3w">
+                    <rect key="frame" x="10" y="533" width="300" height="30"/>
+                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="currentPageIndicatorTintColor" name="GradientSecond"/>
+                </pageControl>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QQY-wP-g3w" firstAttribute="height" secondItem="vtq-yL-Deo" secondAttribute="height" id="2a7-gM-0jf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="94b-8a-yGs" secondAttribute="trailing" id="2tD-dw-gO8"/>
+                <constraint firstItem="QQY-wP-g3w" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="CD0-EF-mTF"/>
+                <constraint firstItem="QQY-wP-g3w" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="-10" id="Dvl-ZC-OYT"/>
+                <constraint firstItem="vtq-yL-Deo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="G8D-xy-Jmk"/>
+                <constraint firstAttribute="bottom" secondItem="94b-8a-yGs" secondAttribute="bottom" id="LDj-nC-S6j"/>
+                <constraint firstItem="94b-8a-yGs" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="eCa-Q5-CkP"/>
+                <constraint firstItem="94b-8a-yGs" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="nJZ-9f-le9"/>
+                <constraint firstItem="QQY-wP-g3w" firstAttribute="bottom" secondItem="94b-8a-yGs" secondAttribute="bottom" constant="-5" id="sSP-xn-8VL"/>
+                <constraint firstItem="QQY-wP-g3w" firstAttribute="top" secondItem="vtq-yL-Deo" secondAttribute="bottom" constant="5" id="zO5-6I-AwZ"/>
+            </constraints>
+            <point key="canvasLocation" x="52.5" y="84.507042253521121"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="vtq-yL-Deo">
+            <size key="intrinsicContentSize" width="30" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="GradientSecond">
+            <color red="0.21176470588235294" green="0.68235294117647061" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="dark_gradient">
+            <color red="0.019607843137254902" green="0.15294117647058825" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="light_gradient">
+            <color red="0.21176470588235294" green="0.68235294117647061" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

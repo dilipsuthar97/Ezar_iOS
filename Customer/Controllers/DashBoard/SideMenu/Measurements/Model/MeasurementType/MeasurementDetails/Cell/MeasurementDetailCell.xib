@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura Bk BT.TTF">
+            <string>FuturaBT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MeasurementDetailCell" id="KGk-i7-Jjw" customClass="MeasurementDetailCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9lU-Sz-Rbh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Save Measurement As" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r44-zI-Yrd">
+                                <rect key="frame" x="30" y="8" width="281" height="17.5"/>
+                                <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="13"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="My size at Ead Aalfeter 1440" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2oG-Cb-pIz" customClass="CustomTextField" customModule="EZAR" customModuleProvider="target">
+                                <rect key="frame" x="40" y="34.5" width="240" height="43"/>
+                                <color key="backgroundColor" red="0.90980392156862744" green="0.90980392156862744" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="dDo-QP-m0C"/>
+                                </constraints>
+                                <color key="textColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="textLength">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                        <color key="value" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2oG-Cb-pIz" firstAttribute="top" secondItem="r44-zI-Yrd" secondAttribute="bottom" constant="9" id="20n-SN-e3E"/>
+                            <constraint firstItem="r44-zI-Yrd" firstAttribute="leading" secondItem="9lU-Sz-Rbh" secondAttribute="leading" constant="30" id="5A3-8z-GfP"/>
+                            <constraint firstItem="r44-zI-Yrd" firstAttribute="top" secondItem="9lU-Sz-Rbh" secondAttribute="top" constant="8" id="ANF-bs-mBT"/>
+                            <constraint firstAttribute="bottom" secondItem="2oG-Cb-pIz" secondAttribute="bottom" constant="12.5" id="KlS-x2-eNt"/>
+                            <constraint firstAttribute="trailing" secondItem="2oG-Cb-pIz" secondAttribute="trailing" constant="40" id="S95-XH-UR8"/>
+                            <constraint firstAttribute="trailing" secondItem="r44-zI-Yrd" secondAttribute="trailing" constant="9" id="WC5-vq-pHm"/>
+                            <constraint firstItem="2oG-Cb-pIz" firstAttribute="leading" secondItem="9lU-Sz-Rbh" secondAttribute="leading" constant="40" id="Y9M-zX-y7p"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="9lU-Sz-Rbh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="HNS-J7-pJk"/>
+                    <constraint firstItem="9lU-Sz-Rbh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ImI-Nn-FdZ"/>
+                    <constraint firstAttribute="trailing" secondItem="9lU-Sz-Rbh" secondAttribute="trailing" id="urw-KX-z9x"/>
+                    <constraint firstAttribute="bottom" secondItem="9lU-Sz-Rbh" secondAttribute="bottom" id="y9K-Kb-tRB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="inputTxtField" destination="2oG-Cb-pIz" id="NHO-GR-wrC"/>
+                <outlet property="txtTitleLabel" destination="r44-zI-Yrd" id="Ej8-kH-nfS"/>
+            </connections>
+            <point key="canvasLocation" x="-67" y="-127"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="2oG-Cb-pIz">
+            <size key="intrinsicContentSize" width="162" height="17.5"/>
+        </designable>
+    </designables>
+</document>

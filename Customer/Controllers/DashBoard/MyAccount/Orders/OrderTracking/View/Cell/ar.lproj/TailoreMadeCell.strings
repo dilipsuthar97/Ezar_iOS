@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "NA"; ObjectID = "Fv1-lZ-8lA"; */
+"Fv1-lZ-8lA.text" = "NA";
+
+/* Class = "UILabel"; text = "Quantity :"; ObjectID = "JJl-7k-A01"; */
+"JJl-7k-A01.text" = "الكمية:";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "KGY-OG-z28"; */
+"KGY-OG-z28.normalTitle" = "0";
+
+/* Class = "UIButton"; normalTitle = "Re-Order"; ObjectID = "Xv4-d9-UGg"; */
+"Xv4-d9-UGg.normalTitle" = "إعادة ترتيب";
+
+/* Class = "UILabel"; text = "SR 00"; ObjectID = "jma-om-lTW"; */
+"jma-om-lTW.text" = "00 ريال سعودي";

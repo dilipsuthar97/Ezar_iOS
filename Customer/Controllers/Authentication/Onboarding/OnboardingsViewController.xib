@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Bold 700.ttf">
+            <string>Cairo-Bold</string>
+        </array>
+        <array key="Cairo Regular 400.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+        <array key="Futura Bk BT.TTF">
+            <string>FuturaBT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnboardingsViewController" customModule="EZAR" customModuleProvider="target">
+            <connections>
+                <outlet property="btnConfirm" destination="lHC-Sn-HZg" id="vgi-aN-dJ7"/>
+                <outlet property="btnSkip" destination="q6k-d7-1le" id="LE6-PR-1Gc"/>
+                <outlet property="descLabel" destination="qHw-PK-TJb" id="tdP-eh-p1D"/>
+                <outlet property="imageView" destination="mH6-PA-9pu" id="in6-i4-WvB"/>
+                <outlet property="pageControl" destination="MKf-vK-JKB" id="flk-BP-DBo"/>
+                <outlet property="pageControlImgVw" destination="J7z-sI-fdd" id="VYx-aM-RaU"/>
+                <outlet property="titleLabel" destination="gw6-Mq-eaa" id="ftL-mq-Rjb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mLO-o5-9Ag">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mRq-VS-0dc">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TitleIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Bwb-TN-I0G">
+                                    <rect key="frame" x="133.66666666666666" y="58" width="108" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="108" id="DBq-xm-ugk"/>
+                                        <constraint firstAttribute="height" constant="30" id="aya-7b-1cL"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding1" translatesAutoresizingMaskIntoConstraints="NO" id="mH6-PA-9pu">
+                                    <rect key="frame" x="30" y="108" width="315" height="200"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="200" id="7Hs-0k-5ct"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gw6-Mq-eaa">
+                                    <rect key="frame" x="85.333333333333329" y="348" width="204.33333333333337" height="60"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="3PC-sD-zN0"/>
+                                    </constraints>
+                                    <string key="text">Shop your favorite clothes from
+The best stores</string>
+                                    <fontDescription key="fontDescription" name="Cairo-Bold" family="Cairo" pointSize="15"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHw-PK-TJb">
+                                    <rect key="frame" x="33" y="418" width="309" height="75"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="75" id="KFg-Xm-anH"/>
+                                    </constraints>
+                                    <string key="text">Shop the best clothes from hundreds of premium
+stores Kingdom level</string>
+                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="15"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="MKf-vK-JKB">
+                                    <rect key="frame" x="120" y="705" width="134.5" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="pageIndicatorTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="currentPageIndicatorTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </pageControl>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="page1" translatesAutoresizingMaskIntoConstraints="NO" id="J7z-sI-fdd">
+                                    <rect key="frame" x="87.666666666666686" y="705" width="200" height="4"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="4" id="Ku6-jJ-IHP"/>
+                                        <constraint firstAttribute="width" constant="200" id="S5k-cn-sX1"/>
+                                    </constraints>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6k-d7-1le" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                                    <rect key="frame" x="20" y="53" width="80" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="sx7-hQ-nKy"/>
+                                        <constraint firstAttribute="width" constant="80" id="zic-YB-A2a"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="20"/>
+                                    <inset key="titleEdgeInsets" minX="-3" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="-25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Skip">
+                                        <color key="titleColor" name="BorderColor"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" name="BorderColor"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="20"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="skipbtnTapped:" destination="-1" eventType="touchUpInside" id="BNm-Fy-fVt"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHC-Sn-HZg" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                                    <rect key="frame" x="287" y="48" width="80" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="5R9-Sk-ylT"/>
+                                        <constraint firstAttribute="width" constant="80" id="vfX-k9-sZ6"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="20"/>
+                                    <inset key="titleEdgeInsets" minX="-3" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="imageEdgeInsets" minX="-25" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <state key="normal" title="Confirm">
+                                        <color key="titleColor" name="BorderColor"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" name="BorderColor"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <integer key="value" value="20"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="btnConfirmAction:" destination="-1" eventType="touchUpInside" id="sLs-Cg-hbC"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstItem="qHw-PK-TJb" firstAttribute="centerX" secondItem="gw6-Mq-eaa" secondAttribute="centerX" id="BDo-om-uTA"/>
+                                <constraint firstAttribute="trailing" secondItem="lHC-Sn-HZg" secondAttribute="trailing" constant="8" id="Cif-Tc-e34"/>
+                                <constraint firstItem="gw6-Mq-eaa" firstAttribute="top" secondItem="mH6-PA-9pu" secondAttribute="bottom" constant="40" id="HDF-G3-JVd"/>
+                                <constraint firstItem="Bwb-TN-I0G" firstAttribute="centerX" secondItem="mRq-VS-0dc" secondAttribute="centerX" id="L0s-La-b5k"/>
+                                <constraint firstItem="Bwb-TN-I0G" firstAttribute="top" secondItem="mRq-VS-0dc" secondAttribute="top" constant="58" id="Lxm-pm-aX8"/>
+                                <constraint firstItem="q6k-d7-1le" firstAttribute="top" secondItem="mRq-VS-0dc" secondAttribute="top" constant="53" id="O2g-Gu-0tE"/>
+                                <constraint firstItem="J7z-sI-fdd" firstAttribute="top" secondItem="qHw-PK-TJb" secondAttribute="bottom" constant="212" id="Riz-fP-hM5"/>
+                                <constraint firstItem="qHw-PK-TJb" firstAttribute="leading" secondItem="mRq-VS-0dc" secondAttribute="leading" constant="33" id="Z4a-bC-IYy"/>
+                                <constraint firstItem="qHw-PK-TJb" firstAttribute="top" secondItem="gw6-Mq-eaa" secondAttribute="bottom" constant="10" id="byV-fj-sEi"/>
+                                <constraint firstAttribute="bottom" secondItem="J7z-sI-fdd" secondAttribute="bottom" constant="103" id="cIa-x6-d7M"/>
+                                <constraint firstItem="J7z-sI-fdd" firstAttribute="centerX" secondItem="qHw-PK-TJb" secondAttribute="centerX" id="enV-DD-0qY"/>
+                                <constraint firstItem="lHC-Sn-HZg" firstAttribute="top" secondItem="mRq-VS-0dc" secondAttribute="top" constant="48" id="hiv-eT-yvg"/>
+                                <constraint firstItem="q6k-d7-1le" firstAttribute="leading" secondItem="mRq-VS-0dc" secondAttribute="leading" constant="20" symbolic="YES" id="iRe-Xv-U5K"/>
+                                <constraint firstAttribute="trailing" secondItem="qHw-PK-TJb" secondAttribute="trailing" constant="33" id="nN7-bN-9H4"/>
+                                <constraint firstItem="gw6-Mq-eaa" firstAttribute="centerX" secondItem="mH6-PA-9pu" secondAttribute="centerX" id="pYJ-if-o9x"/>
+                                <constraint firstAttribute="trailing" secondItem="mH6-PA-9pu" secondAttribute="trailing" constant="30" id="sPE-Yz-2NM"/>
+                                <constraint firstItem="mH6-PA-9pu" firstAttribute="top" secondItem="Bwb-TN-I0G" secondAttribute="bottom" constant="20" id="voq-28-6RE"/>
+                                <constraint firstItem="mH6-PA-9pu" firstAttribute="leading" secondItem="mRq-VS-0dc" secondAttribute="leading" constant="30" id="wdO-e6-Urh"/>
+                            </constraints>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="Yel-AJ-DI7" appends="YES" id="fOz-Tf-0Uf"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="mRq-VS-0dc" firstAttribute="top" secondItem="mLO-o5-9Ag" secondAttribute="top" id="3gW-ld-PYY"/>
+                        <constraint firstAttribute="trailing" secondItem="mRq-VS-0dc" secondAttribute="trailing" id="Mea-NG-kfT"/>
+                        <constraint firstItem="mRq-VS-0dc" firstAttribute="leading" secondItem="mLO-o5-9Ag" secondAttribute="leading" id="gAw-zh-3AN"/>
+                        <constraint firstItem="mRq-VS-0dc" firstAttribute="width" secondItem="mLO-o5-9Ag" secondAttribute="width" id="ju4-An-FfC"/>
+                        <constraint firstItem="mRq-VS-0dc" firstAttribute="centerY" secondItem="mLO-o5-9Ag" secondAttribute="centerY" id="oTg-6G-hTe"/>
+                        <constraint firstAttribute="bottom" secondItem="mRq-VS-0dc" secondAttribute="bottom" id="ojO-WX-49R"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="mLO-o5-9Ag" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="AlU-qF-fjB"/>
+                <constraint firstAttribute="top" secondItem="mLO-o5-9Ag" secondAttribute="top" id="MOP-NT-edi"/>
+                <constraint firstItem="mLO-o5-9Ag" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NkG-4c-k5a"/>
+                <constraint firstAttribute="trailing" secondItem="mLO-o5-9Ag" secondAttribute="trailing" id="rdV-oX-Wan"/>
+            </constraints>
+            <point key="canvasLocation" x="138.40000000000001" y="20.689655172413794"/>
+        </view>
+        <swipeGestureRecognizer direction="right" id="Yel-AJ-DI7"/>
+    </objects>
+    <resources>
+        <image name="TitleIcon" width="108.66666412353516" height="30"/>
+        <image name="onboarding1" width="200" height="200"/>
+        <image name="page1" width="200" height="4"/>
+        <namedColor name="BorderColor">
+            <color red="0.21176470588235294" green="0.68235294117647061" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

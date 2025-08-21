@@ -1,0 +1,11 @@
+/* Class = "UILabel"; text = "No description Available"; ObjectID = "VVQ-i6-M1q"; */
+"VVQ-i6-M1q.text" = "لا يوجد وصف متاح";
+
+/* Class = "UIButton"; normalTitle = " + INFO"; ObjectID = "c9g-Ay-OUR"; */
+"c9g-Ay-OUR.normalTitle" = "+ معلومات";
+
+/* Class = "UILabel"; text = "Minimum fabric required"; ObjectID = "fWh-N2-e9t"; */
+"fWh-N2-e9t.text" = "الحد الأدنى من النسيج المطلوبة";
+
+/* Class = "UILabel"; text = "Price is as per meter"; ObjectID = "xJg-ca-DNf"; */
+"xJg-ca-DNf.text" = "السعر هو";

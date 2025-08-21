@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Regular 400.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+        <array key="Cairo SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+        <array key="Futura Bk BT.TTF">
+            <string>FuturaBT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyTailorMeasurementVC" customModule="EZAR" customModuleProvider="target">
+            <connections>
+                <outlet property="detailTextView" destination="0U2-Ni-nq2" id="b5N-ML-uAj"/>
+                <outlet property="detailTextViewPlaceHolderLbl" destination="hT9-5C-4Da" id="gyE-il-3QR"/>
+                <outlet property="saveButton" destination="r9E-ge-Qvw" id="xv1-vh-n01"/>
+                <outlet property="topTitleLabel" destination="HKG-v8-mzF" id="lRk-yl-fEi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your details at tailor" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="HKG-v8-mzF">
+                    <rect key="frame" x="42" y="50" width="290" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="2bj-Q7-hKZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="16"/>
+                    <color key="textColor" red="0.30196078430000001" green="0.30196078430000001" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9E-ge-Qvw" userLabel="SAVE" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                    <rect key="frame" x="57" y="276" width="260" height="45"/>
+                    <color key="backgroundColor" red="0.1176470588" green="0.098039215690000001" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="76q-JC-t1m"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="15"/>
+                    <state key="normal" title="SAVE">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="22"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                            <color key="value" name="dark_gradient"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                            <color key="value" name="light_gradient"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0U2-Ni-nq2">
+                    <rect key="frame" x="42" y="99" width="290" height="132"/>
+                    <color key="backgroundColor" red="0.92544168230000001" green="0.92552381750000001" blue="0.92537313700000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="132" id="zwX-an-MaL"/>
+                    </constraints>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <outlet property="delegate" destination="i5M-Pr-FkT" id="95Q-JE-wEs"/>
+                    </connections>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My deail at the tailor (Put your ID or phone number at the tailor)" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="hT9-5C-4Da">
+                    <rect key="frame" x="47" y="102" width="278" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="6sr-jg-hjb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="16"/>
+                    <color key="textColor" systemColor="placeholderTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="0U2-Ni-nq2" firstAttribute="top" secondItem="HKG-v8-mzF" secondAttribute="bottom" constant="7" id="7OW-ok-w0H"/>
+                <constraint firstItem="HKG-v8-mzF" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="FuH-I3-vae"/>
+                <constraint firstItem="r9E-ge-Qvw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="57" id="Ij3-vQ-OcT"/>
+                <constraint firstItem="hT9-5C-4Da" firstAttribute="trailing" secondItem="0U2-Ni-nq2" secondAttribute="trailing" constant="-7" id="MAj-Ec-gim"/>
+                <constraint firstItem="HKG-v8-mzF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="42" id="S2O-Ch-bax"/>
+                <constraint firstItem="0U2-Ni-nq2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="42" id="Usj-4I-5wB"/>
+                <constraint firstItem="r9E-ge-Qvw" firstAttribute="top" secondItem="0U2-Ni-nq2" secondAttribute="bottom" constant="45" id="crr-tz-Vur"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0U2-Ni-nq2" secondAttribute="trailing" constant="43" id="mfk-GB-6mf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="HKG-v8-mzF" secondAttribute="trailing" constant="43" id="pBV-Gs-1NK"/>
+                <constraint firstItem="0U2-Ni-nq2" firstAttribute="top" secondItem="hT9-5C-4Da" secondAttribute="bottom" constant="-45" id="rdb-41-DeJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="r9E-ge-Qvw" secondAttribute="trailing" constant="58" id="uIB-6w-FHk"/>
+                <constraint firstItem="hT9-5C-4Da" firstAttribute="leading" secondItem="0U2-Ni-nq2" secondAttribute="leading" constant="5" id="vTM-VH-kMY"/>
+            </constraints>
+            <point key="canvasLocation" x="136.80000000000001" y="20.239880059970016"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="r9E-ge-Qvw">
+            <size key="intrinsicContentSize" width="34" height="41"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="dark_gradient">
+            <color red="0.019607843137254902" green="0.15294117647058825" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="light_gradient">
+            <color red="0.21176470588235294" green="0.68235294117647061" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="placeholderTextColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

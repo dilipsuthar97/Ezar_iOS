@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura Bk BT.TTF">
+            <string>FuturaBT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductSizeCCell" id="gTV-IL-0wX" customClass="ProductSizeCCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BSd-3J-xuf">
+                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="22"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PeM-42-MCN">
+                        <rect key="frame" x="4" y="4" width="62" height="62"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Worsted wool" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="8" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1pZ-tm-p0Z">
+                                <rect key="frame" x="1" y="1" width="60" height="60"/>
+                                <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YMg-Oy-uEK">
+                                <rect key="frame" x="1" y="30" width="60" height="1"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="xVB-P6-wGp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="1pZ-tm-p0Z" secondAttribute="trailing" constant="1" id="51t-O4-vpz"/>
+                            <constraint firstItem="1pZ-tm-p0Z" firstAttribute="leading" secondItem="PeM-42-MCN" secondAttribute="leading" constant="1" id="5e8-dY-iH0"/>
+                            <constraint firstItem="YMg-Oy-uEK" firstAttribute="leading" secondItem="PeM-42-MCN" secondAttribute="leading" constant="1" id="Vnv-8o-1fz"/>
+                            <constraint firstAttribute="trailing" secondItem="YMg-Oy-uEK" secondAttribute="trailing" constant="1" id="XgB-5n-IYP"/>
+                            <constraint firstItem="YMg-Oy-uEK" firstAttribute="top" secondItem="PeM-42-MCN" secondAttribute="top" constant="30" id="t8G-0S-Oc4"/>
+                            <constraint firstItem="1pZ-tm-p0Z" firstAttribute="top" secondItem="PeM-42-MCN" secondAttribute="top" constant="1" id="wSq-nE-Clo"/>
+                            <constraint firstAttribute="bottom" secondItem="1pZ-tm-p0Z" secondAttribute="bottom" constant="1" id="yRf-4z-0Uf"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="22"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="BSd-3J-xuf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="1O5-zj-Gg4"/>
+                <constraint firstAttribute="trailing" secondItem="PeM-42-MCN" secondAttribute="trailing" constant="4" id="2Xx-Qq-coz"/>
+                <constraint firstAttribute="bottom" secondItem="PeM-42-MCN" secondAttribute="bottom" constant="4" id="4Nr-rf-8bU"/>
+                <constraint firstItem="PeM-42-MCN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="8aV-gK-kwS"/>
+                <constraint firstItem="PeM-42-MCN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="DCz-O7-wV4"/>
+                <constraint firstAttribute="trailing" secondItem="BSd-3J-xuf" secondAttribute="trailing" id="DXu-0s-BF1"/>
+                <constraint firstItem="BSd-3J-xuf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VLJ-JB-aRc"/>
+                <constraint firstAttribute="bottom" secondItem="BSd-3J-xuf" secondAttribute="bottom" id="VZs-JH-xRY"/>
+            </constraints>
+            <connections>
+                <outlet property="backGView" destination="BSd-3J-xuf" id="hrR-Oq-fTT"/>
+                <outlet property="noAvailableView" destination="YMg-Oy-uEK" id="Exb-Kq-MXH"/>
+                <outlet property="selectedView" destination="PeM-42-MCN" id="Boq-rm-jsh"/>
+                <outlet property="sizeLabel" destination="1pZ-tm-p0Z" id="Z7s-ol-HMZ"/>
+            </connections>
+            <point key="canvasLocation" x="17" y="-220"/>
+        </collectionViewCell>
+    </objects>
+</document>

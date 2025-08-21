@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura Md BT Medium.TTF">
+            <string>FuturaBT-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShippingMethodCell" rowHeight="62" id="KGk-i7-Jjw" customClass="ShippingMethodCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="62"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D9H-2e-1PD" customClass="ShaddowView" customModule="EZAR" customModuleProvider="target">
+                        <rect key="frame" x="8" y="0.0" width="304" height="62"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="unselected_icon" translatesAutoresizingMaskIntoConstraints="NO" id="BBL-b3-hau">
+                                <rect key="frame" x="15" y="23.5" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="5HX-5D-m9R"/>
+                                    <constraint firstAttribute="height" constant="15" id="KNT-Yc-nDn"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="STANDARD DELIVERY" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fB-i9-jvi">
+                                <rect key="frame" x="48" y="12" width="252" height="23"/>
+                                <fontDescription key="fontDescription" name="FuturaBT-Medium" family="Futura" pointSize="16"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get by   |  Free Delivery" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnE-II-b81">
+                                <rect key="frame" x="48" y="39" width="252" height="14.5"/>
+                                <fontDescription key="fontDescription" name="FuturaBT-Medium" family="Futura" pointSize="12"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="mnE-II-b81" secondAttribute="bottom" constant="8.5" id="6xt-ZI-bER"/>
+                            <constraint firstItem="mnE-II-b81" firstAttribute="top" secondItem="3fB-i9-jvi" secondAttribute="bottom" constant="4" id="DS4-Pj-vl3"/>
+                            <constraint firstAttribute="trailing" secondItem="mnE-II-b81" secondAttribute="trailing" constant="4" id="Faf-gI-UEZ"/>
+                            <constraint firstItem="BBL-b3-hau" firstAttribute="leading" secondItem="D9H-2e-1PD" secondAttribute="leading" constant="15" id="Xhn-pj-D00"/>
+                            <constraint firstItem="3fB-i9-jvi" firstAttribute="top" secondItem="D9H-2e-1PD" secondAttribute="top" constant="12" id="a4x-d5-4qI"/>
+                            <constraint firstItem="BBL-b3-hau" firstAttribute="centerY" secondItem="D9H-2e-1PD" secondAttribute="centerY" id="fPr-21-lRm"/>
+                            <constraint firstItem="3fB-i9-jvi" firstAttribute="leading" secondItem="BBL-b3-hau" secondAttribute="trailing" constant="18" id="oUT-pC-z62"/>
+                            <constraint firstItem="mnE-II-b81" firstAttribute="top" secondItem="3fB-i9-jvi" secondAttribute="bottom" constant="4" id="vBb-HY-Gux"/>
+                            <constraint firstAttribute="trailing" secondItem="3fB-i9-jvi" secondAttribute="trailing" constant="4" id="xlJ-J3-3hQ"/>
+                            <constraint firstItem="mnE-II-b81" firstAttribute="leading" secondItem="3fB-i9-jvi" secondAttribute="leading" id="z0z-Re-1nM"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.61568627450000002" green="0.61568627450000002" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="D9H-2e-1PD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="6gW-4X-ajO"/>
+                    <constraint firstAttribute="trailing" secondItem="D9H-2e-1PD" secondAttribute="trailing" constant="8" id="Ll1-pd-4Nh"/>
+                    <constraint firstAttribute="bottom" secondItem="D9H-2e-1PD" secondAttribute="bottom" id="Ptp-pu-GDN"/>
+                    <constraint firstItem="D9H-2e-1PD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="mo2-nB-4mY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="radioImageView" destination="BBL-b3-hau" id="yg6-eX-89m"/>
+                <outlet property="shippingMethodDetails" destination="mnE-II-b81" id="1z5-7L-93v"/>
+                <outlet property="shippingMethodTitle" destination="3fB-i9-jvi" id="PJf-PZ-Iee"/>
+            </connections>
+            <point key="canvasLocation" x="20" y="-55"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="unselected_icon" width="24" height="24"/>
+    </resources>
+</document>

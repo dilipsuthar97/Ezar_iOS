@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Regular 400.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+        <array key="Cairo SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+        <array key="ElMessiri-Regular.ttf">
+            <string>ElMessiri-Regular</string>
+        </array>
+        <array key="ElMessiri-SemiBold.ttf">
+            <string>ElMessiri-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="FabricModelCell" reuseIdentifier="FabricModelCell" id="gTV-IL-0wX" customClass="FabricModelCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="232" height="466"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="232" height="466"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="snO-ig-Mcu">
+                        <rect key="frame" x="0.0" y="0.0" width="232" height="466"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="trF-o0-TRK">
+                                <rect key="frame" x="0.0" y="0.0" width="232" height="230"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="0Y1-Aq-2yC"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iYt-Ta-CTe">
+                                <rect key="frame" x="177" y="5" width="50" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="7Nw-pQ-2gw"/>
+                                    <constraint firstAttribute="height" constant="25" id="rpv-4J-sHx"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D5u-ol-m7i">
+                                <rect key="frame" x="0.0" y="230" width="232" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oty-hb-3V9">
+                                        <rect key="frame" x="8" y="15" width="216" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="ElMessiri-SemiBold" family="El Messiri" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="Fq1-Iz-FdB">
+                                        <rect key="frame" x="8" y="48" width="13" height="13"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="13" id="E8P-cn-jIW"/>
+                                            <constraint firstAttribute="width" constant="13" id="Ubz-wa-Ngi"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pTl-Jd-PfQ">
+                                        <rect key="frame" x="23" y="45.5" width="18.5" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="44M-eQ-TlN"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ElMessiri-Regular" family="El Messiri" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rewards" translatesAutoresizingMaskIntoConstraints="NO" id="QoN-tv-jsU">
+                                        <rect key="frame" x="51.5" y="48" width="13" height="13"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="13" id="YDO-Qm-hNS"/>
+                                            <constraint firstAttribute="width" constant="13" id="eJg-bm-U14"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="xht-Cp-4OU">
+                                        <rect key="frame" x="8" y="59" width="184" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="dqL-6H-1BR"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ElMessiri-Regular" family="El Messiri" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="0 Rewards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dgM-A9-C9K">
+                                        <rect key="frame" x="71.5" y="47" width="63" height="15"/>
+                                        <fontDescription key="fontDescription" name="ElMessiri-Regular" family="El Messiri" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="QoN-tv-jsU" firstAttribute="leading" secondItem="pTl-Jd-PfQ" secondAttribute="trailing" constant="10" id="4tw-Zm-G78"/>
+                                    <constraint firstAttribute="bottom" secondItem="xht-Cp-4OU" secondAttribute="bottom" constant="3" id="7u6-vH-v5D"/>
+                                    <constraint firstItem="Oty-hb-3V9" firstAttribute="leading" secondItem="D5u-ol-m7i" secondAttribute="leading" constant="8" id="Cfa-B0-HXZ"/>
+                                    <constraint firstItem="xht-Cp-4OU" firstAttribute="top" relation="greaterThanOrEqual" secondItem="QoN-tv-jsU" secondAttribute="bottom" constant="6" id="HgK-6t-qKN"/>
+                                    <constraint firstItem="dgM-A9-C9K" firstAttribute="centerY" secondItem="QoN-tv-jsU" secondAttribute="centerY" id="Imb-Cn-2Dl"/>
+                                    <constraint firstItem="pTl-Jd-PfQ" firstAttribute="leading" secondItem="Fq1-Iz-FdB" secondAttribute="trailing" constant="2" id="LPf-Q5-TEF"/>
+                                    <constraint firstItem="dgM-A9-C9K" firstAttribute="top" secondItem="Oty-hb-3V9" secondAttribute="bottom" constant="8.5" id="LZf-3u-JVQ"/>
+                                    <constraint firstAttribute="height" constant="75" id="PAE-ob-mye"/>
+                                    <constraint firstItem="QoN-tv-jsU" firstAttribute="top" secondItem="Oty-hb-3V9" secondAttribute="bottom" constant="9.5" id="TbZ-4M-B7g"/>
+                                    <constraint firstAttribute="trailing" secondItem="Oty-hb-3V9" secondAttribute="trailing" constant="8" id="UMj-Mb-1ka"/>
+                                    <constraint firstItem="pTl-Jd-PfQ" firstAttribute="top" secondItem="Oty-hb-3V9" secondAttribute="bottom" constant="7" id="XBy-Aa-pB9"/>
+                                    <constraint firstItem="xht-Cp-4OU" firstAttribute="leading" secondItem="D5u-ol-m7i" secondAttribute="leading" constant="8" id="Z1l-9G-kYq"/>
+                                    <constraint firstItem="Fq1-Iz-FdB" firstAttribute="centerY" secondItem="pTl-Jd-PfQ" secondAttribute="centerY" id="caE-RU-htP"/>
+                                    <constraint firstItem="Fq1-Iz-FdB" firstAttribute="leading" secondItem="D5u-ol-m7i" secondAttribute="leading" constant="8" id="ex7-p0-fSg"/>
+                                    <constraint firstItem="xht-Cp-4OU" firstAttribute="top" secondItem="dgM-A9-C9K" secondAttribute="bottom" constant="5" id="jdU-w6-r75"/>
+                                    <constraint firstAttribute="trailing" secondItem="xht-Cp-4OU" secondAttribute="trailing" constant="8" id="lVG-Me-w5R"/>
+                                    <constraint firstItem="dgM-A9-C9K" firstAttribute="leading" secondItem="QoN-tv-jsU" secondAttribute="trailing" constant="7" id="mqr-02-8KJ"/>
+                                    <constraint firstItem="Oty-hb-3V9" firstAttribute="top" secondItem="D5u-ol-m7i" secondAttribute="top" constant="15" id="noo-Mi-8jr"/>
+                                    <constraint firstItem="xht-Cp-4OU" firstAttribute="top" secondItem="pTl-Jd-PfQ" secondAttribute="bottom" constant="2.5" id="rID-F5-tuO"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="xht-Cp-4OU"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSf-qV-WjC">
+                                <rect key="frame" x="0.0" y="200" width="100" height="30"/>
+                                <color key="backgroundColor" name="BorderColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="g0l-fw-xWg"/>
+                                    <constraint firstAttribute="width" constant="100" id="ySZ-yD-uvx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                <color key="textColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="15k-yz-Cui">
+                                <rect key="frame" x="10" y="315" width="212" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="gUX-7f-leU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="13"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Model Details">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="GradientSecond"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJR-7B-GQA" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                                <rect key="frame" x="10" y="373" width="212" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="WmL-h7-F3c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="13"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Choose Style">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                        <color key="value" name="dark_gradient"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                        <color key="value" name="light_gradient"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="15k-yz-Cui" firstAttribute="leading" secondItem="snO-ig-Mcu" secondAttribute="leading" constant="10" id="9gh-JS-8i1"/>
+                            <constraint firstAttribute="trailing" secondItem="D5u-ol-m7i" secondAttribute="trailing" id="EQw-Zc-OY1"/>
+                            <constraint firstItem="iYt-Ta-CTe" firstAttribute="top" secondItem="snO-ig-Mcu" secondAttribute="top" constant="5" id="Eak-3P-wtn"/>
+                            <constraint firstAttribute="trailing" secondItem="iYt-Ta-CTe" secondAttribute="trailing" constant="5" id="KSU-Nd-uMe"/>
+                            <constraint firstItem="DJR-7B-GQA" firstAttribute="leading" secondItem="15k-yz-Cui" secondAttribute="leading" id="N6T-go-xZi"/>
+                            <constraint firstItem="cSf-qV-WjC" firstAttribute="leading" secondItem="trF-o0-TRK" secondAttribute="leading" id="OMm-UC-cPj"/>
+                            <constraint firstItem="D5u-ol-m7i" firstAttribute="top" secondItem="trF-o0-TRK" secondAttribute="bottom" id="P7h-uV-cmS"/>
+                            <constraint firstAttribute="trailing" secondItem="trF-o0-TRK" secondAttribute="trailing" id="a7f-bv-kt0"/>
+                            <constraint firstItem="cSf-qV-WjC" firstAttribute="bottom" secondItem="trF-o0-TRK" secondAttribute="bottom" id="bIi-vH-jOs"/>
+                            <constraint firstItem="DJR-7B-GQA" firstAttribute="trailing" secondItem="15k-yz-Cui" secondAttribute="trailing" id="buc-sZ-jJg"/>
+                            <constraint firstItem="trF-o0-TRK" firstAttribute="top" secondItem="snO-ig-Mcu" secondAttribute="top" id="hvY-HO-aG3"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="DJR-7B-GQA" secondAttribute="bottom" constant="15" id="pHo-n3-IES"/>
+                            <constraint firstItem="15k-yz-Cui" firstAttribute="top" secondItem="D5u-ol-m7i" secondAttribute="bottom" constant="10" id="qD9-jY-SX2"/>
+                            <constraint firstItem="DJR-7B-GQA" firstAttribute="top" secondItem="15k-yz-Cui" secondAttribute="bottom" constant="8" symbolic="YES" id="u6w-Ch-yK5"/>
+                            <constraint firstItem="D5u-ol-m7i" firstAttribute="leading" secondItem="snO-ig-Mcu" secondAttribute="leading" id="vqf-tl-jKy"/>
+                            <constraint firstItem="15k-yz-Cui" firstAttribute="centerX" secondItem="snO-ig-Mcu" secondAttribute="centerX" id="w8p-6o-cti"/>
+                            <constraint firstItem="trF-o0-TRK" firstAttribute="leading" secondItem="snO-ig-Mcu" secondAttribute="leading" id="yn4-au-B3z"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.94901961089999998" green="0.94901961089999998" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="snO-ig-Mcu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="0kn-G0-riX"/>
+                <constraint firstAttribute="trailing" secondItem="snO-ig-Mcu" secondAttribute="trailing" id="IJG-Qa-Lwj"/>
+                <constraint firstItem="snO-ig-Mcu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="K6i-Eh-Q26"/>
+                <constraint firstAttribute="bottom" secondItem="snO-ig-Mcu" secondAttribute="bottom" id="YhI-e9-36n"/>
+            </constraints>
+            <size key="customSize" width="82" height="447"/>
+            <connections>
+                <outlet property="btnChooseStyle" destination="DJR-7B-GQA" id="2TV-Ki-rVz"/>
+                <outlet property="btnMoreInfo" destination="15k-yz-Cui" id="g3G-OC-JCo"/>
+                <outlet property="fabricImgView" destination="trF-o0-TRK" id="xEn-CL-Nkc"/>
+                <outlet property="isNewImageView" destination="iYt-Ta-CTe" id="qVU-VJ-kXl"/>
+                <outlet property="priceLbl" destination="cSf-qV-WjC" id="1gf-dR-vYs"/>
+                <outlet property="ratingLbl" destination="pTl-Jd-PfQ" id="JNX-dS-d3i"/>
+                <outlet property="selectRewardPointLbl" destination="dgM-A9-C9K" id="vJh-xI-RKW"/>
+                <outlet property="titleLbl" destination="Oty-hb-3V9" id="MMb-2T-Lv6"/>
+            </connections>
+            <point key="canvasLocation" x="24" y="167.31634182908547"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="15k-yz-Cui">
+            <size key="intrinsicContentSize" width="76" height="37"/>
+        </designable>
+        <designable name="DJR-7B-GQA">
+            <size key="intrinsicContentSize" width="71" height="37"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="placeholder" width="125" height="125"/>
+        <image name="rewards" width="714.5" height="725.5"/>
+        <image name="star" width="13.5" height="13"/>
+        <namedColor name="BorderColor">
+            <color red="0.21176470588235294" green="0.68235294117647061" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GradientSecond">
+            <color red="0.21176470588235294" green="0.68235294117647061" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="dark_gradient">
+            <color red="0.019607843137254902" green="0.15294117647058825" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="light_gradient">
+            <color red="0.21176470588235294" green="0.68235294117647061" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

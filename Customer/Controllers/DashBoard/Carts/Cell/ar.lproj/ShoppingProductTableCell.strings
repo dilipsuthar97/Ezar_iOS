@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "15 % Off"; ObjectID = "3Ab-4B-f7w"; */
+"3Ab-4B-f7w.text" = "15 % Off";
+
+/* Class = "UIButton"; normalTitle = "MOVE TO WISHLIST"; ObjectID = "41C-jP-Dbj"; */
+"41C-jP-Dbj.normalTitle" = "الانتقال إلى قائمة الرغبات";
+
+/* Class = "UILabel"; text = "Size :"; ObjectID = "96i-Dj-Gfm"; */
+"96i-Dj-Gfm.text" = "بحجم :";
+
+/* Class = "UILabel"; text = "Zion Dark Gray Cotton thoab"; ObjectID = "C7f-VX-IbB"; */
+"C7f-VX-IbB.text" = "Zion Dark Gray Cotton thoab";
+
+/* Class = "UIButton"; normalTitle = "39"; ObjectID = "I09-o8-2sV"; */
+"I09-o8-2sV.normalTitle" = "39";
+
+/* Class = "UILabel"; text = "SR 912"; ObjectID = "L9s-bo-v7c"; */
+"L9s-bo-v7c.text" = "SR 912";
+
+/* Class = "UIButton"; normalTitle = "2"; ObjectID = "bUD-oC-VJp"; */
+"bUD-oC-VJp.normalTitle" = "2";
+
+/* Class = "UIButton"; normalTitle = "REMOVE"; ObjectID = "lks-UZ-7bc"; */
+"lks-UZ-7bc.normalTitle" = "إزالة";
+
+/* Class = "UILabel"; text = "Soudi Thoab"; ObjectID = "oXB-cL-MEA"; */
+"oXB-cL-MEA.text" = "Soudi Thoab";
+
+/* Class = "UILabel"; text = "SR 812"; ObjectID = "ozt-R5-EqR"; */
+"ozt-R5-EqR.text" = "SR 812";
+
+/* Class = "UILabel"; text = "Qty :"; ObjectID = "zIi-We-5ke"; */
+"zIi-We-5ke.text" = "الكمية:";

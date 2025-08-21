@@ -1,0 +1,96 @@
+/* 
+  Localizable.strings
+  EzarNett
+
+  Created by Ahmed ElGenedy on 02/03/2022.
+  
+*/
+
+"UPLOADING_SEQUENCE" = "يرجى الانتظار، جارى معالجة الصور...";
+"UPLOAD_ERROR" = "حدث خطأ اثناء معالجة الصور ، برجاء اعادة المحاولة مرة اخرى";
+
+
+"NE_DEVICE_VERTICALITY_WARNING" = "الجهازُ ليس في وضعِهِ الصحيحْ. تأكدْ من أنهُ ليسَ مَائِلًا.";
+
+"NE_BEFORE_SCAN_SPEECH_SHORT" = "قِفْ في مواجهةِ الجوالْ. وسيبدأُ الفحصُ تلقائِّيًا او إسْتَخْدِمْ زِرّ التّسجيلِ عَلَى الشّاشَة.";
+"NE_FRONT_PICTURE_SPEECH_SHORT" = "لنبدأ التَّصوِير يَجِبُ أن يكونَ جسمك كاملًا وذراعيك دَاخِل الشّاشة. وحَافِظْ على جسمك بمنتصف الخَطّ الأَخضَرِ واسْتَمِع إلى العَدُّ.";
+"NE_FRONT_AUTOSTART_PICTURE_SPEECH_SHORT" = "حافِظْ على هذا الوَضْع.";
+"NE_SIDE_PICTURE_SPEECH_SHORT" = "لِنَقُمْ بتَصْوِير الوَضْع الجَانِبي. اسْتَدِر إلى اليَمِينِ وجَانِبُكَ الأَيْسَر مُوَاجِهًا للجوالْ وَقِفْ مُسْتَقِيمًا. إجْعَل جِسْمُكَ في مُنْتَصَفِ الْخَطّ الْأَخْضَر، وَاسْتَمِعْ إلَى العَدّ.";
+"NE_BACKGROUND_PICTURE_SPEECH_SHORT" = "أَخِيرًا، اِبتعِدْ عَن الكاميرا واُتْرُكْ الْمَكَانَ فَارِغًا لِيَأْخُذَ الْجِهَازُ صُورَةَ الخلفِيَّهْ.";
+"NE_AFTER_SCAN_SPEECH_SHORT" = "شكرا لكْ.";
+
+"NE_DEVICE_VERTICALITY_ERROR_SHORT" = "الجهازُ ليس في وضعِهِ الصحيحْ. تأكدْ من أنهُ ليسَ مَائِلًا.";
+
+"NE_ONE_SPEECH" = "واحد";
+"NE_TWO_SPEECH" = "اثنان";
+"NE_THREE_SPEECH" = "ثلاثة";
+
+
+"NE_NO_CAMERA_ACCESS" = "طلب الوصول";
+"NE_NO_CAMERA_ACCESS_MSG_IOS8" = "Ezar needs your permission for Camera access. Please tap on \"Setting\" to allow it.";
+"NE_NO_CAMERA_ACCESS_SETTINGS" = "الاعدادات";
+"NE_NO_CAMERA_ACCESS_CANCEL" = "الغاء";
+
+"NE_CONFIRM_QUIT_CAMERASCREEN" = "انت على وشك الغاء اخد القياسات، هل تريد الالغاء؟";
+
+"NE_CONTINUE"  = "حسنا";
+"NE_QUIT" = "اغلاق";
+"NE_OK" = "حسنا";
+"NE_RECORDING_PICTURES" = "جارى معالجة الصور...";
+
+"NE_PREFLIGHT_MISSING_CONFIGURATION" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+"NE_PREFLIGHT_MISSING_USERINFO_0" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+"NE_PREFLIGHT_REQUEST_1_ERROR" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+"NE_PREFLIGHT_DUPLICATEID" = "هذا المستخدم موجود بالفعل.";
+"NE_PREFLIGHT_UNKNOWNUSER" = "لم يتم العثور على هذا المستخدم.";
+"NE_PREFLIGHT_NO_INTERNET" = "الخدمة غير متوفرة.  تحقق من الإنترنت على جهازك أو أعد المحاولة لاحقًا.";
+"NE_PREFLIGHT_MISSING_USERINFO_1" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+"NE_PREFLIGHT_REQUEST_2_ERROR" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+"NE_PREFLIGHT_MISSING_USERINFO_2" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+"NE_PREFLIGHT_REQUEST_3_ERROR" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+"NE_PREFLIGHT_REQUEST_4_ERROR" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+
+"NE_WS_NOT_HTTP_RESPONSE" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+"NE_WS_INVALID_HTTP_CODE" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+"NE_WS_EXPECTED_JSON_DICTIONNARY" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+"NE_WS_EXPECTED_JSON_ARRAY" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+"NE_WS_CHECK_CONNECTION" = "الخدمة غير متوفرة.  تحقق من الإنترنت على جهازك أو أعد المحاولة لاحقًا.";
+"NE_WS_AMAZON_NOT_HTTP_RESPONSE" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+"NE_WS_AMAZON_INVALID_HTTP_CODE" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+
+"NE_DEFAULT_ERROR" = "حدث خطأ أثناء معالجة هذا الطلب";
+"NE_DEFAULT_WS_ERROR" = "الخدمة غير متوفرة.  تحقق من الإنترنت على جهازك أو أعد المحاولة لاحقًا.";
+"NE_DEFAULT_UNATTENDED_ANSWER_WS_ERROR" = "معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.";
+"NE_DEFAULT_CREDENTIALS_WS_ERROR" = "الخدمة غير متوفرة.  تحقق من الإنترنت على جهازك أو أعد المحاولة لاحقًا.";
+"NE_DEFAULT_CONNECTION_WS_ERROR" = "الخدمة غير متوفرة.  تحقق من الإنترنت على جهازك أو أعد المحاولة لاحقًا.";
+"NE_NO_INTERNET_TITLE" = "Oops !";
+"NE_NO_INTERNET_MESSAGE" = "الخدمة غير متوفرة.  تحقق من الإنترنت على جهازك أو أعد المحاولة لاحقًا.";
+
+"NE_GENERIC_ERROR_TITLE" = "خطأ !";
+"NE_GENERIC_ERROR" = "حدث خطأ أثناء معالجة هذا الطلب";
+
+// Possibly unused
+"NE_BEFORE_SCAN_SPEECH" = "قِفْ في مواجهةِ الجوالْ. وسيبدأُ الفحصُ تلقائِّيًا او إسْتَخْدِمْ زِرّ التّسجيلِ عَلَى الشّاشَة.";
+"NE_FRONT_PICTURE_SPEECH" = "لنبدأ التَّصوِير يَجِبُ أن يكونَ جسمك كاملًا وذراعيك دَاخِل الشّاشة. وحَافِظْ على جسمك بمنتصف الخَطّ الأَخضَر واسْتَمِع إلى العَدُّ.";
+"NE_FRONT_AUTOSTART_PICTURE_SPEECH" = "حافِظْ علي هذا الوَضْع .";
+"NE_SIDE_PICTURE_SPEECH" = "لِنَقُمْ بتَصْوِير الوَضْع الجَانِبي. اسْتَدِر إلى اليَمِينِ وجَانِبُكَ الأَيْسَر مُوَاجِهًا للجوالْ وَقَفْ مُسْتَقِيمًا. إجْعَل جِسْمُكَ في مُنْتَصَفِ الْخَطّ الْأَخْضَر، وَاسْتَمِعْ إلَى العَدّ.";
+"NE_BACKGROUND_PICTURE_SPEECH" = "أَخِيرًا، اِبتعِدْ عَن الكاميرا واُتْرُكْ الْمَكَانَ فَارِغًا لِيَأْخُذَ الْجِهَازُ صُورَةَ الخلفِيَّهْ.";
+"NE_AFTER_SCAN_SPEECH" = "شكرا لكْ.";
+
+"NE_DEVICE_VERTICALITY_ERROR" = "الجهازُ ليس في وضعِهِ الصحيحْ. تأكدْ من أنهُ ليسَ مَائِلًا.";
+
+
+//Unused
+"NE_WARNING_ARMSTRAIGHT_SPEECH" = "";
+"NE_WARNING_ARMTOOHIGH_SPEECH" = "";
+"NE_WARNING_ARMTOOLOW_SPEECH" = "";
+"NE_WARNING_FEETSTOOCLOSE_SPEECH" = "";
+"NE_WARNING_TOPTOOCLOSE_SPEECH" = "";
+"NE_WARNING_GOFURTHERTOOCLOSE_SPEECH" = "";
+"NE_WARNING_TOOSMALLONSCREEN_SPEECH" = "";
+"NE_WARNING_OFFCENTERED_SPEECH" = "";
+"NE_WARNING_FEETSTOOHIGH_SPEECH" = "";
+"NE_WARNING_FEETSANGLE_SPEECH" = "";
+"NE_WARNING_FINGERTOOCLOSE_SPEECH" = "";
+"NE_WARNING_HEADTOOLOW_SPEECH" = "";
+"NE_WARNING_WAYTOOCLOSE_SPEECH" = "";

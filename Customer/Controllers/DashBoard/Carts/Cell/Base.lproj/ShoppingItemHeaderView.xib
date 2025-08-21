@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ShoppingItemHeaderView" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7P-1j-sBL">
+                    <rect key="frame" x="10" y="30" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="14"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWK-JL-xcA">
+                    <rect key="frame" x="365" y="30" width="0.0" height="0.0"/>
+                    <constraints>
+                        <constraint firstAttribute="width" priority="250" constant="120" id="Uqq-T4-jNF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="14"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="e7P-1j-sBL" secondAttribute="bottom" constant="10" id="OsS-XR-elS"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="EWK-JL-xcA" secondAttribute="trailing" constant="10" id="Qup-UT-V4z"/>
+                <constraint firstItem="e7P-1j-sBL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="W9j-SO-aOl"/>
+                <constraint firstItem="e7P-1j-sBL" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="bX4-qj-lWS"/>
+                <constraint firstItem="EWK-JL-xcA" firstAttribute="centerY" secondItem="e7P-1j-sBL" secondAttribute="centerY" id="jBV-WY-xoU"/>
+                <constraint firstItem="EWK-JL-xcA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="e7P-1j-sBL" secondAttribute="trailing" constant="10" id="kcz-7c-mid"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="itemsLabel" destination="e7P-1j-sBL" id="Ul1-ht-lDA"/>
+                <outlet property="totalLabel" destination="EWK-JL-xcA" id="0M6-3b-nF6"/>
+            </connections>
+            <point key="canvasLocation" x="71.5" y="-642.5"/>
+        </view>
+    </objects>
+</document>

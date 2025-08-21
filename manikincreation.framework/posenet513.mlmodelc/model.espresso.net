@@ -1,0 +1,2082 @@
+{
+  "layers" : [
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6:0",
+      "blob_weights" : 3,
+      "K" : 3,
+      "blob_biases" : 1,
+      "stride_x" : 2,
+      "name" : "MobilenetV1\/Conv2D:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "has_biases" : 1,
+      "C" : 32,
+      "bottom" : "image__0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6:0",
+      "top" : "MobilenetV1\/Relu6:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/depthwise:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_1:0",
+      "blob_weights" : 7,
+      "K" : 32,
+      "blob_biases" : 5,
+      "name" : "MobilenetV1\/depthwise:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 32,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 32,
+      "bottom" : "MobilenetV1\/Relu6:0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_1:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_1:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_1:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_1:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_1:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_1:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_1:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_1:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_1:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_1:0",
+      "top" : "MobilenetV1\/Relu6_1:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_1:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D_1:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_2:0",
+      "blob_weights" : 11,
+      "K" : 32,
+      "blob_biases" : 9,
+      "name" : "MobilenetV1\/Conv2D_1:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 64,
+      "bottom" : "MobilenetV1\/Relu6_1:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_2:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_2:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_2:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_2:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_2:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_2:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_2:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_2:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_2:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_2:0",
+      "top" : "MobilenetV1\/Relu6_2:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_2:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/depthwise_1:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_3:0",
+      "blob_weights" : 15,
+      "K" : 64,
+      "blob_biases" : 13,
+      "stride_x" : 2,
+      "name" : "MobilenetV1\/depthwise_1:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 64,
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "has_biases" : 1,
+      "C" : 64,
+      "bottom" : "MobilenetV1\/Relu6_2:0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_3:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_3:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_3:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_3:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_3:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_3:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_3:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_3:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_3:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_3:0",
+      "top" : "MobilenetV1\/Relu6_3:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_3:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D_2:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_4:0",
+      "blob_weights" : 19,
+      "K" : 64,
+      "blob_biases" : 17,
+      "name" : "MobilenetV1\/Conv2D_2:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "MobilenetV1\/Relu6_3:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_4:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_4:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_4:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_4:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_4:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_4:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_4:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_4:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_4:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_4:0",
+      "top" : "MobilenetV1\/Relu6_4:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_4:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/depthwise_2:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_5:0",
+      "blob_weights" : 23,
+      "K" : 128,
+      "blob_biases" : 21,
+      "name" : "MobilenetV1\/depthwise_2:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 128,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "MobilenetV1\/Relu6_4:0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_5:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_5:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_5:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_5:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_5:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_5:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_5:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_5:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_5:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_5:0",
+      "top" : "MobilenetV1\/Relu6_5:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_5:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D_3:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_6:0",
+      "blob_weights" : 27,
+      "K" : 128,
+      "blob_biases" : 25,
+      "name" : "MobilenetV1\/Conv2D_3:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "MobilenetV1\/Relu6_5:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_6:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_6:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_6:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_6:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_6:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_6:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_6:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_6:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_6:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_6:0",
+      "top" : "MobilenetV1\/Relu6_6:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_6:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/depthwise_3:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_7:0",
+      "blob_weights" : 31,
+      "K" : 128,
+      "blob_biases" : 29,
+      "stride_x" : 2,
+      "name" : "MobilenetV1\/depthwise_3:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 128,
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "has_biases" : 1,
+      "C" : 128,
+      "bottom" : "MobilenetV1\/Relu6_6:0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_7:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_7:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_7:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_7:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_7:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_7:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_7:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_7:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_7:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_7:0",
+      "top" : "MobilenetV1\/Relu6_7:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_7:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D_4:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_8:0",
+      "blob_weights" : 35,
+      "K" : 128,
+      "blob_biases" : 33,
+      "name" : "MobilenetV1\/Conv2D_4:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 256,
+      "bottom" : "MobilenetV1\/Relu6_7:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_8:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_8:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_8:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_8:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_8:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_8:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_8:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_8:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_8:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_8:0",
+      "top" : "MobilenetV1\/Relu6_8:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_8:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/depthwise_4:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_9:0",
+      "blob_weights" : 39,
+      "K" : 256,
+      "blob_biases" : 37,
+      "name" : "MobilenetV1\/depthwise_4:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 256,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 256,
+      "bottom" : "MobilenetV1\/Relu6_8:0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_9:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_9:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_9:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_9:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_9:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_9:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_9:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_9:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_9:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_9:0",
+      "top" : "MobilenetV1\/Relu6_9:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_9:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D_5:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_10:0",
+      "blob_weights" : 43,
+      "K" : 256,
+      "blob_biases" : 41,
+      "name" : "MobilenetV1\/Conv2D_5:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 256,
+      "bottom" : "MobilenetV1\/Relu6_9:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_10:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_10:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_10:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_10:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_10:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_10:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_10:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_10:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_10:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_10:0",
+      "top" : "MobilenetV1\/Relu6_10:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_10:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/depthwise_5:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_11:0",
+      "blob_weights" : 47,
+      "K" : 256,
+      "blob_biases" : 45,
+      "stride_x" : 2,
+      "name" : "MobilenetV1\/depthwise_5:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 256,
+      "pad_t" : 0,
+      "stride_y" : 2,
+      "has_biases" : 1,
+      "C" : 256,
+      "bottom" : "MobilenetV1\/Relu6_10:0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_11:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_11:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_11:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_11:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_11:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_11:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_11:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_11:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_11:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_11:0",
+      "top" : "MobilenetV1\/Relu6_11:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_11:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D_6:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_12:0",
+      "blob_weights" : 51,
+      "K" : 256,
+      "blob_biases" : 49,
+      "name" : "MobilenetV1\/Conv2D_6:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 512,
+      "bottom" : "MobilenetV1\/Relu6_11:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_12:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_12:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_12:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_12:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_12:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_12:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_12:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_12:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_12:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_12:0",
+      "top" : "MobilenetV1\/Relu6_12:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_12:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/depthwise_6:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_13:0",
+      "blob_weights" : 55,
+      "K" : 512,
+      "blob_biases" : 53,
+      "name" : "MobilenetV1\/depthwise_6:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 512,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 512,
+      "bottom" : "MobilenetV1\/Relu6_12:0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_13:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_13:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_13:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_13:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_13:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_13:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_13:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_13:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_13:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_13:0",
+      "top" : "MobilenetV1\/Relu6_13:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_13:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D_7:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_14:0",
+      "blob_weights" : 59,
+      "K" : 512,
+      "blob_biases" : 57,
+      "name" : "MobilenetV1\/Conv2D_7:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 512,
+      "bottom" : "MobilenetV1\/Relu6_13:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_14:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_14:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_14:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_14:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_14:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_14:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_14:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_14:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_14:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_14:0",
+      "top" : "MobilenetV1\/Relu6_14:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_14:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/depthwise_7:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_15:0",
+      "blob_weights" : 63,
+      "K" : 512,
+      "blob_biases" : 61,
+      "name" : "MobilenetV1\/depthwise_7:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 512,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 512,
+      "bottom" : "MobilenetV1\/Relu6_14:0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_15:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_15:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_15:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_15:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_15:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_15:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_15:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_15:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_15:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_15:0",
+      "top" : "MobilenetV1\/Relu6_15:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_15:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D_8:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_16:0",
+      "blob_weights" : 67,
+      "K" : 512,
+      "blob_biases" : 65,
+      "name" : "MobilenetV1\/Conv2D_8:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 512,
+      "bottom" : "MobilenetV1\/Relu6_15:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_16:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_16:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_16:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_16:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_16:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_16:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_16:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_16:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_16:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_16:0",
+      "top" : "MobilenetV1\/Relu6_16:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_16:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/depthwise_8:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_17:0",
+      "blob_weights" : 71,
+      "K" : 512,
+      "blob_biases" : 69,
+      "name" : "MobilenetV1\/depthwise_8:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 512,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 512,
+      "bottom" : "MobilenetV1\/Relu6_16:0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_17:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_17:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_17:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_17:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_17:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_17:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_17:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_17:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_17:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_17:0",
+      "top" : "MobilenetV1\/Relu6_17:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_17:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D_9:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_18:0",
+      "blob_weights" : 75,
+      "K" : 512,
+      "blob_biases" : 73,
+      "name" : "MobilenetV1\/Conv2D_9:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 512,
+      "bottom" : "MobilenetV1\/Relu6_17:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_18:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_18:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_18:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_18:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_18:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_18:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_18:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_18:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_18:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_18:0",
+      "top" : "MobilenetV1\/Relu6_18:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_18:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/depthwise_9:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_19:0",
+      "blob_weights" : 79,
+      "K" : 512,
+      "blob_biases" : 77,
+      "name" : "MobilenetV1\/depthwise_9:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 512,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 512,
+      "bottom" : "MobilenetV1\/Relu6_18:0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_19:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_19:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_19:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_19:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_19:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_19:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_19:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_19:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_19:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_19:0",
+      "top" : "MobilenetV1\/Relu6_19:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_19:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D_10:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_20:0",
+      "blob_weights" : 83,
+      "K" : 512,
+      "blob_biases" : 81,
+      "name" : "MobilenetV1\/Conv2D_10:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 512,
+      "bottom" : "MobilenetV1\/Relu6_19:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_20:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_20:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_20:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_20:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_20:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_20:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_20:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_20:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_20:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_20:0",
+      "top" : "MobilenetV1\/Relu6_20:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_20:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/depthwise_10:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_21:0",
+      "blob_weights" : 87,
+      "K" : 512,
+      "blob_biases" : 85,
+      "name" : "MobilenetV1\/depthwise_10:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 512,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 512,
+      "bottom" : "MobilenetV1\/Relu6_20:0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_21:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_21:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_21:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_21:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_21:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_21:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_21:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_21:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_21:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_21:0",
+      "top" : "MobilenetV1\/Relu6_21:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_21:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D_11:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_22:0",
+      "blob_weights" : 91,
+      "K" : 512,
+      "blob_biases" : 89,
+      "name" : "MobilenetV1\/Conv2D_11:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 512,
+      "bottom" : "MobilenetV1\/Relu6_21:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_22:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_22:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_22:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_22:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_22:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_22:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_22:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_22:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_22:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_22:0",
+      "top" : "MobilenetV1\/Relu6_22:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_22:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/depthwise_11:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_23:0",
+      "blob_weights" : 95,
+      "K" : 512,
+      "blob_biases" : 93,
+      "name" : "MobilenetV1\/depthwise_11:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 512,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 512,
+      "bottom" : "MobilenetV1\/Relu6_22:0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_23:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_23:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_23:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_23:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_23:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_23:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_23:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_23:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_23:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_23:0",
+      "top" : "MobilenetV1\/Relu6_23:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_23:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D_12:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_24:0",
+      "blob_weights" : 99,
+      "K" : 512,
+      "blob_biases" : 97,
+      "name" : "MobilenetV1\/Conv2D_12:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 1024,
+      "bottom" : "MobilenetV1\/Relu6_23:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_24:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_24:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_24:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_24:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_24:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_24:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_24:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_24:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_24:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_24:0",
+      "top" : "MobilenetV1\/Relu6_24:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_24:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 3,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/depthwise_12:0_precrop",
+      "pad_fill_mode" : 0,
+      "pad_b" : 3,
+      "pad_l" : 2,
+      "top" : "MobilenetV1\/depthwise_12:0_precrop",
+      "blob_weights" : 101,
+      "K" : 1024,
+      "name" : "MobilenetV1\/depthwise_12:0_precrop",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1024,
+      "pad_t" : 2,
+      "has_biases" : 0,
+      "C" : 1024,
+      "bottom" : "MobilenetV1\/Relu6_24:0",
+      "weights" : {
+
+      },
+      "Nx" : 3,
+      "pad_mode" : 0,
+      "dilation_x" : 2,
+      "pad_value" : 0,
+      "Ny" : 3,
+      "n_parallel" : 1,
+      "dilation_y" : 2
+    },
+    {
+      "bottom" : "MobilenetV1\/depthwise_12:0_precrop",
+      "t" : 0,
+      "weights" : {
+
+      },
+      "l" : 0,
+      "debug_info" : "MobilenetV1\/depthwise_12:0",
+      "r" : 1,
+      "top" : "MobilenetV1\/depthwise_12:0",
+      "type" : "crop",
+      "name" : "MobilenetV1\/depthwise_12:0",
+      "b" : 1
+    },
+    {
+      "bottom" : "",
+      "k" : 1024,
+      "n" : 1,
+      "weights" : {
+
+      },
+      "h" : 1,
+      "debug_info" : "MobilenetV1\/Conv2d_13_depthwise\/biases\/read:0",
+      "constant_blob" : 103,
+      "top" : "MobilenetV1\/Conv2d_13_depthwise\/biases\/read:0",
+      "w" : 1,
+      "type" : "load_constant",
+      "name" : "MobilenetV1\/Conv2d_13_depthwise\/biases\/read:0"
+    },
+    {
+      "bottom" : "MobilenetV1\/depthwise_12:0,MobilenetV1\/Conv2d_13_depthwise\/biases\/read:0",
+      "alpha" : 1,
+      "operation" : 0,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "MobilenetV1\/BiasAdd_24:0",
+      "top" : "MobilenetV1\/BiasAdd_24:0",
+      "type" : "elementwise",
+      "name" : "MobilenetV1\/BiasAdd_24:0",
+      "beta" : 0
+    },
+    {
+      "bottom" : "MobilenetV1\/BiasAdd_24:0",
+      "weights" : {
+
+      },
+      "mode" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_25:0",
+      "top" : "relu_MobilenetV1\/Relu6_25:0",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_25:0"
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_25:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_25:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_25:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_25:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_25:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_25:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_25:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_25:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_25:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_25:0",
+      "top" : "MobilenetV1\/Relu6_25:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_25:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 1,
+      "fused_tanh" : 0,
+      "debug_info" : "MobilenetV1\/Conv2D_13:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "relu_MobilenetV1\/Relu6_26:0",
+      "blob_weights" : 107,
+      "K" : 1024,
+      "blob_biases" : 105,
+      "name" : "MobilenetV1\/Conv2D_13:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 1024,
+      "bottom" : "MobilenetV1\/Relu6_25:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_26:0",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "relu_MobilenetV1\/Relu6_26:0_neg",
+      "top" : "relu_MobilenetV1\/Relu6_26:0_neg",
+      "type" : "activation",
+      "name" : "relu_MobilenetV1\/Relu6_26:0_neg",
+      "beta" : 0
+    },
+    {
+      "bottom" : "relu_MobilenetV1\/Relu6_26:0_neg",
+      "alpha" : -6,
+      "operation" : 25,
+      "weights" : {
+
+      },
+      "fused_relu" : 0,
+      "debug_info" : "relu_MobilenetV1\/Relu6_26:0_clip",
+      "top" : "relu_MobilenetV1\/Relu6_26:0_clip",
+      "type" : "elementwise",
+      "name" : "relu_MobilenetV1\/Relu6_26:0_clip",
+      "beta" : 0
+    },
+    {
+      "alpha" : -1,
+      "bottom" : "relu_MobilenetV1\/Relu6_26:0_clip",
+      "weights" : {
+
+      },
+      "mode" : 6,
+      "debug_info" : "MobilenetV1\/Relu6_26:0",
+      "top" : "MobilenetV1\/Relu6_26:0",
+      "type" : "activation",
+      "name" : "MobilenetV1\/Relu6_26:0",
+      "beta" : 0
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "Conv2D:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "heatmap_2:0",
+      "blob_weights" : 111,
+      "K" : 1024,
+      "blob_biases" : 109,
+      "name" : "Conv2D:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 17,
+      "bottom" : "MobilenetV1\/Relu6_26:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "bottom" : "heatmap_2:0",
+      "weights" : {
+
+      },
+      "mode" : 3,
+      "debug_info" : "heatmap:0",
+      "top" : "heatmap__0",
+      "type" : "activation",
+      "name" : "heatmap:0",
+      "attributes" : {
+        "is_output" : 1
+      }
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "Conv2D_1:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "offset_2__0",
+      "blob_weights" : 115,
+      "K" : 1024,
+      "blob_biases" : 113,
+      "name" : "Conv2D_1:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 34,
+      "bottom" : "MobilenetV1\/Relu6_26:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "Conv2D_2:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "displacement_fwd_2__0",
+      "blob_weights" : 119,
+      "K" : 1024,
+      "blob_biases" : 117,
+      "name" : "Conv2D_2:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 32,
+      "bottom" : "MobilenetV1\/Relu6_26:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    },
+    {
+      "pad_r" : 0,
+      "fused_relu" : 0,
+      "fused_tanh" : 0,
+      "debug_info" : "Conv2D_3:0",
+      "pad_fill_mode" : 0,
+      "pad_b" : 0,
+      "pad_l" : 0,
+      "top" : "displacement_bwd_2__0",
+      "blob_weights" : 123,
+      "K" : 1024,
+      "blob_biases" : 121,
+      "name" : "Conv2D_3:0",
+      "has_batch_norm" : 0,
+      "type" : "convolution",
+      "n_groups" : 1,
+      "pad_t" : 0,
+      "has_biases" : 1,
+      "C" : 32,
+      "bottom" : "MobilenetV1\/Relu6_26:0",
+      "weights" : {
+
+      },
+      "Nx" : 1,
+      "pad_mode" : 1,
+      "pad_value" : 0,
+      "Ny" : 1,
+      "n_parallel" : 1
+    }
+  ],
+  "transform_params" : {
+    "image__0" : {
+      "bias_a" : 0,
+      "bias_g" : -1,
+      "bias_r" : -1,
+      "bias_b" : -1,
+      "center_mean" : 0,
+      "is_network_bgr" : 0,
+      "scale" : 0.0078431377187371254
+    }
+  },
+  "storage" : "model.espresso.weights",
+  "metadata_in_weights" : [
+
+  ],
+  "properties" : {
+
+  },
+  "analyses" : {
+
+  },
+  "format_version" : 200
+}

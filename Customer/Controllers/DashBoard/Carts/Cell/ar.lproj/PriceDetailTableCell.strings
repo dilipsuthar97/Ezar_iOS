@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "SR 921"; ObjectID = "1EL-kw-h1X"; */
+"1EL-kw-h1X.text" = "0";
+
+/* Class = "UILabel"; text = "VAT"; ObjectID = "1hR-K6-CMx"; */
+"1hR-K6-CMx.text" = "ضريبة";
+
+/* Class = "UILabel"; text = "SR 921"; ObjectID = "Euh-AI-SHO"; */
+"Euh-AI-SHO.text" = "0";
+
+/* Class = "UILabel"; text = "Total Payable"; ObjectID = "IN9-Aa-v7I"; */
+"IN9-Aa-v7I.text" = "مجموع مستحق";
+
+/* Class = "UILabel"; text = "Bag Discount"; ObjectID = "M61-uG-FOU"; */
+"M61-uG-FOU.text" = "خصم حقيبة";
+
+/* Class = "UILabel"; text = "5 %"; ObjectID = "M8C-lQ-6ca"; */
+"M8C-lQ-6ca.text" = "0 %";
+
+/* Class = "UILabel"; text = "SR 921"; ObjectID = "WK3-ld-Rzh"; */
+"WK3-ld-Rzh.text" = "0";
+
+/* Class = "UILabel"; text = "-SR 150"; ObjectID = "dRi-Sy-lS7"; */
+"dRi-Sy-lS7.text" = "0";
+
+/* Class = "UILabel"; text = "Sub Total"; ObjectID = "gtP-Wc-SM4"; */
+"gtP-Wc-SM4.text" = "المجموع الفرعي";
+
+/* Class = "UILabel"; text = "FREE"; ObjectID = "kjS-4X-eIE"; */
+"kjS-4X-eIE.text" = "حر";
+
+/* Class = "UILabel"; text = "Apply Coupon"; ObjectID = "p2c-7i-1dt"; */
+"p2c-7i-1dt.text" = "تطبيق القسيمة";
+
+/* Class = "UILabel"; text = "Bag Total"; ObjectID = "pP6-RV-Ol2"; */
+"pP6-RV-Ol2.text" = "مجموع الحقائب";
+
+/* Class = "UILabel"; text = "Coupon Discount"; ObjectID = "rwF-C9-O78"; */
+"rwF-C9-O78.text" = "خصم القسيمة";
+
+/* Class = "UILabel"; text = "Delivery"; ObjectID = "xrx-cU-Pib"; */
+"xrx-cU-Pib.text" = "توصيل";
+
+/* Class = "UILabel"; text = "Gift Wrap Total"; ObjectID = "CED-CR-mNc"; */
+"CED-CR-mNc.text" = "تغليف الهدايا الإجمالي";

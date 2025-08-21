@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Delivered"; ObjectID = "4oo-2E-bm2"; */
+"4oo-2E-bm2.text" = "تم التوصيل";
+
+/* Class = "UILabel"; text = "Shipped"; ObjectID = "UBk-fR-ijv"; */
+"UBk-fR-ijv.text" = "شحنها";
+
+/* Class = "UIButton"; normalTitle = "Need Help ?"; ObjectID = "fvi-2z-vxP"; */
+"fvi-2z-vxP.normalTitle" = "تحتاج مساعدة ؟";
+
+/* Class = "UILabel"; text = "Processing"; ObjectID = "kos-6W-ybo"; */
+"kos-6W-ybo.text" = "معالجة";
+
+/* Class = "UILabel"; text = "Pending"; ObjectID = "nqg-0x-nuZ"; */
+"nqg-0x-nuZ.text" = "قيد الانتظار";

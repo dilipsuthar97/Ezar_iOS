@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "746, Grace ST, Monterery, California 93940"; ObjectID = "3uA-2Z-6aU"; */
+"3uA-2Z-6aU.text" = "عنوان";
+
+/* Class = "UILabel"; text = "Yousuf Al Zaraah"; ObjectID = "Dja-gB-FjU"; */
+"Dja-gB-FjU.text" = "اسم";
+
+/* Class = "UILabel"; text = "Cancelled"; ObjectID = "cZU-r0-mUK"; */
+"cZU-r0-mUK.text" = "ألغيت";
+
+/* Class = "UILabel"; text = "Request id : 1"; ObjectID = "ijW-6q-iBP"; */
+"ijW-6q-iBP.text" = "معرف الطلب: 1";

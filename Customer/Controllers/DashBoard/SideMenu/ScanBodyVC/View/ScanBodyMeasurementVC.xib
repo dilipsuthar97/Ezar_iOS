@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScanBodyMeasurementVC" customModule="EZAR" customModuleProvider="target">
+            <connections>
+                <outlet property="checkBoxButton" destination="OqO-Yi-bdo" id="gzN-aV-87d"/>
+                <outlet property="playButton" destination="S3K-5l-k07" id="Zd7-Gq-7Y5"/>
+                <outlet property="skipButton" destination="kas-qB-3R1" id="7vY-u3-1rM"/>
+                <outlet property="termAndConditionButton" destination="BrI-fQ-fMj" id="4VQ-bZ-xzZ"/>
+                <outlet property="underlineView" destination="9ih-tm-5zG" id="Cnn-gY-JLR"/>
+                <outlet property="videoView" destination="Vwd-Rm-KYE" id="NaF-kQ-g2I"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vwd-Rm-KYE">
+                    <rect key="frame" x="0.0" y="35" width="320" height="398"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S3K-5l-k07" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                    <rect key="frame" x="250" y="393" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="ikT-Dp-3Rg"/>
+                        <constraint firstAttribute="height" constant="60" id="tXm-H5-b7y"/>
+                    </constraints>
+                    <state key="normal" image="play_Icon"/>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kas-qB-3R1" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                    <rect key="frame" x="20" y="508" width="280" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="ggk-G9-Vkq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <state key="normal" title="SKIP">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                            <color key="value" name="dark_gradient"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                            <color key="value" name="light_gradient"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OqO-Yi-bdo" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                    <rect key="frame" x="20" y="473" width="25" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="25" id="XDg-Ep-UGe"/>
+                        <constraint firstAttribute="height" constant="25" id="xh7-jM-3tr"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="checkbox_unselected"/>
+                    <state key="selected" backgroundImage="checkbox_selected"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BrI-fQ-fMj" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                    <rect key="frame" x="55" y="473" width="131" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="Nea-4M-li2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                    <state key="normal" title="Terms &amp; Conditions">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ih-tm-5zG">
+                    <rect key="frame" x="55" y="493" width="131" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="9xa-ZD-uab"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="kas-qB-3R1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="0CA-3e-V3U"/>
+                <constraint firstItem="S3K-5l-k07" firstAttribute="trailing" secondItem="Vwd-Rm-KYE" secondAttribute="trailing" constant="-10" id="56l-Yn-SQY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="kas-qB-3R1" secondAttribute="bottom" constant="10" id="6iG-h7-0KZ"/>
+                <constraint firstItem="kas-qB-3R1" firstAttribute="top" secondItem="OqO-Yi-bdo" secondAttribute="bottom" constant="10" id="71l-5P-o0Q"/>
+                <constraint firstItem="9ih-tm-5zG" firstAttribute="top" secondItem="BrI-fQ-fMj" secondAttribute="bottom" constant="-5" id="ESe-IB-Kp8"/>
+                <constraint firstItem="Vwd-Rm-KYE" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="35" id="HHA-jX-QhQ"/>
+                <constraint firstItem="S3K-5l-k07" firstAttribute="top" secondItem="Vwd-Rm-KYE" secondAttribute="bottom" constant="-40" id="Ko8-Ep-9RG"/>
+                <constraint firstItem="9ih-tm-5zG" firstAttribute="leading" secondItem="BrI-fQ-fMj" secondAttribute="leading" id="NCc-x4-wG5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="BrI-fQ-fMj" secondAttribute="trailing" constant="10" id="QsE-Va-uci"/>
+                <constraint firstItem="OqO-Yi-bdo" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="V1u-lz-Iah"/>
+                <constraint firstItem="9ih-tm-5zG" firstAttribute="trailing" secondItem="BrI-fQ-fMj" secondAttribute="trailing" id="Z73-kj-wDt"/>
+                <constraint firstItem="BrI-fQ-fMj" firstAttribute="top" secondItem="OqO-Yi-bdo" secondAttribute="top" id="c4K-7a-jEf"/>
+                <constraint firstItem="S3K-5l-k07" firstAttribute="bottom" secondItem="Vwd-Rm-KYE" secondAttribute="bottom" constant="20" id="k2Q-K2-CZc"/>
+                <constraint firstItem="Vwd-Rm-KYE" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="k9k-l9-NPs"/>
+                <constraint firstItem="Vwd-Rm-KYE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ny7-nO-uHA"/>
+                <constraint firstItem="BrI-fQ-fMj" firstAttribute="leading" secondItem="OqO-Yi-bdo" secondAttribute="trailing" constant="10" id="rjX-c8-eLv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kas-qB-3R1" secondAttribute="trailing" constant="20" id="u24-YK-XzH"/>
+                <constraint firstItem="OqO-Yi-bdo" firstAttribute="top" secondItem="Vwd-Rm-KYE" secondAttribute="bottom" constant="40" id="vjw-kO-0pi"/>
+            </constraints>
+            <point key="canvasLocation" x="138.75" y="116.19718309859155"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="BrI-fQ-fMj">
+            <size key="intrinsicContentSize" width="131" height="32"/>
+        </designable>
+        <designable name="OqO-Yi-bdo">
+            <size key="intrinsicContentSize" width="14" height="14"/>
+        </designable>
+        <designable name="S3K-5l-k07">
+            <size key="intrinsicContentSize" width="58.5" height="58"/>
+        </designable>
+        <designable name="kas-qB-3R1">
+            <size key="intrinsicContentSize" width="36" height="35"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="checkbox_selected" width="14" height="14"/>
+        <image name="checkbox_unselected" width="14" height="14"/>
+        <image name="play_Icon" width="58.5" height="58"/>
+        <namedColor name="dark_gradient">
+            <color red="0.019607843137254902" green="0.15294117647058825" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="light_gradient">
+            <color red="0.21176470588235294" green="0.68235294117647061" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

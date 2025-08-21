@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Resend OTP"; ObjectID = "BZb-I9-X9m"; */
+"BZb-I9-X9m.text" = "إعادة إرسال OTP";
+
+/* Class = "UILabel"; text = "Please wait while we auto detect verification code.Please enter the code by manually if not detected by system."; ObjectID = "KXV-RL-1qP"; */
+"KXV-RL-1qP.text" = "الرجاء الانتظار أثناء اكتشافنا لرمز التحقق تلقائيًا. الرجاء إدخال الرمز يدويًا إذا لم يكتشفه النظام.";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "MbR-1z-F15"; */
+"MbR-1z-F15.normalTitle" = "سجل";
+
+/* Class = "UIButton"; normalTitle = "OTP Verification"; ObjectID = "Wcu-bK-9SF"; */
+"Wcu-bK-9SF.normalTitle" = "التحقق من مكتب المدعي العام";

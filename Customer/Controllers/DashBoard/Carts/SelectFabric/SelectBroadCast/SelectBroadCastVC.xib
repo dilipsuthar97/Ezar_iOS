@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Bold 700.ttf">
+            <string>Cairo-Bold</string>
+        </array>
+        <array key="UBUNTU-REGULAR.TTF">
+            <string>Ubuntu-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectBroadCastVC" customModule="EZAR" customModuleProvider="target">
+            <connections>
+                <outlet property="chooseListButton" destination="z8A-94-ZeM" id="Cmx-d3-5hJ"/>
+                <outlet property="requestButton" destination="sFS-It-jdM" id="5fp-hR-LCH"/>
+                <outlet property="titleLbl" destination="bha-ZZ-rKV" id="ri7-YY-89e"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="224"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHOOSE OPTIONS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bha-ZZ-rKV">
+                    <rect key="frame" x="20" y="15" width="280" height="32"/>
+                    <fontDescription key="fontDescription" name="Cairo-Bold" family="Cairo" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="atI-Dd-pwY" customClass="ShaddowView" customModule="EZAR" customModuleProvider="target">
+                    <rect key="frame" x="24" y="62" width="272" height="125"/>
+                    <subviews>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFS-It-jdM" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="272" height="50"/>
+                            <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="rvM-bs-pJH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="14"/>
+                            <state key="normal" title="BroadCast Request">
+                                <color key="titleColor" red="0.078431372550000003" green="0.039215686270000001" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <integer key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8A-94-ZeM" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="65" width="272" height="50"/>
+                            <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="14"/>
+                            <state key="normal" title="Choose from list">
+                                <color key="titleColor" red="0.078431372550000003" green="0.039215686270000001" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <integer key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="z8A-94-ZeM" firstAttribute="leading" secondItem="sFS-It-jdM" secondAttribute="leading" id="HXe-3c-VJ5"/>
+                        <constraint firstItem="sFS-It-jdM" firstAttribute="leading" secondItem="atI-Dd-pwY" secondAttribute="leading" id="LGP-9b-W0B"/>
+                        <constraint firstItem="z8A-94-ZeM" firstAttribute="height" secondItem="sFS-It-jdM" secondAttribute="height" id="dZo-3c-vTV"/>
+                        <constraint firstAttribute="trailing" secondItem="sFS-It-jdM" secondAttribute="trailing" id="h6d-gR-y4P"/>
+                        <constraint firstAttribute="bottom" secondItem="z8A-94-ZeM" secondAttribute="bottom" constant="10" id="oFa-8X-4nv"/>
+                        <constraint firstItem="z8A-94-ZeM" firstAttribute="top" secondItem="sFS-It-jdM" secondAttribute="bottom" constant="15" id="vwz-qs-mbU"/>
+                        <constraint firstItem="sFS-It-jdM" firstAttribute="top" secondItem="atI-Dd-pwY" secondAttribute="top" id="wsJ-5N-71V"/>
+                        <constraint firstItem="z8A-94-ZeM" firstAttribute="trailing" secondItem="sFS-It-jdM" secondAttribute="trailing" id="zn0-An-mJb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="atI-Dd-pwY" secondAttribute="trailing" constant="24" id="3U6-0b-xwA"/>
+                <constraint firstItem="bha-ZZ-rKV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="3hL-Vy-YSe"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="atI-Dd-pwY" secondAttribute="bottom" constant="10" id="8Xw-Ea-Is7"/>
+                <constraint firstItem="atI-Dd-pwY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="24" id="WMn-8T-x6e"/>
+                <constraint firstItem="bha-ZZ-rKV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="X5w-ch-PSb"/>
+                <constraint firstAttribute="trailing" secondItem="bha-ZZ-rKV" secondAttribute="trailing" constant="20" id="cDJ-lm-O2j"/>
+                <constraint firstItem="atI-Dd-pwY" firstAttribute="top" secondItem="bha-ZZ-rKV" secondAttribute="bottom" constant="15" id="qfv-zC-Vg7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-41.221374045801525" y="55.633802816901408"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="sFS-It-jdM">
+            <size key="intrinsicContentSize" width="122" height="28"/>
+        </designable>
+        <designable name="z8A-94-ZeM">
+            <size key="intrinsicContentSize" width="105" height="28"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

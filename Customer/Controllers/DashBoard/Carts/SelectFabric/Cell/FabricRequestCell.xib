@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+        <array key="Futura Bk BT.TTF">
+            <string>FuturaBT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="FabricRequestCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="FabricRequestCell" rowHeight="68" id="KGk-i7-Jjw" customClass="FabricRequestCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iPJ-4x-nNB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TIJ-Em-SOq">
+                                <rect key="frame" x="8" y="8" width="304" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Request Broadcasted" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="neh-LT-IJo">
+                                        <rect key="frame" x="24" y="12" width="194" height="26.5"/>
+                                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="14"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imq-2o-9Yi" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                                        <rect key="frame" x="233" y="10" width="60" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="EdB-w2-wZ8"/>
+                                            <constraint firstAttribute="width" constant="60" id="alq-UZ-rrB"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="14"/>
+                                        <state key="normal" title="Cancel">
+                                            <color key="titleColor" name="bgColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                                <color key="value" name="dark_gradient"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                                <color key="value" name="light_gradient"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="3DR-wB-QbB"/>
+                                    <constraint firstItem="imq-2o-9Yi" firstAttribute="leading" secondItem="neh-LT-IJo" secondAttribute="trailing" constant="15" id="ErS-L8-e9J"/>
+                                    <constraint firstItem="neh-LT-IJo" firstAttribute="leading" secondItem="TIJ-Em-SOq" secondAttribute="leading" constant="24" id="Pqu-nF-lwc"/>
+                                    <constraint firstAttribute="trailing" secondItem="imq-2o-9Yi" secondAttribute="trailing" constant="11" id="Zqd-Vv-yvE"/>
+                                    <constraint firstItem="imq-2o-9Yi" firstAttribute="centerY" secondItem="TIJ-Em-SOq" secondAttribute="centerY" id="bSu-Ml-Gdz"/>
+                                    <constraint firstItem="neh-LT-IJo" firstAttribute="centerY" secondItem="TIJ-Em-SOq" secondAttribute="centerY" id="mRG-sE-G5J"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TIJ-Em-SOq" firstAttribute="leading" secondItem="iPJ-4x-nNB" secondAttribute="leading" constant="8" id="YYb-cE-jb9"/>
+                            <constraint firstItem="TIJ-Em-SOq" firstAttribute="top" secondItem="iPJ-4x-nNB" secondAttribute="top" constant="8" id="cvl-Er-9TH"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="TIJ-Em-SOq" secondAttribute="bottom" constant="7.5" id="lub-Vl-IWb"/>
+                            <constraint firstAttribute="trailing" secondItem="TIJ-Em-SOq" secondAttribute="trailing" constant="8" id="zfP-nJ-d7E"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="iPJ-4x-nNB" secondAttribute="bottom" id="3gH-Sg-myX"/>
+                    <constraint firstItem="iPJ-4x-nNB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="8U2-UH-CAN"/>
+                    <constraint firstAttribute="trailing" secondItem="iPJ-4x-nNB" secondAttribute="trailing" id="ISf-ha-DLw"/>
+                    <constraint firstItem="iPJ-4x-nNB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="v1a-78-AM9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cancelButtton" destination="imq-2o-9Yi" id="hhN-PC-dbB"/>
+                <outlet property="titleLbl" destination="neh-LT-IJo" id="LkL-or-FQc"/>
+            </connections>
+            <point key="canvasLocation" x="25.600000000000001" y="-62.968515742128943"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="imq-2o-9Yi">
+            <size key="intrinsicContentSize" width="43" height="29"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="bgColor">
+            <color red="0.97299998998641968" green="0.97299998998641968" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="dark_gradient">
+            <color red="0.019607843137254902" green="0.15294117647058825" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="light_gradient">
+            <color red="0.21176470588235294" green="0.68235294117647061" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

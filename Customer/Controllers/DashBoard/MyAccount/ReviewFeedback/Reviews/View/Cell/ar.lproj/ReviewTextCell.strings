@@ -1,0 +1,6 @@
+
+/* Class = "UILabel"; text = "Give your review a title"; ObjectID = "119-EA-N8V"; */
+"119-EA-N8V.text" = "امنح رأيك عنوانًا";
+
+/* Class = "UITextField"; placeholder = "Answer"; ObjectID = "Ckz-kA-COd"; */
+"Ckz-kA-COd.placeholder" = "إجابة";

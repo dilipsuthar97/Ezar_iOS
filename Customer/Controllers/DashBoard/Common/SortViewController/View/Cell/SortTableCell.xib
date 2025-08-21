@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Regular 400.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SortTableCell" id="KGk-i7-Jjw" customClass="SortTableCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyY-yt-3BY">
+                        <rect key="frame" x="37" y="2" width="279" height="40"/>
+                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="15"/>
+                        <color key="textColor" red="0.11764705882352941" green="0.098039215686274508" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USd-ez-mVf" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                        <rect key="frame" x="8" y="9.5" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="GOg-Lp-jP6"/>
+                            <constraint firstAttribute="width" constant="25" id="fQe-uh-JHp"/>
+                        </constraints>
+                        <state key="normal" image="unselected_icon"/>
+                        <state key="selected" image="selectedicon"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="qyY-yt-3BY" secondAttribute="bottom" constant="2" id="9sM-VS-7vY"/>
+                    <constraint firstItem="qyY-yt-3BY" firstAttribute="leading" secondItem="USd-ez-mVf" secondAttribute="trailing" constant="4" id="bue-CZ-eqd"/>
+                    <constraint firstItem="qyY-yt-3BY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="ddA-KY-TYq"/>
+                    <constraint firstItem="USd-ez-mVf" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="gsJ-19-qBo"/>
+                    <constraint firstItem="USd-ez-mVf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="i13-uo-2c9"/>
+                    <constraint firstAttribute="trailing" secondItem="qyY-yt-3BY" secondAttribute="trailing" constant="4" id="l8w-kr-K4a"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="stateButton" destination="USd-ez-mVf" id="i33-dS-IQh"/>
+                <outlet property="titleLabel" destination="qyY-yt-3BY" id="J0k-GM-lco"/>
+            </connections>
+            <point key="canvasLocation" x="-72" y="-15"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="USd-ez-mVf">
+            <size key="intrinsicContentSize" width="24" height="24"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="selectedicon" width="24" height="24"/>
+        <image name="unselected_icon" width="24" height="24"/>
+    </resources>
+</document>

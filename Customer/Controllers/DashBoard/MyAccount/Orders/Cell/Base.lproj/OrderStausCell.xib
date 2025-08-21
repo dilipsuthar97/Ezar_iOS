@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura Bk BT.TTF">
+            <string>FuturaBT-Book</string>
+        </array>
+        <array key="Futura Md BT Medium.TTF">
+            <string>FuturaBT-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="OrderStausCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="OrderStausCell" rowHeight="222" id="KGk-i7-Jjw" customClass="OrderStausCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="222"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="222"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gi8-5T-c7K" customClass="ShaddowView" customModule="EZAR" customModuleProvider="target">
+                        <rect key="frame" x="15" y="10" width="290" height="202"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NA" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2pK-fv-D0G">
+                                <rect key="frame" x="10" y="15" width="26" height="19.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="15"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ITv-PL-tac">
+                                <rect key="frame" x="255" y="10" width="25" height="26.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26.5" id="V5q-OM-yrR"/>
+                                    <constraint firstAttribute="width" constant="25" id="pGv-ax-exv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark" translatesAutoresizingMaskIntoConstraints="NO" id="hFf-ip-fjw">
+                                <rect key="frame" x="10" y="44.5" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="4dr-e7-oUU"/>
+                                    <constraint firstAttribute="height" constant="30" id="Nb3-Jj-bCy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enN-Ny-w4C" customClass="PaddingLabel" customModule="EZAR" customModuleProvider="target">
+                                <rect key="frame" x="42" y="47.5" width="0.0" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="00c-Yd-V8T"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <color key="textColor" red="0.23921568630000001" green="0.78823529410000004" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="topInset">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomInset">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of Products :" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="08I-kb-Jvm">
+                                <rect key="frame" x="10" y="84.5" width="130.5" height="17"/>
+                                <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DD/MM/YYYY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0H-3M-PgW">
+                                <rect key="frame" x="10" y="170.5" width="69" height="13.5"/>
+                                <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="11"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLt-HP-79d">
+                                <rect key="frame" x="155.5" y="84" width="9.5" height="18"/>
+                                <fontDescription key="fontDescription" name="FuturaBT-Medium" family="Futura" pointSize="15"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment mode :" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8S-IS-xZ1">
+                                <rect key="frame" x="10" y="138.5" width="99" height="17"/>
+                                <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery :" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lfs-3U-AYZ">
+                                <rect key="frame" x="10" y="111.5" width="57.5" height="17"/>
+                                <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bV-Vz-AeA">
+                                <rect key="frame" x="82.5" y="111" width="9.5" height="18"/>
+                                <fontDescription key="fontDescription" name="FuturaBT-Medium" family="Futura" pointSize="15"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="No payment" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="3ju-Uk-1MO">
+                                <rect key="frame" x="117" y="138" width="85" height="18"/>
+                                <fontDescription key="fontDescription" name="FuturaBT-Medium" family="Futura" pointSize="15"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5DN-eU-UZP">
+                                <rect key="frame" x="263" y="166" width="12" height="22.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96470588239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5bV-Vz-AeA" secondAttribute="trailing" symbolic="YES" id="0Mx-97-Awc"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3ju-Uk-1MO" secondAttribute="trailing" constant="10" id="11R-WQ-Z3k"/>
+                            <constraint firstItem="pLt-HP-79d" firstAttribute="centerY" secondItem="08I-kb-Jvm" secondAttribute="centerY" id="2uo-f8-hwe"/>
+                            <constraint firstAttribute="trailing" secondItem="5DN-eU-UZP" secondAttribute="trailing" constant="15" id="3qp-if-xxx"/>
+                            <constraint firstItem="lfs-3U-AYZ" firstAttribute="top" secondItem="08I-kb-Jvm" secondAttribute="bottom" constant="10" id="4bb-PT-G4A"/>
+                            <constraint firstItem="5bV-Vz-AeA" firstAttribute="centerY" secondItem="lfs-3U-AYZ" secondAttribute="centerY" id="7v2-GG-GCH"/>
+                            <constraint firstItem="3ju-Uk-1MO" firstAttribute="centerY" secondItem="t8S-IS-xZ1" secondAttribute="centerY" id="8aD-mo-myL"/>
+                            <constraint firstItem="08I-kb-Jvm" firstAttribute="top" secondItem="hFf-ip-fjw" secondAttribute="bottom" constant="10" id="8eh-Wd-gWV"/>
+                            <constraint firstItem="ITv-PL-tac" firstAttribute="top" secondItem="gi8-5T-c7K" secondAttribute="top" constant="10" id="9uT-Xo-tQk"/>
+                            <constraint firstItem="2pK-fv-D0G" firstAttribute="top" secondItem="gi8-5T-c7K" secondAttribute="top" constant="15" id="Jrc-eb-4oX"/>
+                            <constraint firstItem="enN-Ny-w4C" firstAttribute="leading" secondItem="hFf-ip-fjw" secondAttribute="trailing" constant="2" id="KCk-hF-nMG"/>
+                            <constraint firstItem="3ju-Uk-1MO" firstAttribute="leading" secondItem="t8S-IS-xZ1" secondAttribute="trailing" symbolic="YES" id="L9G-jf-abz"/>
+                            <constraint firstItem="lfs-3U-AYZ" firstAttribute="leading" secondItem="08I-kb-Jvm" secondAttribute="leading" id="M2C-Am-ReI"/>
+                            <constraint firstItem="5DN-eU-UZP" firstAttribute="centerY" secondItem="j0H-3M-PgW" secondAttribute="centerY" id="PDg-Q7-TRs"/>
+                            <constraint firstItem="ITv-PL-tac" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2pK-fv-D0G" secondAttribute="trailing" constant="10" id="WOv-YM-MaW"/>
+                            <constraint firstAttribute="trailing" secondItem="ITv-PL-tac" secondAttribute="trailing" constant="10" id="X5N-ry-xME"/>
+                            <constraint firstItem="08I-kb-Jvm" firstAttribute="leading" secondItem="hFf-ip-fjw" secondAttribute="leading" id="Ywv-M1-0X2"/>
+                            <constraint firstItem="5bV-Vz-AeA" firstAttribute="leading" secondItem="lfs-3U-AYZ" secondAttribute="trailing" constant="15" id="bE9-R0-HC2"/>
+                            <constraint firstItem="2pK-fv-D0G" firstAttribute="leading" secondItem="gi8-5T-c7K" secondAttribute="leading" constant="10" id="bKI-aJ-7Za"/>
+                            <constraint firstItem="pLt-HP-79d" firstAttribute="leading" secondItem="08I-kb-Jvm" secondAttribute="trailing" constant="15" id="dTi-AZ-XAZ"/>
+                            <constraint firstItem="t8S-IS-xZ1" firstAttribute="leading" secondItem="lfs-3U-AYZ" secondAttribute="leading" id="dgu-EU-78u"/>
+                            <constraint firstItem="hFf-ip-fjw" firstAttribute="leading" secondItem="2pK-fv-D0G" secondAttribute="leading" id="gOD-qO-zjM"/>
+                            <constraint firstItem="t8S-IS-xZ1" firstAttribute="top" secondItem="lfs-3U-AYZ" secondAttribute="bottom" constant="10" id="gWm-Eg-8jr"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="enN-Ny-w4C" secondAttribute="trailing" constant="10" id="lSs-oP-0s1"/>
+                            <constraint firstItem="j0H-3M-PgW" firstAttribute="top" secondItem="t8S-IS-xZ1" secondAttribute="bottom" constant="15" id="lX6-9l-1YU"/>
+                            <constraint firstItem="j0H-3M-PgW" firstAttribute="leading" secondItem="t8S-IS-xZ1" secondAttribute="leading" id="pi4-Tz-6yd"/>
+                            <constraint firstItem="5DN-eU-UZP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="j0H-3M-PgW" secondAttribute="trailing" constant="20" id="qWD-Te-w67"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="j0H-3M-PgW" secondAttribute="bottom" constant="15" id="w75-Ql-g7F"/>
+                            <constraint firstItem="hFf-ip-fjw" firstAttribute="top" secondItem="2pK-fv-D0G" secondAttribute="bottom" constant="10" id="xw5-4N-jtz"/>
+                            <constraint firstItem="enN-Ny-w4C" firstAttribute="centerY" secondItem="hFf-ip-fjw" secondAttribute="centerY" id="y79-Mi-Rfq"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.20000000000000001"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="gi8-5T-c7K" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="K2E-yP-Rhe"/>
+                    <constraint firstItem="gi8-5T-c7K" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="SlY-Qk-w8a"/>
+                    <constraint firstAttribute="trailing" secondItem="gi8-5T-c7K" secondAttribute="trailing" constant="15" id="uim-5M-4Uq"/>
+                    <constraint firstAttribute="bottom" secondItem="gi8-5T-c7K" secondAttribute="bottom" constant="10" id="zdM-lU-p4i"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="imgViewOrderStatus" destination="hFf-ip-fjw" id="bgj-v8-GiZ"/>
+                <outlet property="imgViewOrderStatusWidth" destination="4dr-e7-oUU" id="Ktb-WQ-VAS"/>
+                <outlet property="imgViewStatus" destination="ITv-PL-tac" id="7vR-WP-ThS"/>
+                <outlet property="lblDeliveryDate" destination="5bV-Vz-AeA" id="kJT-29-ETE"/>
+                <outlet property="lblNoOfProducts" destination="pLt-HP-79d" id="qx8-PT-iRU"/>
+                <outlet property="lblOrderDate" destination="j0H-3M-PgW" id="Q55-dB-HH8"/>
+                <outlet property="lblOrderId" destination="2pK-fv-D0G" id="enU-Bo-R3t"/>
+                <outlet property="lblOrderStatus" destination="enN-Ny-w4C" id="Yz6-Q1-B5y"/>
+                <outlet property="lblPaymentMode" destination="3ju-Uk-1MO" id="5IS-F0-5LA"/>
+                <outlet property="lblTotal" destination="5DN-eU-UZP" id="i5c-CS-28V"/>
+            </connections>
+            <point key="canvasLocation" x="-52.799999999999997" y="10.794602698650676"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkmark" width="32.5" height="33.5"/>
+    </resources>
+</document>

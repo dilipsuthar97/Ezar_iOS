@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura Bk BT.TTF">
+            <string>FuturaBT-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InviteFriendsVC" customModule="EZAR" customModuleProvider="target">
+            <connections>
+                <outlet property="codeLabel" destination="SQg-O4-WlK" id="Ykx-1F-gie"/>
+                <outlet property="copyButton" destination="D5G-sl-ezc" id="vdg-ql-tIV"/>
+                <outlet property="detailsLabel" destination="l5p-hB-YMU" id="apH-ZY-lLg"/>
+                <outlet property="mailButton" destination="Sdr-wc-J3M" id="4Nt-q2-9yK"/>
+                <outlet property="messageButton" destination="WP6-YJ-CxC" id="EA0-iX-x5v"/>
+                <outlet property="shareButton" destination="MyY-3G-IY2" id="GOa-hF-dGj"/>
+                <outlet property="titleLabel" destination="6BZ-Yz-NJP" id="L9G-fy-b9L"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="whatappButton" destination="60O-wl-Ejo" id="wqH-iK-LWY"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Npx-kt-p1U">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Invite_image" translatesAutoresizingMaskIntoConstraints="NO" id="We1-mV-jrO">
+                            <rect key="frame" x="0.0" y="30" width="320" height="180"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="180" id="e0b-mz-4OF"/>
+                            </constraints>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="Hbw-Uh-ul4">
+                            <rect key="frame" x="20" y="452" width="280" height="40"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whatsapp" translatesAutoresizingMaskIntoConstraints="NO" id="60O-wl-Ejo" customClass="ActionImageView" customModule="EZAR" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="N5Y-bt-keE"/>
+                                        <constraint firstAttribute="height" constant="40" id="zVR-1t-Ble"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="messages_icon" translatesAutoresizingMaskIntoConstraints="NO" id="WP6-YJ-CxC" customClass="ActionImageView" customModule="EZAR" customModuleProvider="target">
+                                    <rect key="frame" x="80" y="0.0" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="cUd-Qq-G7C"/>
+                                        <constraint firstAttribute="width" constant="40" id="nLz-st-lXZ"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mail_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Sdr-wc-J3M" customClass="ActionImageView" customModule="EZAR" customModuleProvider="target">
+                                    <rect key="frame" x="160" y="0.0" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="HWr-tK-nKv"/>
+                                        <constraint firstAttribute="height" constant="40" id="eNm-3D-doA"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="upload_icon" translatesAutoresizingMaskIntoConstraints="NO" id="MyY-3G-IY2" customClass="ActionImageView" customModule="EZAR" customModuleProvider="target">
+                                    <rect key="frame" x="240" y="0.0" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="40" id="HIA-5z-rcn"/>
+                                        <constraint firstAttribute="height" constant="40" id="wuD-Ox-aum"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="S5E-me-ff4"/>
+                            </constraints>
+                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your referral code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BZ-Yz-NJP">
+                            <rect key="frame" x="89.5" y="240" width="141" height="22.5"/>
+                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Share your referral link with your friends, and family and introduce them to the eZAR along with the chance to get rewards!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5p-hB-YMU">
+                            <rect key="frame" x="15" y="348" width="290" height="54"/>
+                            <fontDescription key="fontDescription" name="FuturaBT-Book" family="Futura" pointSize="15"/>
+                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQg-O4-WlK">
+                            <rect key="frame" x="155" y="272.5" width="10.5" height="45.5"/>
+                            <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="35"/>
+                            <color key="textColor" red="0.42745098469999998" green="0.69411766529999996" blue="0.70588237050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="copy_icon" translatesAutoresizingMaskIntoConstraints="NO" id="D5G-sl-ezc" customClass="ActionImageView" customModule="EZAR" customModuleProvider="target">
+                            <rect key="frame" x="180.5" y="283" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="89V-Lu-ypH"/>
+                                <constraint firstAttribute="width" constant="25" id="zGJ-fE-SaK"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="l5p-hB-YMU" firstAttribute="leading" secondItem="Npx-kt-p1U" secondAttribute="leading" constant="15" id="1WN-AF-8qr"/>
+                        <constraint firstItem="SQg-O4-WlK" firstAttribute="centerX" secondItem="Npx-kt-p1U" secondAttribute="centerX" id="26c-NT-xe1"/>
+                        <constraint firstItem="l5p-hB-YMU" firstAttribute="top" secondItem="SQg-O4-WlK" secondAttribute="bottom" constant="30" id="2zM-rh-Nmb"/>
+                        <constraint firstItem="SQg-O4-WlK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Npx-kt-p1U" secondAttribute="leading" constant="15" id="8dy-0d-Z7w"/>
+                        <constraint firstAttribute="trailing" secondItem="l5p-hB-YMU" secondAttribute="trailing" constant="15" id="Bqy-L3-Mbi"/>
+                        <constraint firstAttribute="trailing" secondItem="We1-mV-jrO" secondAttribute="trailing" id="CNc-C7-Gqe"/>
+                        <constraint firstItem="Hbw-Uh-ul4" firstAttribute="centerX" secondItem="Npx-kt-p1U" secondAttribute="centerX" id="Fsk-Dd-DiB"/>
+                        <constraint firstItem="6BZ-Yz-NJP" firstAttribute="centerX" secondItem="Npx-kt-p1U" secondAttribute="centerX" id="HM3-fT-7zS"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="D5G-sl-ezc" secondAttribute="trailing" constant="15" id="KHp-HF-eky"/>
+                        <constraint firstItem="D5G-sl-ezc" firstAttribute="leading" secondItem="SQg-O4-WlK" secondAttribute="trailing" constant="15" id="QPc-vd-mwE"/>
+                        <constraint firstItem="We1-mV-jrO" firstAttribute="top" secondItem="Npx-kt-p1U" secondAttribute="top" constant="30" id="UbE-Dp-jyc"/>
+                        <constraint firstItem="6BZ-Yz-NJP" firstAttribute="top" secondItem="We1-mV-jrO" secondAttribute="bottom" constant="30" id="Vwi-Qv-g2D"/>
+                        <constraint firstItem="Hbw-Uh-ul4" firstAttribute="top" secondItem="l5p-hB-YMU" secondAttribute="bottom" constant="50" id="Xbx-QR-wiO"/>
+                        <constraint firstItem="We1-mV-jrO" firstAttribute="leading" secondItem="Npx-kt-p1U" secondAttribute="leading" id="ZYA-FF-rVu"/>
+                        <constraint firstItem="D5G-sl-ezc" firstAttribute="centerY" secondItem="SQg-O4-WlK" secondAttribute="centerY" id="e2j-Gu-wLf"/>
+                        <constraint firstItem="SQg-O4-WlK" firstAttribute="top" secondItem="6BZ-Yz-NJP" secondAttribute="bottom" constant="10" id="lhl-Lr-Vqi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Npx-kt-p1U" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="9iL-j2-ScJ"/>
+                <constraint firstItem="Npx-kt-p1U" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="BE0-vn-fiT"/>
+                <constraint firstAttribute="bottom" secondItem="Npx-kt-p1U" secondAttribute="bottom" id="TfH-Kj-vuq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Npx-kt-p1U" secondAttribute="trailing" id="cvO-0D-T0D"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="45" y="59.154929577464792"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Invite_image" width="331" height="508.5"/>
+        <image name="copy_icon" width="25" height="25"/>
+        <image name="mail_icon" width="32" height="32"/>
+        <image name="messages_icon" width="32" height="32"/>
+        <image name="upload_icon" width="20" height="20"/>
+        <image name="whatsapp" width="32" height="32"/>
+    </resources>
+</document>

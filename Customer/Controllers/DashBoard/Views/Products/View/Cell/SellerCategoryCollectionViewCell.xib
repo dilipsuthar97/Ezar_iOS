@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ElMessiri-Bold.ttf">
+            <string>ElMessiri-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SellerCategoryCollectionViewCell" id="gTV-IL-0wX" customClass="SellerCategoryCollectionViewCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="170"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="170"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bud-Yo-eoW">
+                        <rect key="frame" x="5" y="5" width="310" height="160"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="7cH-3D-4BD">
+                                <rect key="frame" x="0.0" y="0.0" width="310" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="w0R-Vl-PZs"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbY-xo-JGJ" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                                <rect key="frame" x="275" y="10" width="25" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="26P-YR-yT2"/>
+                                    <constraint firstAttribute="width" constant="25" id="mM3-HZ-MFq"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="heart_Icon"/>
+                                <state key="selected" backgroundImage="heart_selected_Icon"/>
+                            </button>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5oJ-u3-hFZ">
+                                <rect key="frame" x="210" y="140" width="100" height="20"/>
+                                <subviews>
+                                    <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5EY-Vn-1jE" customClass="HCSStarRatingView">
+                                        <rect key="frame" x="5" y="4" width="90" height="12"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="QCD-Yd-8jc"/>
+                                            <constraint firstAttribute="height" constant="12" id="wnd-hl-gDI"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="starBorderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="allowsHalfStars" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="filledStarImage" value="star"/>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="emptyStarImage" value="star_outline"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="31C-Wy-hRj"/>
+                                    <constraint firstItem="5EY-Vn-1jE" firstAttribute="leading" secondItem="5oJ-u3-hFZ" secondAttribute="leading" constant="5" id="5mc-r4-hCN"/>
+                                    <constraint firstItem="5EY-Vn-1jE" firstAttribute="centerY" secondItem="5oJ-u3-hFZ" secondAttribute="centerY" id="bEk-9q-Yuh"/>
+                                    <constraint firstAttribute="height" constant="20" id="fah-8l-DiO"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qrz-s7-jbx">
+                                <rect key="frame" x="0.0" y="140" width="0.0" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="XSg-RC-ba2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ElMessiri-Bold" family="El Messiri" pointSize="16"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="5oJ-u3-hFZ" firstAttribute="top" secondItem="7cH-3D-4BD" secondAttribute="bottom" id="506-Z0-RCT"/>
+                            <constraint firstItem="xbY-xo-JGJ" firstAttribute="top" secondItem="7cH-3D-4BD" secondAttribute="top" constant="10" id="AND-KX-ydc"/>
+                            <constraint firstItem="7cH-3D-4BD" firstAttribute="top" secondItem="bud-Yo-eoW" secondAttribute="top" id="IJ2-ho-zal"/>
+                            <constraint firstItem="7cH-3D-4BD" firstAttribute="leading" secondItem="bud-Yo-eoW" secondAttribute="leading" id="M3K-X1-Nv5"/>
+                            <constraint firstAttribute="trailing" secondItem="7cH-3D-4BD" secondAttribute="trailing" id="Osx-Ig-g7s"/>
+                            <constraint firstAttribute="trailing" secondItem="5oJ-u3-hFZ" secondAttribute="trailing" id="RPk-gU-ipK"/>
+                            <constraint firstItem="qrz-s7-jbx" firstAttribute="leading" secondItem="bud-Yo-eoW" secondAttribute="leading" id="U7J-F4-z8M"/>
+                            <constraint firstItem="qrz-s7-jbx" firstAttribute="top" secondItem="7cH-3D-4BD" secondAttribute="bottom" id="Wca-GQ-cKA"/>
+                            <constraint firstItem="5EY-Vn-1jE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qrz-s7-jbx" secondAttribute="trailing" constant="2" id="gXb-3m-QaK"/>
+                            <constraint firstAttribute="bottom" secondItem="5oJ-u3-hFZ" secondAttribute="bottom" id="uZj-gD-NlO"/>
+                            <constraint firstItem="xbY-xo-JGJ" firstAttribute="trailing" secondItem="7cH-3D-4BD" secondAttribute="trailing" constant="-10" id="xUd-ge-hKz"/>
+                            <constraint firstAttribute="bottom" secondItem="qrz-s7-jbx" secondAttribute="bottom" id="yqj-kc-hmy"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="bud-Yo-eoW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="7ZT-qa-c83"/>
+                <constraint firstAttribute="bottom" secondItem="bud-Yo-eoW" secondAttribute="bottom" constant="5" id="SaM-TH-b1Y"/>
+                <constraint firstAttribute="trailing" secondItem="bud-Yo-eoW" secondAttribute="trailing" constant="5" id="aRO-Pi-Zjg"/>
+                <constraint firstItem="bud-Yo-eoW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="skI-op-a07"/>
+            </constraints>
+            <connections>
+                <outlet property="favouriteBtn" destination="xbY-xo-JGJ" id="EvY-Qx-0gf"/>
+                <outlet property="imgView" destination="7cH-3D-4BD" id="egy-0T-rAX"/>
+                <outlet property="ratingStar" destination="5EY-Vn-1jE" id="HBC-bQ-V5W"/>
+                <outlet property="ratingView" destination="5oJ-u3-hFZ" id="JjV-iS-k3r"/>
+                <outlet property="titileLable" destination="qrz-s7-jbx" id="UAi-A0-lOU"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="5EY-Vn-1jE">
+            <size key="intrinsicContentSize" width="240" height="44"/>
+        </designable>
+        <designable name="xbY-xo-JGJ">
+            <size key="intrinsicContentSize" width="13.5" height="11.5"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="heart_Icon" width="13.5" height="11.5"/>
+        <image name="heart_selected_Icon" width="13.5" height="11.5"/>
+        <image name="placeholder" width="125" height="125"/>
+        <image name="star" width="13.5" height="13"/>
+        <image name="star_outline" width="14.5" height="13.5"/>
+    </resources>
+</document>

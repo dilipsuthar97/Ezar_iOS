@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "SELECT DELIVER METHOD"; ObjectID = "9dA-n2-lsd"; */
+"9dA-n2-lsd.text" = "اختر طريقة التسليم";
+
+/* Class = "UIButton"; normalTitle = "VIEW DETAILS"; ObjectID = "XSY-U6-RjE"; */
+"XSY-U6-RjE.normalTitle" = "عرض التفاصيل";
+
+/* Class = "UILabel"; text = "SR 862"; ObjectID = "cYO-3q-NjF"; */
+"cYO-3q-NjF.text" = "SR 862";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "h4T-KR-IeI"; */
+"h4T-KR-IeI.normalTitle" = "استمر";

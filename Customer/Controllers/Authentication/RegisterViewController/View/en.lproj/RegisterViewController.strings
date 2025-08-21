@@ -1,0 +1,36 @@
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "1vH-ef-y9J"; */
+"1vH-ef-y9J.placeholder" = "Confirm Password";
+
+/* Class = "UILabel"; text = "Already a member? Login"; ObjectID = "Lcb-yq-yAf"; */
+"Lcb-yq-yAf.text" = "عضوا فعلا؟ تسجيل الدخول";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "MbR-1z-F15"; */
+"MbR-1z-F15.normalTitle" = "التالى";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "OLI-he-S1E"; */
+"OLI-he-S1E.normalTitle" = "سجل";
+
+/* Class = "UITextField"; placeholder = "Phone No"; ObjectID = "Pjm-z9-ENd"; */
+"Pjm-z9-ENd.placeholder" = "رقم الهاتف";
+
+/* Class = "UILabel"; text = "Or"; ObjectID = "QUD-ci-prE"; */
+"QUD-ci-prE.text" = "أو";
+
+/* Class = "UITextField"; placeholder = "Code"; ObjectID = "YTW-fW-dA3"; */
+"YTW-fW-dA3.placeholder" = "الشفرة";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "aXg-eO-SFV"; */
+"aXg-eO-SFV.placeholder" = "مدينة";
+
+/* Class = "UILabel"; text = "You are just one step away from exploring and creating new and exciting luxurious products."; ObjectID = "bLi-JD-PKY"; */
+"bLi-JD-PKY.text" = "أنت على بعد خطوة واحدة من استكشاف وإنشاء منتجات فخمة جديدة ومثيرة.";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "btC-qC-CvH"; */
+"btC-qC-CvH.placeholder" = "كلمه السر";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "thM-DE-8o2"; */
+"thM-DE-8o2.placeholder" = "اسم";
+
+/* Class = "UITextField"; placeholder = "Email Address"; ObjectID = "ypH-0k-YcA"; */
+"ypH-0k-YcA.placeholder" = "عنوان البريد الإلكتروني";

@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Soudi Thoab"; ObjectID = "7mf-Dj-k4g"; */
+"7mf-Dj-k4g.text" = "Soudi Thoab";
+
+/* Class = "UILabel"; text = "Select measurement to proceed"; ObjectID = "KzC-sm-erl"; */
+"KzC-sm-erl.text" = "اختر القياس للمتابعة";
+
+/* Class = "UILabel"; text = "SELECT MEASUREMENT"; ObjectID = "RJ8-hC-CCP"; */
+"RJ8-hC-CCP.text" = "اختر القياس";
+
+/* Class = "UIButton"; normalTitle = "0"; ObjectID = "Rfc-DN-BoN"; */
+"Rfc-DN-BoN.normalTitle" = "0";
+
+/* Class = "UILabel"; text = "SR 00"; ObjectID = "YaA-PM-rpU"; */
+"YaA-PM-rpU.text" = "SR 00";
+
+/* Class = "UILabel"; text = "SELECT FABRIC"; ObjectID = "kCA-kH-vVI"; */
+"kCA-kH-vVI.text" = "اختيار النسيج";
+
+/* Class = "UILabel"; text = "Zion Dark Gray Cotton thoab"; ObjectID = "seb-Ud-tnH"; */
+"seb-Ud-tnH.text" = "Zion Dark Gray Cotton thoab";
+
+/* Class = "UILabel"; text = "Select fabric to proceed"; ObjectID = "tMr-r7-Ue7"; */
+"tMr-r7-Ue7.text" = "حدد قماش للمضي قدما";
+
+/* Class = "UILabel"; text = "Quantity :"; ObjectID = "vOB-ZS-iHu"; */
+"vOB-ZS-iHu.text" = "الكمية:";

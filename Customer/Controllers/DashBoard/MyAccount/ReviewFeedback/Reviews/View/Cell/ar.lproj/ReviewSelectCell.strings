@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Give your review a title"; ObjectID = "99M-T7-2BI"; */
+"99M-T7-2BI.text" = "امنح رأيك عنوانًا";
+
+/* Class = "UILabel"; text = "No"; ObjectID = "PZl-V3-5dh"; */
+"PZl-V3-5dh.text" = "لا";
+
+/* Class = "UILabel"; text = "Yes"; ObjectID = "oLb-lH-QKC"; */
+"oLb-lH-QKC.text" = "نعم فعلا";

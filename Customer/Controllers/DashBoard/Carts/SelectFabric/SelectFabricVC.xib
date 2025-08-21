@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Bold 700.ttf">
+            <string>Cairo-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectFabricVC" customModule="EZAR" customModuleProvider="target">
+            <connections>
+                <outlet property="tblView" destination="pfD-gr-wEz" id="x2R-GC-sRC"/>
+                <outlet property="titleLbl" destination="bha-ZZ-rKV" id="XkV-p9-uh7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="345"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHOOSE FABRIC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bha-ZZ-rKV">
+                    <rect key="frame" x="20" y="15" width="280" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="Y6G-7L-fDS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Cairo-Bold" family="Cairo" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="pfD-gr-wEz">
+                    <rect key="frame" x="0.0" y="48" width="320" height="297"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Avv-M2-65o"/>
+                        <outlet property="delegate" destination="-1" id="aWX-1T-KgX"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pfD-gr-wEz" secondAttribute="trailing" id="3Ba-0K-1RE"/>
+                <constraint firstItem="bha-ZZ-rKV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="3hL-Vy-YSe"/>
+                <constraint firstItem="bha-ZZ-rKV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="X5w-ch-PSb"/>
+                <constraint firstAttribute="trailing" secondItem="bha-ZZ-rKV" secondAttribute="trailing" constant="20" id="cDJ-lm-O2j"/>
+                <constraint firstItem="pfD-gr-wEz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gxV-Wr-AXq"/>
+                <constraint firstItem="pfD-gr-wEz" firstAttribute="top" secondItem="bha-ZZ-rKV" secondAttribute="bottom" constant="10" id="mwK-Pu-6g3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="pfD-gr-wEz" secondAttribute="bottom" id="rse-Ip-dT5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-41.221374045801525" y="98.239436619718319"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Regular 400.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+        <array key="Cairo SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LocationPopupVC" customModule="EZAR" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bWx-5S-Db6" customClass="ShaddowView" customModule="EZAR" customModuleProvider="target">
+                    <rect key="frame" x="95.5" y="233.5" width="184" height="200"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please select location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pq3-gr-ktP">
+                            <rect key="frame" x="15" y="32" width="154" height="32"/>
+                            <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                            <color key="textColor" red="0.078431372550000003" green="0.039215686270000001" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o90-mw-Wuy" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="150" width="184" height="50"/>
+                            <color key="backgroundColor" red="0.1137254902" green="0.094117647060000004" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="8nZ-OF-041"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="18"/>
+                            <state key="normal" title="Select location">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                    <color key="value" name="dark_gradient"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                    <color key="value" name="light_gradient"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQ1-PY-olr" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                            <rect key="frame" x="157" y="5" width="22" height="22"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="gqb-Cg-deR"/>
+                                <constraint firstAttribute="width" constant="22" id="h3a-pC-vLN"/>
+                            </constraints>
+                            <state key="normal" image="cancel_red"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="11"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="choose location" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="raY-Jr-N3z">
+                            <rect key="frame" x="15" y="84" width="154" height="28.5"/>
+                            <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="15"/>
+                            <color key="textColor" red="0.078431372550000003" green="0.039215686270000001" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="3Iw-Ss-f16"/>
+                        <constraint firstItem="pq3-gr-ktP" firstAttribute="top" secondItem="cQ1-PY-olr" secondAttribute="bottom" constant="5" id="8sG-Rw-VqZ"/>
+                        <constraint firstItem="cQ1-PY-olr" firstAttribute="top" secondItem="bWx-5S-Db6" secondAttribute="top" constant="5" id="JBw-Lh-iqj"/>
+                        <constraint firstItem="o90-mw-Wuy" firstAttribute="leading" secondItem="bWx-5S-Db6" secondAttribute="leading" id="WTN-al-dmv"/>
+                        <constraint firstAttribute="trailing" secondItem="pq3-gr-ktP" secondAttribute="trailing" constant="15" id="ZJo-X7-yfk"/>
+                        <constraint firstItem="raY-Jr-N3z" firstAttribute="top" secondItem="pq3-gr-ktP" secondAttribute="bottom" constant="20" id="es9-Zp-ZXZ"/>
+                        <constraint firstItem="o90-mw-Wuy" firstAttribute="top" relation="greaterThanOrEqual" secondItem="raY-Jr-N3z" secondAttribute="bottom" constant="5" id="faj-gY-iDd"/>
+                        <constraint firstAttribute="trailing" secondItem="o90-mw-Wuy" secondAttribute="trailing" id="fkh-XN-L4s"/>
+                        <constraint firstItem="raY-Jr-N3z" firstAttribute="leading" secondItem="bWx-5S-Db6" secondAttribute="leading" constant="15" id="jv5-km-XU6"/>
+                        <constraint firstAttribute="trailing" secondItem="raY-Jr-N3z" secondAttribute="trailing" constant="15" id="mZT-Oo-gNe"/>
+                        <constraint firstAttribute="bottom" secondItem="o90-mw-Wuy" secondAttribute="bottom" id="mdy-gt-IXg"/>
+                        <constraint firstAttribute="trailing" secondItem="cQ1-PY-olr" secondAttribute="trailing" constant="5" id="rDD-L3-HMC"/>
+                        <constraint firstItem="pq3-gr-ktP" firstAttribute="leading" secondItem="bWx-5S-Db6" secondAttribute="leading" constant="15" id="szY-Tc-6Q0"/>
+                        <constraint firstItem="pq3-gr-ktP" firstAttribute="centerX" secondItem="bWx-5S-Db6" secondAttribute="centerX" id="xSC-KM-JFk"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="bWx-5S-Db6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9tG-9s-Lmd"/>
+                <constraint firstItem="bWx-5S-Db6" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="iyE-4Z-xxv"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="142.57871064467767"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="cQ1-PY-olr">
+            <size key="intrinsicContentSize" width="32.5" height="32.5"/>
+        </designable>
+        <designable name="o90-mw-Wuy">
+            <size key="intrinsicContentSize" width="112" height="46"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="cancel_red" width="32.5" height="32.5"/>
+        <namedColor name="dark_gradient">
+            <color red="0.019607843137254902" green="0.15294117647058825" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="light_gradient">
+            <color red="0.21176470588235294" green="0.68235294117647061" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

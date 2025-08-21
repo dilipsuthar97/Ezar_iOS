@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "Quantity"; ObjectID = "11Q-lG-R29"; */
+"11Q-lG-R29.placeholder" = "كمية";
+
+/* Class = "UILabel"; text = "Design your thobe with following properties"; ObjectID = "OoA-Qw-cCn"; */
+"OoA-Qw-cCn.text" = "تصميم ثوبيك مع الخصائص التالية";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "YTc-iS-8Lx"; */
+"YTc-iS-8Lx.placeholder" = "اسم المستخدم";
+
+/* Class = "UILabel"; text = "Hello Abdullah"; ObjectID = "eSE-6C-BuF"; */
+"eSE-6C-BuF.text" = "مرحبا";
+
+/* Class = "UITextField"; placeholder = "Search Location"; ObjectID = "frE-97-2hG"; */
+"frE-97-2hG.placeholder" = "البحث الموقع";
+
+/* Class = "UITextField"; placeholder = "Shipping Date"; ObjectID = "weK-lS-QDj"; */
+"weK-lS-QDj.placeholder" = "تاريخ الشحن";

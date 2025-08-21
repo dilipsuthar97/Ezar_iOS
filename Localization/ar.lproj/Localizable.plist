@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customer_faqs</key>
+	<string>أسئلة وأجوبة</string>
+	<key>customer_select_measurement_to_proceed</key>
+	<string>يرجى اختيار المقاس للاستمرار</string>
+	<key>customer_contact_delegate</key>
+	<string>اتصل بالمندوب</string>
+	<key>customer_score_board</key>
+	<string>اللوحة</string>
+	<key>customer_select_fabric_to_proceed</key>
+	<string>يرجى اختيار القماش للاستمرار</string>
+	<key>customer_no_style_available</key>
+	<string>هذا الموديل غير متوفر</string>
+	<key>customer_no_reviews</key>
+	<string>التعليق غير متاح</string>
+	<key>customer_maxRange</key>
+	<string>هل تريد متابعة ادخال المقاس كـقيمة قصوى:</string>
+	<key>customer_available</key>
+	<string>متاح</string>
+	<key>customer_complete</key>
+	<string>مكتمل</string>
+	<key>customer_feedback_for_delegate</key>
+	<string>هل اعجبتك خدمة المندوب</string>
+	<key>contact_delegate</key>
+	<string>اتصل بالمندوب</string>
+	<key>PRODUCTS</key>
+	<string>منتجات</string>
+	<key>customer_sort</key>
+	<string>فرز</string>
+	<key>customer_payment_successful</key>
+	<string>تم الدفع بنجاح</string>
+	<key>customer_please_enter</key>
+	<string>دخول</string>
+	<key>customer_error_empty_quantity</key>
+	<string>الرجاء إدخال الكمية</string>
+	<key>customer_no_des_avail</key>
+	<string>لا يوجد وصف متاح</string>
+	<key>MANUFACTURER</key>
+	<string>المصنع</string>
+	<key>customer_choose style</key>
+	<string>اختار التفاصيل</string>
+	<key>customer_location_name</key>
+	<string>اسم الموقع</string>
+	<key>customer_edit_address</key>
+	<string>تعديل العنوان</string>
+	<key>customer_approve</key>
+	<string>موافقة</string>
+	<key>customer_show_more</key>
+	<string>أظهر المزيد</string>
+	<key>customer_select_size</key>
+	<string>أختر المقاس</string>
+	<key>customer_created_at</key>
+	<string>أنشئت في :</string>
+	<key>customer_office</key>
+	<string>المكتب</string>
+	<key>customer_popularity</key>
+	<string>الاكثر رواجاً</string>
+	<key>customer_choose_fabric</key>
+	<string>اختر قماش</string>
+	<key>customer_login</key>
+	<string>تسجيل الدخول</string>
+	<key>customer_nameAZ</key>
+	<string>اسم A-Z</string>
+	<key>customer_manufacturer</key>
+	<string>المصنع</string>
+	<key>customer_check_delegate_status_info_for_fabric</key>
+	<string>تحقق من حالة المندوب لمعاينة الاقمشه</string>
+	<key>app</key>
+	<string>استعراض</string>
+	<key>customer_comments_by_others</key>
+	<string>تعليقات من قبل الآخرين</string>
+	<key>error_internet_connection</key>
+	<string>الرجاء التحقق من اتصال الانترنت الخاص بك</string>
+	<key>customer_commision</key>
+	<string>عمولة المندوب</string>
+	<key>customer_measurement_no_zero</key>
+	<string>المقاس لا يمكن أن يكون صفرا.</string>
+	<key>Review_Item</key>
+	<string>مراجعة البند</string>
+	<key>customer_return_item</key>
+	<string>الاسترجاع</string>
+	<key>delegate_location_name</key>
+	<string>موقعك:</string>
+	<key>customer_error_empty_payment_method</key>
+	<string>يرجى تحديد طريقة الدفع</string>
+	<key>customer_side_pocket</key>
+	<string>الجيب جانبي</string>
+	<key>customer_share_text</key>
+	<string>هذا هو النص الذي أريد مشاركته.</string>
+	<key>delegate_request_for</key>
+	<string>مطلوب ل :</string>
+	<key>customer_social_password</key>
+	<string>لا يمكن للمستخدم تغيير كلمة المرور.</string>
+	<key>customer_remove</key>
+	<string>إزالة</string>
+	<key>customer_rated_higher</key>
+	<string>اعلى تصنيف</string>
+	<key>customer_remove_invalid_product</key>
+	<string>الرجاء إزالة المنتج الغير صحيح</string>
+	<key>customer_nearest_delegate</key>
+	<string>أقرب مندوب</string>
+	<key>customer_choose_your_location</key>
+	<string>اختر موقعك</string>
+	<key>customer_delegate_message</key>
+	<string>بمجرد الموافقة على الطلب ، ستكون قادرا على متابعة المندوب ، سيتم عرض مسار المندوب بمجرد موافقته.</string>
+	<key>customer_error_empty_location</key>
+	<string>يرجى تحديد الموقع.</string>
+	<key>customer_reward_points</key>
+	<string>نقاط مكافأة</string>
+	<key>customer_pocket</key>
+	<string>الجيب</string>
+	<key>customer_delivery_address</key>
+	<string>عنوان الشحن</string>
+	<key>delegate_instructions</key>
+	<string>تعليمات:</string>
+	<key>customer_requests</key>
+	<string>قائمة طلبات المندوبين</string>
+	<key>customer_enter_height</key>
+	<string>ادخل  مقاس الطول (سم)</string>
+	<key>customer_pending_requests</key>
+	<string>الطلبات قيد الانتظار</string>
+	<key>customer_track_order</key>
+	<string>تتبع الطلبية</string>
+	<key>customer_error_invalid_quantity</key>
+	<string>يرجى إدخال كمية صحيحة</string>
+	<key>customer_style</key>
+	<string>النمط</string>
+	<key>customer_superslim</key>
+	<string>ملاصق للجسم</string>
+	<key>customer_MyReturns</key>
+	<string>المرتجعات</string>
+	<key>customer_shippingAddress</key>
+	<string>عنوان الشحن</string>
+	<key>customer_paymentHistory</key>
+	<string>سجل المدفوعات</string>
+	<key>customer_delegate_details</key>
+	<string>تفاصيل المندوب</string>
+	<key>customer_invite_your_friends</key>
+	<string>ادعو اصدقائك</string>
+	<key>customer_review_title</key>
+	<string>ضع عنوان لتقييمك</string>
+	<key>customer_locate</key>
+	<string>حدد</string>
+	<key>customer_change_password</key>
+	<string>تغيير كلمة السر</string>
+	<key>customer_state</key>
+	<string>الوضع</string>
+	<key>customer_rangeAlert</key>
+	<string>والقيمة القصوى هي:</string>
+	<key>customer_free</key>
+	<string>مجانا</string>
+	<key>customer_check_your_address</key>
+	<string>تحقق من عنوانك</string>
+	<key>delegate_no_pending_request</key>
+	<string>ليس لديك طلب قيد الانتظار</string>
+	<key>customer_continue_shopping</key>
+	<string>مواصلة التسوق</string>
+	<key>customer_select_model</key>
+	<string>اختر الموديل</string>
+	<key>customer_comfort</key>
+	<string>مريح</string>
+	<key>customer_title</key>
+	<string>عنوان</string>
+	<key>customer_error_enter_valid</key>
+	<string>يرجى إدخال مدخلات صحيحة</string>
+	<key>no</key>
+	<string>لا</string>
+	<key>customer_choose_fabric_online_description</key>
+	<string>اختر قماش اونلاين من تشكيلة واسعه من مختلف الموردين</string>
+	<key>customer_logout</key>
+	<string>الخروج</string>
+	<key>customer_no_allorders</key>
+	<string>الطلبيات غير متاحة</string>
+	<key>delegate_approved_request</key>
+	<string>الطلبات الموافق عليها</string>
+	<key>customer_email_address_star</key>
+	<string>عنوان البريد الإلكتروني</string>
+	<key>customer_orderDetails</key>
+	<string>تفاصيل الطلبات</string>
+	<key>customer_explore_more_products</key>
+	<string>استكشاف المزيد من المنتجات</string>
+	<key>customer_edit_address_user_address</key>
+	<string>عنوان *</string>
+	<key>customer_bag_discount</key>
+	<string>الخصم من السلة</string>
+	<key>customer_submit</key>
+	<string>تأكيد الطلب</string>
+	<key>customer_help_how_to_use</key>
+	<string>كيفية الاستخدام</string>
+	<key>customer_perfect</key>
+	<string>مطابق للجسم</string>
+	<key>customer_shopping_bag</key>
+	<string>سلة التسوق</string>
+	<key>customer_signin</key>
+	<string>تسجيل الدخول</string>
+	<key>customer_feedback_and_review</key>
+	<string>التقييم والمراجعة</string>
+	<key>delegate_status</key>
+	<string>حالة التفويض معلقة</string>
+	<key>customer_arabic</key>
+	<string>Arabic</string>
+	<key>delegate_location_type</key>
+	<string>نوع الموقع:</string>
+	<key>customer_unavailable</key>
+	<string>غير متوفره</string>
+	<key>customer_nameZA</key>
+	<string>الاسم Z-A</string>
+	<key>customer_help_profile_change</key>
+	<string>تغيير الملف الشخصي</string>
+	<key>customer_measurement_option</key>
+	<string>خيارات المقاس غير متوفرة.</string>
+	<key>customer_select_height</key>
+	<string>حدد الطول</string>
+	<key>customer_bag_total</key>
+	<string>اجمالي السلة</string>
+	<key>customer_total_order</key>
+	<string>اجمالي الطلبية</string>
+	<key>customer_choose_fabric_online</key>
+	<string>اختيار القماش اون لاين</string>
+	<key>customer_nonZero_Quantity</key>
+	<string>رجاء تحديد كميه اكبر من صفر</string>
+	<key>Done</key>
+	<string>فعله</string>
+	<key>customer_min_fabric_required</key>
+	<string>الحد الأدنى من القماش المطلوب</string>
+	<key>delegate_view_card_visibile_condition_text</key>
+	<string>اكد وصولك لاظهار السله</string>
+	<key>customer_enter_type</key>
+	<string>حدد صنف</string>
+	<key>customer_measurements</key>
+	<string>مقاسات</string>
+	<key>customer_custom_made</key>
+	<string>تفصيل</string>
+	<key>order_tracking</key>
+	<string>متابعة الطلب</string>
+	<key>customer_update</key>
+	<string>تحديث</string>
+	<key>customer_Chat</key>
+	<string>دردشة</string>
+	<key>customer_camera</key>
+	<string>كاميرا</string>
+	<key>customer_quantity_colon</key>
+	<string>الكمية:</string>
+	<key>customer_size</key>
+	<string>الحجم</string>
+	<key>customer_add_new_address</key>
+	<string>إضافة عنوان جديد</string>
+	<key>customer_my_account</key>
+	<string>حسابي</string>
+	<key>customer_full_sleeves</key>
+	<string>اكمام كاملة</string>
+	<key>customer_enter_weight</key>
+	<string>اختر الوزن (كيلو)</string>
+	<key>customer_status</key>
+	<string>الحالة:</string>
+	<key>customer_call</key>
+	<string>اتصل</string>
+	<key>customer_men</key>
+	<string>رجالي</string>
+	<key>customer_zipper_style</key>
+	<string>نوع السحاب (السوسته)</string>
+	<key>customer_check_delegate_status</key>
+	<string>تحقق من حالة المندوب</string>
+	<key>customer_redeem</key>
+	<string>استخدام النقاط</string>
+	<key>customer_track_delegate</key>
+	<string>تتبع المندوب</string>
+	<key>customer_select_gender</key>
+	<string>حدد نوع الجنس</string>
+	<key>customer_price_details</key>
+	<string>تفاصيل السعر</string>
+	<key>customer_na</key>
+	<string>غير متوفر</string>
+	<key>customer_no_ready_orders</key>
+	<string>لا يوجد منتجات جاهزة متاحة</string>
+	<key>customer_BankAccountNumber</key>
+	<string>رقم الحساب المصرفي</string>
+	<key>customer_manufacturer_tailor</key>
+	<string>المصنع / الخياط</string>
+	<key>customer_latest_purchase</key>
+	<string>اخر المشتريات</string>
+	<key>customer_phone_number</key>
+	<string>رقم الهاتف</string>
+	<key>customer_default_address</key>
+	<string>العنوان الافتراضي</string>
+	<key>customer_email</key>
+	<string>البريد الإلكتروني</string>
+	<key>login</key>
+	<string>تسجيل الدخول</string>
+	<key>customer_payment_mode</key>
+	<string>طريقة الدفع</string>
+	<key>customer_points_to_expire</key>
+	<string>النقاط التي تنتهي صلاحيتها</string>
+	<key>customer_statusDel</key>
+	<string>الحالة</string>
+	<key>customer_quantity</key>
+	<string>الكمية</string>
+	<key>customer_measurement_name</key>
+	<string>حفظ المقاس باسم</string>
+	<key>customer_clear_all</key>
+	<string>حذف الكل</string>
+	<key>customer_country_code</key>
+	<string>مفتاح الدولة</string>
+	<key>customer_dummy_text</key>
+	<string>&quot;&quot;</string>
+	<key>customer_select_fit_info</key>
+	<string>يرجى الاطلاع على الفيديو لمعرفة فئة المقاس المناسبة لك</string>
+	<key>customer_max</key>
+	<string>الحد الاقصى</string>
+	<key>customer_enter_collar_size</key>
+	<string>حدد حجم الياقة</string>
+	<key>customer_cuff</key>
+	<string>الكبك</string>
+	<key>customer_filter</key>
+	<string>فلتر</string>
+	<key>customer_edit_product</key>
+	<string>تحرير المنتج</string>
+	<key>customer_empty_shopping_bag</key>
+	<string>سلة تسوق فارغة</string>
+	<key>customer_select_delivery_date</key>
+	<string>اختر تاريخ الشحن</string>
+	<key>customer_certified_buyer</key>
+	<string>المشتري المعتمد</string>
+	<key>customer_view_details</key>
+	<string>عرض التفاصيل</string>
+	<key>customer_rewards</key>
+	<string>المكافآت</string>
+	<key>customer_confirm_password</key>
+	<string>تأكيد كلمة المرور</string>
+	<key>customer_price_high_low</key>
+	<string>اعلى سعر - اقل سعر</string>
+	<key>customer_search_manufacturer</key>
+	<string>البحث عن الجهة المصنعة</string>
+	<key>customer_edit_address_postcode</key>
+	<string>* الرمز البريدي</string>
+	<key>Ok</key>
+	<string>حسنا</string>
+	<key>customer_let_search</key>
+	<string>ابدأ البحث</string>
+	<key>customer_already_member</key>
+	<string>بالفعل على إزار؟ تسجيل الدخول</string>
+	<key>customer_my_height</key>
+	<string>يرجي ادخال  الطول (اختياري)</string>
+	<key>customer_help_search_customer</key>
+	<string>بحث العميل</string>
+	<key>customer</key>
+	<string>زبون</string>
+	<key>customer_message</key>
+	<string>رسالة</string>
+	<key>customer_paymentDetails</key>
+	<string>تفاصيل الدفع</string>
+	<key>customer_straight</key>
+	<string>مستقيم</string>
+	<key>customer_see_all_reviews</key>
+	<string>مشاهدة جميع التعليقات</string>
+	<key>customer_female</key>
+	<string>القسم النسائي</string>
+	<key>customer_enter_size</key>
+	<string>ادخال القياس بالسنيمتر</string>
+	<key>customer_edit_address_contact_number</key>
+	<string>رقم الجوال*</string>
+	<key>customer_TransactionsHistory</key>
+	<string>سجل التحويلات</string>
+	<key>customer_shopping_bag_des</key>
+	<string>يرجى إضافة العناصر</string>
+	<key>customer_delivery_date</key>
+	<string>تاريخ التسليم لشركة الشحن</string>
+	<key>customer_password</key>
+	<string>كلمه السر</string>
+	<key>customer_check_status</key>
+	<string>تحقق من الحالة</string>
+	<key>customer_all</key>
+	<string>الكل</string>
+	<key>customer_confirm_pay</key>
+	<string>اكد و ادفع</string>
+	<key>customer_no_camera</key>
+	<string>ليس لديك كاميرا</string>
+	<key>customer_otp_verification</key>
+	<string>رمز التحقق</string>
+	<key>yes</key>
+	<string>نعم</string>
+	<key>customer_square_pocket</key>
+	<string>جيب مربع</string>
+	<key>customer_slim</key>
+	<string>ملائم</string>
+	<key>customer_vat</key>
+	<string>شامل ضريبة القيمة المضافة</string>
+	<key>invite_delegate</key>
+	<string>دعوة مندوب</string>
+	<key>customer_delivery</key>
+	<string>تكلفة الشحن</string>
+	<key>customer_whats_new</key>
+	<string>ما الجديد</string>
+	<key>customer_edit_address_state</key>
+	<string>الولاية / المنطقة *</string>
+	<key>customer_filter_price_title</key>
+	<string>قم بالتمرير لتحديد نطاق الحد الادنى والحد الاقصى للاسعار</string>
+	<key>customer_enter_measurement_to_proceed</key>
+	<string>رجاء ادخال المقاس للمتابعة</string>
+	<key>customer_get_directions</key>
+	<string>الحصول على الاتجاهات</string>
+	<key>customer_unable_invite_friend</key>
+	<string>غير قادر على دعوة الأصدقاء ، يرجى المحاولة بعد مرور بعض الوقت</string>
+	<key>customer_register</key>
+	<string>تسجيل</string>
+	<key>customer_settings</key>
+	<string>إعدادات</string>
+	<key>customer_Rating_Error</key>
+	<string>الرجاء إدخال تصنيف النجوم</string>
+	<key>customer_password_validation</key>
+	<string>يجب أن تحتوي كلمة المرور على 8 أحرف.</string>
+	<key>customer_ReturnId</key>
+	<string>رقم المرتجع:</string>
+	<key>READY MADE</key>
+	<string>جاهز</string>
+	<key>customer_shipping_method</key>
+	<string>طريقة الشحن</string>
+	<key>customer_fit</key>
+	<string>مناسب</string>
+	<key>customer_select_thobe_type</key>
+	<string>اختر نوع الثوب</string>
+	<key>customer_no_custom_orders</key>
+	<string>لا توجد منتجات تفصيل متاحة</string>
+	<key>customer_choose</key>
+	<string>أختر</string>
+	<key>customer_username</key>
+	<string>بريد إلكتروني</string>
+	<key>customer_name</key>
+	<string>الاسم</string>
+	<key>customer_approve_reject_request</key>
+	<string>الموافقة / رفض الطلب</string>
+	<key>customer_edit_profile</key>
+	<string>تحرير الملف الشخصي</string>
+	<key>customer_street</key>
+	<string>شارع</string>
+	<key>customer_otp_verification_info</key>
+	<string>الرجاء الانتظار استكشاف رمز التحقق تلقائيًا. يرجى إدخال الرمز يدويًا إذا لم يتم اكتشافه بواسطة النظام.</string>
+	<key>customer_emailaddress</key>
+	<string>عنوان البريد الإلكتروني</string>
+	<key>password_not_match</key>
+	<string>كلمة السر غير مطابقة</string>
+	<key>customer_previous_measurement</key>
+	<string>المقاس السابق</string>
+	<key>customer_help_give_feedback</key>
+	<string>ابداء الملاحظات</string>
+	<key>customer_per_item</key>
+	<string>لكل بند</string>
+	<key>customer_size_chart_na</key>
+	<string>معلومات جدول المقاسات غير متوفرة في الوقت الحالي</string>
+	<key>customer_favorite</key>
+	<string>المفضلة</string>
+	<key>customer_city_star</key>
+	<string>مدينة*</string>
+	<key>customer_continue_process</key>
+	<string>استمرار</string>
+	<key>customer_points</key>
+	<string>نقاط</string>
+	<key>customer_zabour</key>
+	<string>الجبزور</string>
+	<key>customer_item_total_initial</key>
+	<string>الاجمالي:0.0</string>
+	<key>customer_updated_at</key>
+	<string>تم التحديث في :</string>
+	<key>ALL</key>
+	<string>الكل</string>
+	<key>customer_english</key>
+	<string>English</string>
+	<key>customer_content_description</key>
+	<string>صورة</string>
+	<key>customer_edit_this_product</key>
+	<string>هل أنت متأكد من أنك تريد تحرير هذا المنتج؟</string>
+	<key>customer_product_list_empty</key>
+	<string>قائمة المنتجات فارغة</string>
+	<key>customer_women</key>
+	<string>نساء</string>
+	<key>customer_select</key>
+	<string>تحديد</string>
+	<key>customer_cufflink_style</key>
+	<string>نوع الكبك</string>
+	<key>customer_loading_shopping_bag</key>
+	<string>سلة التسوق</string>
+	<key>customer_hello</key>
+	<string>مرحبا</string>
+	<key>customer_item_initial</key>
+	<string>(صنف(0</string>
+	<key>customer_password_star</key>
+	<string>كلمه السر*</string>
+	<key>customer_price_is</key>
+	<string>السعر هو</string>
+	<key>customer_not_edit_this_product</key>
+	<string>لا يمكنك تحرير هذا المنتج.</string>
+	<key>customer_forgot_password</key>
+	<string>نسيت كلمة المرور؟</string>
+	<key>customer_subscribed</key>
+	<string>مشترك</string>
+	<key>customer_you_will_get</key>
+	<string>ستحصل</string>
+	<key>customer_track_delegate_info_for_fabric</key>
+	<string>تعقب المندوب المطلوب لمعاينة القماش</string>
+	<key>delegate_no_approved_request</key>
+	<string>ليس لديك طلب موافق عليه</string>
+	<key>delegate_pending_request</key>
+	<string>طلب المندوب لا يزال معلقًا. بعد الموافقة على الطلب ستكون قادرًا على متابعة المندوب ، لن يتم عرض مسار المندوب إلا بعد موافقته</string>
+	<key>customer_category</key>
+	<string>الفئة</string>
+	<key>customer_search</key>
+	<string>بحث</string>
+	<key>customer_help_login_issue</key>
+	<string>مشكلة في تسجيل الدخول</string>
+	<key>customer_ready_made</key>
+	<string>جاهز</string>
+	<key>customer_phoneno</key>
+	<string>رقم الجوال</string>
+	<key>delegate_request_instruction</key>
+	<string>طلب التعليمات:</string>
+	<key>customer_signup_title</key>
+	<string>أنت على بعد خطوة واحدة من استكشاف او تفصيل منتجات فاخرة جديدة</string>
+	<key>customer_delete_product</key>
+	<string>حذف المنتج</string>
+	<key>customer_my_own_fabric</key>
+	<string>قماشي الخاص</string>
+	<key>customer_apply_coupon</key>
+	<string>استخدام الكوبون</string>
+	<key>customer_product_info_not_available</key>
+	<string>معلومات المنتج غير متوفرة</string>
+	<key>customer_move_to_bag</key>
+	<string>الانتقال إلى السله</string>
+	<key>delegate_riyal_free</key>
+	<string>لكل صديق يقوم بالانضمام  ، تحصل على 100 ريال مجاناً.</string>
+	<key>customer_total_payable</key>
+	<string>اجمالي المستحق</string>
+	<key>customer_edit_address_country</key>
+	<string>* بلد</string>
+	<key>customer_forgot_password_title</key>
+	<string>هل نسيت كلمة المرور</string>
+	<key>customer_signup</key>
+	<string>التسجيل</string>
+	<key>customer_request_delegate</key>
+	<string>طلب المندوب</string>
+	<key>customer_date_of_birth</key>
+	<string>تاريخ الميلاد</string>
+	<key>customer_mobile</key>
+	<string>الجوال :</string>
+	<key>customer_coupon_code</key>
+	<string>أدخل رمز الكوبون</string>
+	<key>CUSTOM MADE</key>
+	<string>تفصيل</string>
+	<key>customer_item_total</key>
+	<string>الاجمالي :</string>
+	<key>customer_option_selection</key>
+	<string>يرجى اختيار احد الخيارات.</string>
+	<key>customer_vat_value_initial</key>
+	<string>0%</string>
+	<key>customer_info_plus</key>
+	<string>مزيد من المعلومات +</string>
+	<key>customer_confirm_password_star</key>
+	<string>تأكيد كلمة المرور*</string>
+	<key>customer_weight</key>
+	<string>الوزن</string>
+	<key>customer_collar</key>
+	<string>الرقبة</string>
+	<key>customer_country</key>
+	<string>بلد</string>
+	<key>customer_project_delegate</key>
+	<string>المندوبين</string>
+	<key>customer_help</key>
+	<string>مساعدة</string>
+	<key>DELEGATE</key>
+	<string>مندوب</string>
+	<key>customer_loose</key>
+	<string>واسع</string>
+	<key>customer_order_id</key>
+	<string>رقم الطلب :</string>
+	<key>customer_my_weight</key>
+	<string>يرجي ادخال الوزن (اختياري)</string>
+	<key>customer_price_low_high</key>
+	<string>اقل سعر - اعلى سعر</string>
+	<key>customer_skip</key>
+	<string>تخطى</string>
+	<key>customer_Comment</key>
+	<string>تعليق</string>
+	<key>delegate_review_title</key>
+	<string>ضع عنوانًا لتقييمك</string>
+	<key>customer_orderdeliveryDate</key>
+	<string>تاريخ تسليم الطلبية</string>
+	<key>customer_change_language</key>
+	<string>تغيير اللغة</string>
+	<key>customer_delete_account</key>
+	<string>حذف الحساب</string>
+	<key>customer_delete_account_msg</key>
+	<string>هل انت متأكد انك تريد حذف الحساب؟</string>
+	<key>customer_properties</key>
+	<string>الخصائص</string>
+	<key>customer_mobile_number</key>
+	<string>رقم الجوال</string>
+	<key>customer_design_title</key>
+	<string>صمم</string>
+	<key>customer_select_fit</key>
+	<string>اختر الانسب لك</string>
+	<key>customer_delete_this_product</key>
+	<string>هل أنت متأكد من أنك تريد حذف هذا المنتج؟</string>
+	<key>customer_delete_measure</key>
+	<string>حذف القياس</string>
+	<key>customer_delete_this_measure</key>
+	<string>هل أنت متأكد من أنك تريد حذف هذا القياس؟</string>
+	<key>customer_no_favorite_delegate</key>
+	<string>لايوجد مندوبين مفضلين</string>
+	<key>customer_size_chart</key>
+	<string>جدول مقاسات</string>
+	<key>customer_select_fabric</key>
+	<string>اختيار القماش</string>
+	<key>cancel_request_message</key>
+	<string>هل أنت متأكد من أنك تريد إلغاء هذا الطلب؟</string>
+	<key>customer_black_white</key>
+	<string>أبيض &amp; أسود</string>
+	<key>customer_info</key>
+	<string>#اسم؟</string>
+	<key>customer_postcode</key>
+	<string>* الرمز البريدي</string>
+	<key>customer_edit_address_name</key>
+	<string>* الاسم</string>
+	<key>customer_review_description</key>
+	<string>اكتب تقييمك</string>
+	<key>customer_home</key>
+	<string>الشاشة الرئيسية</string>
+	<key>customer_invite_code</key>
+	<string>مشاركة رمز الدعوة الخاص بك</string>
+	<key>customer_select_section</key>
+	<string>اختر القسم</string>
+	<key>cancel</key>
+	<string>إلغاء</string>
+	<key>customer_old_password</key>
+	<string>كلمة المرور القديمة</string>
+	<key>customer_your_message</key>
+	<string>رسالتك</string>
+	<key>customer_saved_address</key>
+	<string>العنوان المحفوظ</string>
+	<key>customer_track_project_delegate</key>
+	<string>تتبع موقع المندوب</string>
+	<key>customer_notifications</key>
+	<string>اشعارات</string>
+	<key>customer_add_new_measurement</key>
+	<string>إضافة مقاس جديد</string>
+	<key>customer_IBANNumber</key>
+	<string>رقم IBAN</string>
+	<key>customer_filters</key>
+	<string>فلاتر</string>
+	<key>customer_delegate</key>
+	<string>مندوب</string>
+	<key>customer_reviews</key>
+	<string>التعليقات</string>
+	<key>customer_measurement_details</key>
+	<string>تفاصيل القياس</string>
+	<key>customer_Bank_Name</key>
+	<string>اسم البنك</string>
+	<key>customer_height</key>
+	<string>الطول</string>
+	<key>customer_enable_gps</key>
+	<string>تمكين موقع GPS الخاص بك</string>
+	<key>customer_fabric_included</key>
+	<string>تكلفة القماش ضمن سعر المنتج</string>
+	<key>customer_phone_number_star</key>
+	<string>رقم الجوال</string>
+	<key>customer_sleeve</key>
+	<string>الكم</string>
+	<key>customer_measurement_loose_weight</key>
+	<string>مثلا:مقاسي في عيد الفطر</string>
+	<key>customer_help_feedback</key>
+	<string>ردود الفعل والمساعدة</string>
+	<key>customer_send_message</key>
+	<string>ارسل رسالة</string>
+	<key>customer_error_empty_message</key>
+	<string>يرجى إدخال نص الرسالة</string>
+	<key>please_provide_email</key>
+	<string>يرجى تقديم بريد إلكتروني</string>
+	<key>customer_gift_wrap</key>
+	<string>الهدايا</string>
+	<key>customer_working_days</key>
+	<string>أيام العمل</string>
+	<key>customer_apply</key>
+	<string>تطبيق</string>
+	<key>customer_rating</key>
+	<string>التقييم</string>
+	<key>customer_address</key>
+	<string>العنوان</string>
+	<key>customer_choose_image</key>
+	<string>اختيار صورة</string>
+	<key>customer_loading_shopping_bag_des</key>
+	<string>جار التحميل...</string>
+	<key>customer_orderID</key>
+	<string>رقم الطلبيه :</string>
+	<key>customer_push_notification</key>
+	<string>تمكين الاشعارات</string>
+	<key>customer_notes</key>
+	<string>ملاحظات :</string>
+	<key>customer_instructions</key>
+	<string>تعليمات</string>
+	<key>customer_orders</key>
+	<string>مشترياتي</string>
+	<key>customer_total_order_amount</key>
+	<string>اجمالي مبلغ المشتريات</string>
+	<key>customer_or</key>
+	<string>أو تسجيل الدخول من خلال</string>
+	<key>customer_new_password</key>
+	<string>كلمة مرور جديدة</string>
+	<key>customer_previous_measurements</key>
+	<string>مقاسي السابق</string>
+	<key>customer_select_deliver_method</key>
+	<string>اختر طريقة الشحن</string>
+	<key>customer_take_from_existing_garment</key>
+	<string>اخذ القياس من ثوب موجود</string>
+	<key>customer_need_help</key>
+	<string>أحتاج إلى مساعدة بشأن ما يلي:</string>
+	<key>cancel_Request</key>
+	<string>إلغاء الطلب</string>
+	<key>customer_see</key>
+	<string>مشاهدة</string>
+	<key>customer_error_player</key>
+	<string>يوجد خطاء في مشغل الفيديو</string>
+	<key>customer_confirm_details</key>
+	<string>تأكيد التفاصيل</string>
+	<key>signup</key>
+	<string>سجل الان</string>
+	<key>customer_mark_arrived</key>
+	<string>تاكيد وصول المندوب</string>
+	<key>customer_contact_project_delegate_nearby_you</key>
+	<string>اتصل بأقرب مندوب اليك واطلب منه الحصول على عينات الاقمشة وايضا المقاسات</string>
+	<key>customer_gallery</key>
+	<string>الالبوم</string>
+	<key>customer_custommade_outfit</key>
+	<string>يرجى ملاحظة أن كل المنتجات هي ملابس مفصله حسب الطلب</string>
+	<key>customer_arrived</key>
+	<string>وصل</string>
+	<key>customer_price</key>
+	<string>السعر</string>
+	<key>customer_orderTotal</key>
+	<string>اجمالي قيمة الطلبية</string>
+	<key>customer_error_empty_name</key>
+	<string>من فضلك أدخل</string>
+	<key>customer_gps_location</key>
+	<string>موقع GPS</string>
+	<key>customer_other</key>
+	<string>اخرى</string>
+	<key>customer_customized</key>
+	<string>حسب الطلب</string>
+	<key>customer_orderHistory</key>
+	<string>سجل المشتريات</string>
+	<key>customer_sub_total</key>
+	<string>المجموع الفرعي</string>
+	<key>customer_order_amount</key>
+	<string>الكمية المطلوبة</string>
+	<key>customer_request_id</key>
+	<string>رقم الطلب</string>
+	<key>customer_selectLanguage</key>
+	<string>لغة التطبيق</string>
+	<key>customer_save</key>
+	<string>حفظ</string>
+	<key>customer_item</key>
+	<string>صنف</string>
+	<key>customer_payment_method</key>
+	<string>طريقة الدفع</string>
+	<key>customer_select_measurement</key>
+	<string>اختيار المقاس</string>
+	<key>customer_qty</key>
+	<string>الكمية</string>
+	<key>customer_total_reward_points</key>
+	<string>اجمالي نقاط المكافأة</string>
+	<key>customer_my_previous_measurement</key>
+	<string>مقاسي السابق</string>
+	<key>customer_my_tailor_measurement</key>
+	<string>مقاسى عند الخياط</string>
+	<key>customer_invite_friends</key>
+	<string>دعوة الاصدقاء</string>
+	<key>delegate_view_map</key>
+	<string>اظهار الخريطة</string>
+	<key>customer_start_from</key>
+	<string>يبدأ من :</string>
+	<key>customer_male</key>
+	<string>القسم الرجالي</string>
+	<key>customer_order_status</key>
+	<string>حالة الطلب :</string>
+	<key>customer_pending</key>
+	<string>معلق</string>
+	<key>customer_add_to_cart</key>
+	<string>أضافة إلى السلة</string>
+	<key>customer_my_collar_size_hint</key>
+	<string>يرجي ادخال مقاس الرقبه (اختياري)</string>
+	<key>customer_new_flag</key>
+	<string>جديد</string>
+	<key>customer_view_map</key>
+	<string>عرض الخريطة</string>
+	<key>customer_country_title</key>
+	<string>بلد</string>
+	<key>customer_request_details</key>
+	<string>طلب تفاصيل</string>
+	<key>customer_no_measurement</key>
+	<string>لم يتم العثور على قياسات</string>
+	<key>customer_track_location</key>
+	<string>تتبع المندوب</string>
+	<key>customer_paymentRequests</key>
+	<string>المدفوعات</string>
+	<key>customer_kServerError</key>
+	<string>عفوا! حدث خطأ ما</string>
+	<key>customer_coupon_discount</key>
+	<string>خصم الكوبون</string>
+	<key>customer_payment</key>
+	<string>الدفع</string>
+	<key>customer_place_order</key>
+	<string>اتمام الشراء</string>
+	<key>customer_take_measurements</key>
+	<string>اخذ المقاس</string>
+	<key>customer_off</key>
+	<string>٪ خصم</string>
+	<key>customer_purchasedDate</key>
+	<string>تاريخ الشراء</string>
+	<key>customer_delivery_instruction</key>
+	<string>تفاصيل اضافيه للعنوان والشحن</string>
+	<key>customer_invalid_product</key>
+	<string>هذا منتج غير صحيح</string>
+	<key>customer_measurement_name_star</key>
+	<string>يرجي ادخال اسم للمقاس*</string>
+	<key>customer_next</key>
+	<string>التالى</string>
+	<key>customer_my_own_fabric_description</key>
+	<string>اذا كان لديك قماش خاص حدد هذا الاختيار</string>
+	<key>customer_products</key>
+	<string>منتجات</string>
+	<key>customer_options</key>
+	<string>خيارات</string>
+	<key>customer_no_favorite_products</key>
+	<string>لا يوجد منتجات مفضله متاحة</string>
+	<key>customer_contact_number</key>
+	<string>رقم الجوال</string>
+	<key>cutomer_video_description</key>
+	<string>يرجى مشاهدة الفيديو لتحديد النوع المناسب لك.</string>
+	<key>address_not_available</key>
+	<string>العنوان غير متوفر</string>
+	<key>customer_city</key>
+	<string>مدينة*</string>
+	<key>customer_resend_otp</key>
+	<string>اعادة ارسال رمز التحقق</string>
+	<key>customer_select_make</key>
+	<string>اختار</string>
+	<key>customer_let_go</key>
+	<string>لنبدأ</string>
+	<key>customer_Time_Out</key>
+	<string>نفذ الوقت</string>
+	<key>customer_minRange</key>
+	<string>هل تريد متابعة ادخال المقاس كـقيمة صغرى:</string>
+	<key>customer_Returned</key>
+	<string>المرتجع</string>
+	<key>customer_no_favorite_seller</key>
+	<string>لايتوفر بائعين مفضلين</string>
+	<key>customer_coupon_empty_message</key>
+	<string>يرجى إدخال كود الكوبون</string>
+	<key>customer_warning</key>
+	<string>تنبية</string>
+	<key>customer_no_account</key>
+	<string>عضوا في ايزار ؟ سجل</string>
+	<key>customer_default_title</key>
+	<string>(الافتراضي)</string>
+	<key>customer_discount</key>
+	<string>حسب الخصم</string>
+	<key>customer_error_invalid_otp</key>
+	<string>يرجى ادخال رمز تحقق صحيح</string>
+	<key>customer_search_location</key>
+	<string>البحث عن الموقع</string>
+	<key>customer_edit_address_city</key>
+	<string>مدينة*</string>
+	<key>customer_reject</key>
+	<string>رفض</string>
+	<key>customer_view_cart</key>
+	<string>عرض السله</string>
+	<key>customer_change_address</key>
+	<string>تغيير العنوان</string>
+	<key>customer_video_tutorial_failure</key>
+	<string>تم اتباع الفيديو التعليمي أدناه ، ولكنه وجدته قديمًا اومعقدًا.</string>
+	<key>customer_max_rating_value</key>
+	<string>/5</string>
+	<key>customer_use_this_address</key>
+	<string>استخدم هذا العنوان</string>
+	<key>customer_customerID</key>
+	<string>رقم العميل</string>
+	<key>customer_CustomerName</key>
+	<string>اسم العميل</string>
+	<key>customer_paymentMethod</key>
+	<string>طريقة الدفع</string>
+	<key>customer_purchasePoint</key>
+	<string>نقطة الشراء</string>
+	<key>customer_requestID</key>
+	<string>رقم الطلب</string>
+	<key>customer_amount</key>
+	<string>المبلغ</string>
+	<key>customer_requestDate</key>
+	<string>التاريخ المطلوب</string>
+	<key>customer_paymentMade</key>
+	<string>تم الدفع</string>
+	<key>customer_paidDate</key>
+	<string>تاريخ الدفع</string>
+	<key>customer_delegateID</key>
+	<string>تعريف المندوب</string>
+	<key>customer_transactionID</key>
+	<string>رقم  التحويل</string>
+	<key>customer_transactionType</key>
+	<string>نوع التحويل</string>
+	<key>customer_date</key>
+	<string>التاريخ</string>
+	<key>customer_delegateCharges</key>
+	<string>رسوم المندوب</string>
+	<key>customer_perPiece</key>
+	<string>لكل سعر</string>
+	<key>customer_perOrder</key>
+	<string>لكل طلبية</string>
+	<key>customer_totalAmount</key>
+	<string>اجمالي المبلغ</string>
+	<key>customer_enterComment</key>
+	<string>ادخال تعليق</string>
+	<key>customer_amountMsg</key>
+	<string>يجب أن يكون المبلغ الذي أدخلته أقل أو يساوي إجمالي المبلغ</string>
+	<key>customer_commentMsg</key>
+	<string>رجاء ادخال التعليق</string>
+	<key>customer_emptyMsg</key>
+	<string>لايمكن ترك الخانه فارغة</string>
+	<key>customer_amountValidMsg</key>
+	<string>رجاء ادخال مبلغ صحيح</string>
+	<key>customer_withdrawAmount</key>
+	<string>سحب المبلغ</string>
+	<key>customer_enterAmount</key>
+	<string>ادخل المبلغ</string>
+	<key>customer_rewardsHistory</key>
+	<string>سجل المكافأت</string>
+	<key>customer_login_required</key>
+	<string>ينبغي تسجيل الدخول</string>
+	<key>customer_guest_alert</key>
+	<string>يرجى تسجيل الدخول للاطلاع على الخصائص</string>
+	<key>minValueAlert</key>
+	<string>هل ترغب في متابعة ادخال القيمة الصغرى للمقاس</string>
+	<key>maxValueAlert</key>
+	<string>والقيمة القصوى هي:</string>
+	<key>onlyMinValue</key>
+	<string>هل ترغب في متابعة ادخال القيمة الصغرى للمقاس</string>
+	<key>onlyMaxValueAlert</key>
+	<string>هل ترغب في متابعة ادخال القيمة القصوى للمقاس</string>
+	<key>customer_skipSign</key>
+	<string>تخطي كزائر</string>
+	<key>customer_update_password</key>
+	<string>يرجى ادخال كلمة السر الجديدة</string>
+	<key>customer_info_minus</key>
+	<string>معلومات اضافية</string>
+	<key>customer_termsAndCondition</key>
+	<string>الشروط والاحكام</string>
+	<key>customer_privacy_policy</key>
+	<string>سياسة الخصوصية</string>
+	<key>customer_offer</key>
+	<string>العروض</string>
+	<key>customer_shippingDate</key>
+	<string>تاريخ الشحن</string>
+	<key>customer_rewardspoinsInWallet</key>
+	<string>النقاط المتوفرة في الحافظة</string>
+	<key>customer_conversationRate</key>
+	<string>معامل التحويل ل 1 ريال سعودي</string>
+	<key>customer_remaining_reward_points</key>
+	<string>النقاط المتبقية</string>
+	<key>customer_description</key>
+	<string>الوصف</string>
+	<key>customer_created</key>
+	<string>انشئت في</string>
+	<key>customer_balance</key>
+	<string>الرصيد</string>
+	<key>customer_DownloadPdf</key>
+	<string>تحمل البروشور</string>
+	<key>customer_Download_Success</key>
+	<string>تم التحميل بنجاح</string>
+	<key>customer_chooseOptions</key>
+	<string>اختر الخيارات</string>
+	<key>customer_broadCast_request</key>
+	<string>اختيار عشوائي</string>
+	<key>customer_ChooseList</key>
+	<string>اختر من القائمة</string>
+	<key>customer_soldBy</key>
+	<string>بيع بواسطة</string>
+	<key>customer_style_info</key>
+	<string>معلوات الموديل</string>
+	<key>customer_noData_available</key>
+	<string>لا تتوفر بيانات</string>
+	<key>customer_request_broadcasted</key>
+	<string>اختيار عشوائي</string>
+	<key>customer_model_type</key>
+	<string>نوع الموديل</string>
+	<key>customer_measurement_type</key>
+	<string>نوع المقاسات</string>
+	<key>customer_request_already_broadcasted</key>
+	<string>تم الاختيار مسبقا</string>
+	<key>customer_not_downloaded</key>
+	<string>فشل في التحميل</string>
+	<key>customer_not_available</key>
+	<string>غير متوفر</string>
+	<key>customer_seller_not_avaliable</key>
+	<string>غير متوفر لدى هذا البائع بالتاريخ المحددزز ارجو اختيار تاريخ اخر</string>
+	<key>customer_select_empty_msg</key>
+	<string>يرجى اختيار</string>
+	<key>customer_please_rate</key>
+	<string>يرجي تقييم </string>
+	<key>customer_product_review</key>
+	<string>استعراض المنتج</string>
+	<key>customer_delegate_review</key>
+	<string>استعراض المعلمين</string>
+	<key>customer_seller_review</key>
+	<string>استعراض البائعين</string>
+	<key>customer_reviewed</key>
+	<string>تم المراجعة</string>
+	<key>customer_delegate_msg</key>
+	<string>الرجاء البحث عن أي مندوب ثم يمكنك إعطاء للمراجعة عن المفوض</string>
+	<key>customer_minValMsg</key>
+	<string>قد تكون هذه القياسات غير مناسبة لاحظ أن القياس المتوقع بين N / A و N / A هل تريد المتابعة على مسؤوليتك الخاصة.</string>
+	<key>customer_maxValMsg</key>
+	<string>هل تريد الاستمرار على مسؤوليتك؟</string>
+	<key>customer_and</key>
+	<string>و</string>
+	<key>customer_product_feedback</key>
+	<string>هل اعجبك هذا المنتج؟</string>
+	<key>customer_seller_feedback</key>
+	<string>هل اعجبك هذا الخياط؟</string>
+	<key>customer_select_category</key>
+	<string>اختر الفئة</string>
+	<key>please_text</key>
+	<string>يرجي</string>
+	<key>customer_payment_id</key>
+	<string>رقم الدفع</string>
+	<key>customer_return_item_msg</key>
+	<string>ليس لديك اي منتج للارجاع</string>
+	<key>customer_product_select_msg</key>
+	<string>الرجاء اختيار المنتج المراء ارجاعة</string>
+	<key>customer_delivered_status</key>
+	<string>تم التوصيل</string>
+	<key>customer_style_msg</key>
+	<string>الرجاء النقر فوق رمز القلم الرصاص لتحديد النمط للمتابعة.</string>
+	<key>customer_search_text</key>
+	<string>الرجاء اختيار نص البحث</string>
+	<key>customer_see_other_request</key>
+	<string>انظر الطلبات الأخرى</string>
+	<key>customer_style_charges</key>
+	<string>تكلفة التفاصيل الاضافيه</string>
+	<key>customer_current_location</key>
+	<string>الموقع الحالي</string>
+	<key>customer_track_status_processing</key>
+	<string>معالجة</string>
+	<key>customer_track_status_refunded</key>
+	<string>تم رد الأموال</string>
+	<key>customer_track_status_shipped</key>
+	<string>شحنها</string>
+	<key>customer_track_status_complete</key>
+	<string>اكتمال</string>
+	<key>customer_close</key>
+	<string>مغلق</string>
+	<key>customer_needHelp</key>
+	<string>تحتاج مساعدة ؟</string>
+	<key>customer_select_this_location</key>
+	<string>حدد هذا الموقع</string>
+	<key>customer_reorder</key>
+	<string>اعد الطلب</string>
+	<key>customer_configure_product</key>
+	<string>الخيارات واضافه للسله</string>
+	<key>customer_whatsApp_us</key>
+	<string>راسلنا علي WhatsApp</string>
+	<key>customer_vat_price</key>
+	<string>سعر ضريبة القيمة المضافة</string>
+	<key>customer_scan_body</key>
+	<string>اخذ القياس عن طريق الكاميرا</string>
+	<key>customer_terms_and_condition_msg</key>
+	<string>يرجي الموافقه علي الشروط والاحكام</string>
+	<key>customer_scan_body_desc</key>
+	<string>هل تريد فعلا ارسال هذه المقاسات</string>
+	<key>customer_store_msg</key>
+	<string>يرجي الضغط علي هذا في التطبيق</string>
+	<key>customer_delivery_time</key>
+	<string>التوصيل خلال</string>
+	<key>customer_body_detail</key>
+	<string>تفاصيل القياسات</string>
+	<key>customer_body_detail_msg</key>
+	<string>يرجي ادخال تفاصيل القياسات</string>
+	<key>customer_validation_msg</key>
+	<string>الرجاء ادخال كل القياسات</string>
+	<key>customer_preview_photo</key>
+	<string>إستعراض</string>
+	<key>customer_confirm_photo</key>
+	<string>تاكيد</string>
+	<key>customer_retake_photo</key>
+	<string>اعادة اخذ المقاس</string>
+	<key>customer_retake_msg</key>
+	<string>هل تريد فعلا اعادة التصوير</string>
+	<key>customer_confirm_msg</key>
+	<string>هل تريد فعل ارسال الصور</string>
+	<key>customer_confirm</key>
+	<string>تاكيد</string>
+	<key>customer_height_msg</key>
+	<string>يرجي ادخال طولك كاملا( من اعلى الراس الي القدم )</string>
+	<key>customer_weight_msg</key>
+	<string>ادحل وزنك الحالى</string>
+	<key>customer_measurement_msg</key>
+	<string>قياسك قيد المراجعة ، يرجى المحاولة مرة أخرى بعد مرور بعض الوقت</string>
+	<key>customer_upright_msg</key>
+	<string>يرجي وضع الجهاز بشكل مستقيم</string>
+	<key>customer_move_msg</key>
+	<string>ممتاز الان ابتعد عن الجهاز </string>
+	<key>customer_start_msg</key>
+	<string>بداية</string>
+	<key>customer_name_msg</key>
+	<string>ادخل اسم للمقاس(مثلا مقاس رمضان -مقاس خالد) </string>
+	<key>customer_fit_msg</key>
+	<string>يرجي اختيار الوسع المناسب</string>
+	<key>customer_edit_size</key>
+	<string>تحديث المقاس </string>
+	<key>UPLOADING_SEQUENCE</key>
+	<string>يرجى الانتظار، جارى معالجة الصور...</string>
+	<key>UPLOAD_ERROR</key>
+	<string>حدث خطأ اثناء معالجة الصور ، برجاء اعادة المحاولة مرة اخرى</string>
+	<key>NE_DEVICE_VERTICALITY_WARNING</key>
+	<string>الجهازُ ليس في وضعِهِ الصحيحْ. تأكدْ من أنهُ ليسَ مَائِلًا.</string>
+	<key>NE_BEFORE_SCAN_SPEECH_SHORT</key>
+	<string>قِفْ في مواجهةِ الجوالْ. وسيبدأُ الفحصُ تلقائِّيًا او إسْتَخْدِمْ زِرّ التّسجيلِ عَلَى الشّاشَة.</string>
+	<key>NE_FRONT_PICTURE_SPEECH_SHORT</key>
+	<string>لنبدأ التَّصوِير يَجِبُ أن يكونَ جسمك كاملًا وذراعيك دَاخِل الشّاشة. وحَافِظْ على جسمك بمنتصف الخَطّ الأَخضَرِ واسْتَمِع إلى العَدُّ.</string>
+	<key>NE_FRONT_AUTOSTART_PICTURE_SPEECH_SHORT</key>
+	<string>حافِظْ على هذا الوَضْع .</string>
+	<key>NE_SIDE_PICTURE_SPEECH_SHORT</key>
+	<string>لِنَقُمْ بتَصْوِير الوَضْع الجَانِبي. اسْتَدر إلى اليَمِينِ وجانِبُكَ الأَيْسَر مُوَاجِهًا للجوالْ وَقَف مُسْتَقِيمًا. اجْعَل جسمك في مُنْتَصَفِ الْخَطّ الْأَخْضَر، وَاسْتَمِعْ إلَى العَدّ.</string>
+	<key>NE_BACKGROUND_PICTURE_SPEECH_SHORT</key>
+	<string>أَخِيرًا، اِبتعِدْ عَن الكاميرا واُتْرُكْ الْمَكَانَ فَارِغًا لِيَأْخُذَ الْجِهَازُ صُورَةَ الخلفِيَّهْ.</string>
+	<key>NE_AFTER_SCAN_SPEECH_SHORT</key>
+	<string>شكرا لكْ.</string>
+	<key>NE_DEVICE_VERTICALITY_ERROR_SHORT</key>
+	<string>الجهازُ ليس في وضعِهِ الصحيحْ. تأكدْ من أنهُ ليسَ مَائِلًا.</string>
+	<key>NE_ONE_SPEECH</key>
+	<string>One</string>
+	<key>NE_TWO_SPEECH</key>
+	<string>Two</string>
+	<key>NE_THREE_SPEECH</key>
+	<string>Three</string>
+	<key>NE_NO_CAMERA_ACCESS</key>
+	<string>طلب الوصول</string>
+	<key>NE_NO_CAMERA_ACCESS_MSG_IOS8</key>
+	<string>Ezar needs your permission for Camera access. Please tap on \&quot;Setting\&quot; to allow it.</string>
+	<key>NE_NO_CAMERA_ACCESS_SETTINGS</key>
+	<string>الاعدادات</string>
+	<key>NE_NO_CAMERA_ACCESS_CANCEL</key>
+	<string>الغاء</string>
+	<key>NE_CONFIRM_QUIT_CAMERASCREEN</key>
+	<string>انت على وشك الغاء اخد القياسات، هل تريد الالغاء؟</string>
+	<key>NE_CONTINUE</key>
+	<string>انت على وشك الغاء اخد القياسات، هل تريد الالغاء؟</string>
+	<key>NE_QUIT</key>
+	<string>اغلاق</string>
+	<key>NE_OK</key>
+	<string>حسنا</string>
+	<key>NE_RECORDING_PICTURES</key>
+	<string>جارى معالجة الصور...</string>
+	<key>NE_PREFLIGHT_MISSING_CONFIGURATION</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_PREFLIGHT_MISSING_USERINFO_0</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_PREFLIGHT_REQUEST_1_ERROR</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_PREFLIGHT_DUPLICATEID</key>
+	<string>هذا المستخدم موجود بالفعل.</string>
+	<key>NE_PREFLIGHT_UNKNOWNUSER</key>
+	<string>لم يتم العثور على هذا المستخدم.</string>
+	<key>NE_PREFLIGHT_NO_INTERNET</key>
+	<string>الخدمة غير متوفرة.  تحقق من الإنترنت على جهازك أو أعد المحاولة لاحقًا.</string>
+	<key>NE_PREFLIGHT_MISSING_USERINFO_1</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_PREFLIGHT_REQUEST_2_ERROR</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_PREFLIGHT_MISSING_USERINFO_2</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_PREFLIGHT_REQUEST_3_ERROR</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_PREFLIGHT_REQUEST_4_ERROR</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_WS_NOT_HTTP_RESPONSE</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_WS_INVALID_HTTP_CODE</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_WS_EXPECTED_JSON_DICTIONNARY</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_WS_EXPECTED_JSON_ARRAY</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_WS_CHECK_CONNECTION</key>
+	<string>الخدمة غير متوفرة.  تحقق من الإنترنت على جهازك أو أعد المحاولة لاحقًا.</string>
+	<key>NE_WS_AMAZON_NOT_HTTP_RESPONSE</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_WS_AMAZON_INVALID_HTTP_CODE</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_DEFAULT_ERROR</key>
+	<string>حدث خطأ أثناء معالجة هذا الطلب</string>
+	<key>NE_DEFAULT_WS_ERROR</key>
+	<string>الخدمة غير متوفرة.  تحقق من الإنترنت على جهازك أو أعد المحاولة لاحقًا.</string>
+	<key>NE_DEFAULT_UNATTENDED_ANSWER_WS_ERROR</key>
+	<string>معذرة ، الخدمة غير متاحة مؤقتًا ، يرجى المحاولة مرة أخرى لاحقًا.</string>
+	<key>NE_DEFAULT_CREDENTIALS_WS_ERROR</key>
+	<string>الخدمة غير متوفرة.  تحقق من الإنترنت على جهازك أو أعد المحاولة لاحقًا.</string>
+	<key>NE_DEFAULT_CONNECTION_WS_ERROR</key>
+	<string>الخدمة غير متوفرة.  تحقق من الإنترنت على جهازك أو أعد المحاولة لاحقًا.</string>
+	<key>NE_NO_INTERNET_TITLE</key>
+	<string>Oops !</string>
+	<key>NE_NO_INTERNET_MESSAGE</key>
+	<string>الخدمة غير متوفرة.  تحقق من الإنترنت على جهازك أو أعد المحاولة لاحقًا.</string>
+	<key>NE_GENERIC_ERROR_TITLE</key>
+	<string>خطأ !</string>
+	<key>NE_GENERIC_ERROR</key>
+	<string>حدث خطأ أثناء معالجة هذا الطلب</string>
+	<key>NE_BEFORE_SCAN_SPEECH</key>
+	<string>قِفْ في مواجهةِ الجوالْ. وسيبدأُ الفحصُ تلقائِيًا او إسْتخْدِمْ زِرّ التّسجيلِ على الشّاشَة.</string>
+	<key>NE_FRONT_PICTURE_SPEECH</key>
+	<string>لنبدأ التَّصوِير يَجِبُ أن يكونَ جسمك كاملًا وذراعيك دَاخِل الشّاشة. وحَافِظْ على جسمك بمنتصف الخَطّ الأَخضَر واسْتَمِع إلى العَدُّ.</string>
+	<key>NE_FRONT_AUTOSTART_PICTURE_SPEECH</key>
+	<string>حافِظْ على هذا الوضعْ .</string>
+	<key>NE_SIDE_PICTURE_SPEECH</key>
+	<string>لِنَقُمْ بتَصْوِير الوَضْع الجانبي. اسْتَدر إلى اليَمِينِ وجانِبُكَ الأَيْسَر مُوَاجِهًا للجوالْ وَقَف مُسْتَقِيمًا. اجْعَل جسمك في مُنْتَصَفِ الْخَطّ الْأَخْضَر، وَاسْتَمِعْ إلَى العَدّ.</string>
+	<key>NE_BACKGROUND_PICTURE_SPEECH</key>
+	<string>أَخِيرًا، اِبتعِدْ عَن الكاميرا واُتْرُكْ الْمَكَانَ فَارِغًا لِيَأْخُذَ الْجِهَازُ صُورَةَ الخلفِيَّهْ.</string>
+	<key>NE_AFTER_SCAN_SPEECH</key>
+	<string>شكرا لكْ.</string>
+	<key>NE_DEVICE_VERTICALITY_ERROR</key>
+	<string>الجهازُ ليس في وضعِهِ الصحيحْ. تأكدْ من أنهُ ليسَ مَائِلاً.</string>
+	<key>customer_tailor_measurement</key>
+	<string>مقاساتي السابقة لدي الخياط </string>
+	<key>customer_tailor_details</key>
+	<string>قياس الخياط</string>
+	<key>customer_tailor_measurement_title</key>
+	<string>الرجاء إدخال التفاصيل الخاصة بك في الخياط
+</string>
+	<key>customer_tailor_measurement_placeholder</key>
+	<string>تفاصيلي عند الخياط (ضع معرفك أو رقم هاتفك عند الخياط)
+</string>
+	<key>customer_tailor_details_validation_msg</key>
+	<string>الرجاء إدخال تفاصيل تريلور</string>
+	<key>customer_orderCancel</key>
+	<string>يلغي</string>
+	<key>customer_cancel_item_msg</key>
+	<string>المنتجات بالفعل بالطريق إليك ولا يمكن استرجاعها الآن ولكن يمكنك بعد الاستلام ارسال طلب استرجاع مع ملاحظاتك</string>
+	<key>customer_updateMeasurement</key>
+	<string>قياس التحديث</string>
+	<key>customer_scanIntro</key>
+	<string>فحص مقدمة</string>
+	<key>onboarding_title1</key>
+	<string>تسوق ملابسك المفضلة من أفضل المتاجر</string>
+	<key>onboarding_description1</key>
+	<string>تسوق أفضل الملابس من بين مئات المتاجر المميزة على مستوى المملكة</string>
+	<key>onboarding_title2</key>
+	<string>فصل ثوبك على كيفك واستلمه في أقل وقت</string>
+	<key>onboarding_description2</key>
+	<string>قم بتفصيل ثوبك على ذوقك في أمهر المصانع والخياطين من حولك</string>
+	<key>onboarding_title3</key>
+	<string>طرق دفع أمنة ومستقرة لإكمال طلبك</string>
+	<key>onboarding_description3</key>
+	<string>نقدم باقة من أفضل طرق الدفع لإكمال طلبك ودفعه بثقة وأمان</string>
+	<key>onboarding_title4</key>
+	<string>نوصل طلبك لحد باب بيتك في وقت قصير</string>
+	<key>onboarding_description4</key>
+	<string>فضل طرق التوصيل الأمنة والمستقرة لتوصيل
+طلبيتك لحد عندك </string>
+	<key>verify_account</key>
+	<string>تفعيل حسابك</string>
+	<key>dont_receive</key>
+	<string>لم يصلك ؟ أعد الارسال</string>
+	<key>verify_text</key>
+	<string> أدخل كود التفعيل المرسل الى رقم جوالك لتفعيل حسابك</string>
+	<key>sign_up_name</key>
+	<string>الإسم</string>
+	<key>sign_up_mobile</key>
+	<string>رقم الجوال</string>
+	<key>sign_up_email</key>
+	<string>البريد الالكتروني</string>
+	<key>sign_up_password</key>
+	<string>كلمة المرور</string>
+	<key>sign_up_confirmpassword</key>
+	<string>تأكيد كلمة المرو</string>
+	<key>sign_up_city</key>
+	<string>المدينة</string>
+	<key>sign_up_privacy</key>
+	<string>أوافق على كل الشروط والأحكام</string>
+	<key>sign_up_register</key>
+	<string>انشاء حساب</string>
+	<key>sign_up_or</key>
+	<string>أو سجل من خلال</string>
+	<key>register_now</key>
+	<string>انشاء حساب</string>
+	<key>mobile_placeholder</key>
+	<string>مثال : ٥٥٦٦٩٧١١</string>
+	<key>city_placeholder</key>
+	<string>مثال : الرياض</string>
+	<key>forgot_pass</key>
+	<string>استرجاع كلمة المرور</string>
+	<key>enter_email</key>
+	<string>أدخل البريد الإلكتروني لارسال كود استرجاع كلمة المرور</string>
+	<key>forget_otp_text</key>
+	<string>أدخل كود استرجاع كلمة المرور المرسل الى بريدك الإلكتروني</string>
+	<key>resend_it</key>
+	<string> أعد الارسال</string>
+	<key>dont_arrive</key>
+	<string>لم يصلك ؟</string>
+	<key>reset_now</key>
+	<string>استرجاع الأن</string>
+	<key>btn_verify_acc</key>
+	<string>تفعيل حسابي</string>
+	<key>new_password</key>
+	<string>كلمة المرور الجديدة</string>
+	<key>new_pass_text</key>
+	<string>أدخل كلمة المرور الجديدة للدخول لحسابك</string>
+	<key>confirm_new_password</key>
+	<string>تأكيد كلمة المرور الجديدة</string>
+	<key>confirm_btn</key>
+	<string>تأكيد</string>
+	<key>forget_pass_popup</key>
+	<string>تم ارسال كود استرجاع كلمة المرور بنجاح
+الى info@gmail.com</string>
+	<key>verify_acc_popup</key>
+	<string>تم تفعيل حسابك بنجاح</string>
+	<key>reset_pass_popup</key>
+	<string>تم إسترجاع كلمة المرور بنجاح</string>
+	<key>ezar</key>
+	<string>EZAR</string>
+	<key>search_manufacturer</key>
+	<string>البحث عن الشركة المصنعة</string>
+	<key>select_model</key>
+	<string>حدد النموذج</string>
+	<key>New item</key>
+	<string></string>
+	<key>tailor_your_dress</key>
+	<string>خياط فستانك</string>
+	<key>style_next</key>
+	<string>التالي</string>
+	<key>go_to_basket</key>
+	<string>الذهاب الي السلة</string>
+	<key>seller_bio</key>
+	<string>معلومات المورد</string>
+	<key>model</key>
+	<string>الموديلات</string>
+	<key>your_request_has_been_sent</key>
+	<string>تم إرسال طلبك ، سيتصل بك المندوب قريبًا!</string>
+	<key>all</key>
+	<string>الجميع</string>
+	<key>with_delegate</key>
+	<string>مع المندوب </string>
+	<key>something_wrong</key>
+	<string>هناك خطأ ما. حاول مرة اخرى.</string>
+	<key>delete</key>
+	<string>يمسح</string>
+	<key>Search</key>
+	<string>يبحث</string>
+	<key>info_choose_fabric_info</key>
+	<string>ما هي كمية القماش التي ستكون 0 والتي سيتم تضمينها مع سعر الموديل فقط! ولكن إذا كانت كمية القماش أكبر من 0، فسيتم حسابها منفصلة بمقدار 3.5 متر مع السعر المذكور.</string>
+	<key>delegate_available</key>
+	<string>المندوب غير متواجد في هذا الموقع ، ولكن يمكنك الاستمرار في التسوق واستخدام المسح بواسطة الكاميرا أو القياسات السابقة!</string>
+	<key>your_referral_code2</key>
+	<string>شارك رابط الإحالة الخاص بك مع أصدقائك وعائلتك وقم بتقديمهم إلى eZAR بالإضافة إلى فرصة الحصول على المكافآت!</string>
+	<key>model_details</key>
+	<string>تفاصيل المنتج </string>
+	<key>email_sent</key>
+	<string>تم ارسال البريد الالكتروني بنجاح.</string>
+	<key>choose_styles</key>
+	<string>اختار التفاصيل</string>
+	<key>intive_friends</key>
+	<string>دعوة الأصدقاء</string>
+	<key>your_referral_code_copy</key>
+	<string>تم نسخ رابط الدعوة إلى الحافظة</string>
+	<key>your_referral_code</key>
+	<string>رمز الإحالة الخاص بك</string>
+	<key>intive_friends_2</key>
+	<string>قم بدعوة الأصدقاء على EZAR</string>
+	<key>profile</key>
+	<string>مظهر</string>
+	<key>home</key>
+	<string>بيت</string>
+	<key>offers</key>
+	<string>عروض</string>
+	<key>carts</key>
+	<string>عربات</string>
+</dict>
+</plist>

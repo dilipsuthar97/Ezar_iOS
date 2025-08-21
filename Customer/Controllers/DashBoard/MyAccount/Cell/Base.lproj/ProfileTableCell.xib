@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProfileTableCell" rowHeight="179" id="KGk-i7-Jjw" customClass="ProfileTableCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="179"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="179"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uil-hy-zW7">
+                        <rect key="frame" x="138" y="8" width="178" height="163"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pou-oy-lp3">
+                                <rect key="frame" x="0.0" y="10" width="178" height="30"/>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="16"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OAB-gy-Jbc">
+                                <rect key="frame" x="0.0" y="44" width="178" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QG2-UD-LTr">
+                                <rect key="frame" x="0.0" y="80.5" width="174" height="24.5"/>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="13"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tcn-wP-XXp">
+                                <rect key="frame" x="0.0" y="52" width="174" height="24.5"/>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="13"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="fill" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V16-qg-YFY" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="113" width="101" height="42"/>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="17"/>
+                                <state key="normal" title="EDIT PROFILE">
+                                    <color key="titleColor" red="0.85098039215686272" green="0.2196078431372549" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QG2-UD-LTr" firstAttribute="leading" secondItem="uil-hy-zW7" secondAttribute="leading" id="7OF-oz-530"/>
+                            <constraint firstItem="OAB-gy-Jbc" firstAttribute="leading" secondItem="uil-hy-zW7" secondAttribute="leading" id="9J1-Gg-gtA"/>
+                            <constraint firstAttribute="bottom" secondItem="V16-qg-YFY" secondAttribute="bottom" constant="8" id="H6H-Qe-NzF"/>
+                            <constraint firstItem="pou-oy-lp3" firstAttribute="top" secondItem="uil-hy-zW7" secondAttribute="top" constant="10" id="NwN-q0-5GJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Tcn-wP-XXp" secondAttribute="trailing" constant="4" id="WVA-40-NE1"/>
+                            <constraint firstItem="Tcn-wP-XXp" firstAttribute="top" secondItem="OAB-gy-Jbc" secondAttribute="bottom" constant="8" id="ZbN-Pi-awJ"/>
+                            <constraint firstAttribute="trailing" secondItem="OAB-gy-Jbc" secondAttribute="trailing" id="ZuL-lt-vd4"/>
+                            <constraint firstItem="OAB-gy-Jbc" firstAttribute="top" secondItem="pou-oy-lp3" secondAttribute="bottom" constant="4" id="bjc-bP-atx"/>
+                            <constraint firstItem="V16-qg-YFY" firstAttribute="leading" secondItem="uil-hy-zW7" secondAttribute="leading" id="cOn-Gl-wVw"/>
+                            <constraint firstItem="QG2-UD-LTr" firstAttribute="top" secondItem="Tcn-wP-XXp" secondAttribute="bottom" constant="4" id="dR1-Wm-tHz"/>
+                            <constraint firstAttribute="trailing" secondItem="QG2-UD-LTr" secondAttribute="trailing" constant="4" id="ewL-0t-whW"/>
+                            <constraint firstItem="Tcn-wP-XXp" firstAttribute="leading" secondItem="uil-hy-zW7" secondAttribute="leading" id="hD8-EO-7Yw"/>
+                            <constraint firstAttribute="trailing" secondItem="pou-oy-lp3" secondAttribute="trailing" id="kYK-Fj-NoO"/>
+                            <constraint firstItem="V16-qg-YFY" firstAttribute="top" secondItem="QG2-UD-LTr" secondAttribute="bottom" constant="8" id="oD6-C3-z1g"/>
+                            <constraint firstItem="pou-oy-lp3" firstAttribute="leading" secondItem="uil-hy-zW7" secondAttribute="leading" id="ula-u4-ei2"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder_user" translatesAutoresizingMaskIntoConstraints="NO" id="jWL-BE-18C">
+                        <rect key="frame" x="8" y="20" width="120" height="130"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="130" id="9Gg-co-ea8"/>
+                            <constraint firstAttribute="width" constant="120" id="fY8-AB-GKU"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.94901961089999998" green="0.94901961089999998" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="uil-hy-zW7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="1PG-fa-jEH"/>
+                    <constraint firstItem="jWL-BE-18C" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="4Pb-F6-5bV"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="jWL-BE-18C" secondAttribute="bottom" constant="20" id="NTB-J2-ys0"/>
+                    <constraint firstItem="uil-hy-zW7" firstAttribute="leading" secondItem="jWL-BE-18C" secondAttribute="trailing" constant="10" id="Psn-bu-CMc"/>
+                    <constraint firstAttribute="trailing" secondItem="uil-hy-zW7" secondAttribute="trailing" constant="4" id="hQj-Qp-evX"/>
+                    <constraint firstAttribute="bottom" secondItem="uil-hy-zW7" secondAttribute="bottom" constant="8" id="oUj-EI-BFW"/>
+                    <constraint firstItem="jWL-BE-18C" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="sOC-vZ-2Du"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addressLabel" destination="OAB-gy-Jbc" id="fnI-vt-Cix"/>
+                <outlet property="editButton" destination="V16-qg-YFY" id="JMB-yF-UkN"/>
+                <outlet property="emailLabel" destination="Tcn-wP-XXp" id="Ag0-KC-tgP"/>
+                <outlet property="mobileNoLabel" destination="QG2-UD-LTr" id="sRs-cG-aOn"/>
+                <outlet property="nameLabel" destination="pou-oy-lp3" id="6tY-yF-eyk"/>
+                <outlet property="profileImgView" destination="jWL-BE-18C" id="Jup-VD-XeP"/>
+            </connections>
+            <point key="canvasLocation" x="-1.6000000000000001" y="69.265367316341838"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="V16-qg-YFY">
+            <size key="intrinsicContentSize" width="101" height="44"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="placeholder_user" width="103" height="102.5"/>
+    </resources>
+</document>

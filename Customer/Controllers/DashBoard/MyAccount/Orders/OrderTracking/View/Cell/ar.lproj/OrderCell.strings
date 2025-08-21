@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "1"; ObjectID = "9C5-eB-jw4"; */
+"9C5-eB-jw4.text" = "1";
+
+/* Class = "UILabel"; text = "Created At :"; ObjectID = "BBT-9x-oY2"; */
+"BBT-9x-oY2.text" = "أنشئت في :";
+
+/* Class = "UILabel"; text = "Order Status :"; ObjectID = "OCu-ec-Wz5"; */
+"OCu-ec-Wz5.text" = "حالة الطلب :";
+
+/* Class = "UIButton"; normalTitle = "Return Item"; ObjectID = "PgK-Xt-I4j"; */
+"PgK-Xt-I4j.normalTitle" = "عودة البند";
+
+/* Class = "UILabel"; text = "Order Id :"; ObjectID = "Z8B-zr-rZR"; */
+"Z8B-zr-rZR.text" = "رقم التعريف الخاص بالطلب :";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "g9b-7F-Kni"; */
+"g9b-7F-Kni.text" = "1";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "iCi-za-d5y"; */
+"iCi-za-d5y.text" = "1";

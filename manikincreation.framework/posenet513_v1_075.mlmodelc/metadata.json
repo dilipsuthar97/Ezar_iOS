@@ -1,0 +1,94 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "shortDescription" : "Ver.0.0.1",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Double",
+        "formattedType" : "MultiArray (Double 32 × 33 × 33)",
+        "shortDescription" : "",
+        "shape" : "[32, 33, 33]",
+        "name" : "displacement_bwd_2__0",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Double",
+        "formattedType" : "MultiArray (Double 32 × 33 × 33)",
+        "shortDescription" : "",
+        "shape" : "[32, 33, 33]",
+        "name" : "displacement_fwd_2__0",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Double",
+        "formattedType" : "MultiArray (Double 34 × 33 × 33)",
+        "shortDescription" : "",
+        "shape" : "[34, 33, 33]",
+        "name" : "offset_2__0",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Double",
+        "formattedType" : "MultiArray (Double 17 × 33 × 33)",
+        "shortDescription" : "",
+        "shape" : "[17, 33, 33]",
+        "name" : "heatmap__0",
+        "type" : "MultiArray"
+      }
+    ],
+    "storagePrecision" : "Float32",
+    "modelParameters" : [
+
+    ],
+    "author" : "Infocom TPO",
+    "specificationVersion" : 1,
+    "license" : "MIT",
+    "computePrecision" : "Float16",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "10.13",
+      "tvOS" : "11.0",
+      "watchOS" : "4.0",
+      "iOS" : "11.0",
+      "macCatalyst" : "11.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_neuralNetwork"
+    },
+    "inputSchema" : [
+      {
+        "height" : "513",
+        "colorspace" : "RGB",
+        "isOptional" : "0",
+        "width" : "513",
+        "isColor" : "1",
+        "formattedType" : "Image (Color 513 × 513)",
+        "hasSizeFlexibility" : "0",
+        "type" : "Image",
+        "shortDescription" : "",
+        "name" : "image__0"
+      }
+    ],
+    "userDefinedMetadata" : {
+
+    },
+    "generatedClassName" : "posenet513_v1_075",
+    "neuralNetworkLayerTypeHistogram" : {
+      "ActivationLinear" : 54,
+      "Convolution" : 31,
+      "ActivationSigmoid" : 1,
+      "BatchNorm" : 31,
+      "ActivationReLU" : 27,
+      "UnaryThreshold" : 27
+    },
+    "method" : "predict"
+  }
+]

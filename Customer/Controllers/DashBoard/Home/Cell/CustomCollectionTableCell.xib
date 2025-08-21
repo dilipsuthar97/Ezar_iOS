@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ElMessiri-Bold.ttf">
+            <string>ElMessiri-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomCollectionTableCell" rowHeight="228" id="KGk-i7-Jjw" customClass="CustomCollectionTableCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="337" height="228"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="337" height="228"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dqv-uV-zcA">
+                        <rect key="frame" x="10" y="10" width="317" height="208"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="sPj-YM-Kau">
+                                <rect key="frame" x="8" y="28" width="301" height="170"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="RRr-ac-1tL">
+                                    <size key="itemSize" width="150" height="190"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <connections>
+                                    <outlet property="dataSource" destination="-1" id="KZJ-aN-5SF"/>
+                                    <outlet property="delegate" destination="-1" id="vj7-2N-bjD"/>
+                                </connections>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore More Products" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ix9-hb-7F8">
+                                <rect key="frame" x="8" y="0.0" width="299" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Jvs-jL-G9c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ElMessiri-Bold" family="El Messiri" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sPj-YM-Kau" secondAttribute="trailing" constant="8" id="1bD-Aj-Beq"/>
+                            <constraint firstItem="sPj-YM-Kau" firstAttribute="leading" secondItem="Dqv-uV-zcA" secondAttribute="leading" constant="8" id="47S-fp-mfS"/>
+                            <constraint firstAttribute="trailing" secondItem="Ix9-hb-7F8" secondAttribute="trailing" constant="10" id="6La-rj-uuJ"/>
+                            <constraint firstAttribute="bottom" secondItem="sPj-YM-Kau" secondAttribute="bottom" constant="10" id="CJn-Is-d14"/>
+                            <constraint firstItem="Ix9-hb-7F8" firstAttribute="top" secondItem="Dqv-uV-zcA" secondAttribute="top" id="cVW-Zu-xTk"/>
+                            <constraint firstItem="sPj-YM-Kau" firstAttribute="top" secondItem="Ix9-hb-7F8" secondAttribute="bottom" id="mjG-s8-rGM"/>
+                            <constraint firstItem="Ix9-hb-7F8" firstAttribute="leading" secondItem="Dqv-uV-zcA" secondAttribute="leading" constant="8" id="woL-cx-5mK"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Dqv-uV-zcA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Kow-Ba-Tid"/>
+                    <constraint firstAttribute="trailing" secondItem="Dqv-uV-zcA" secondAttribute="trailing" constant="10" id="WGS-R4-Y5C"/>
+                    <constraint firstItem="Dqv-uV-zcA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Yed-iK-F17"/>
+                    <constraint firstAttribute="bottom" secondItem="Dqv-uV-zcA" secondAttribute="bottom" constant="10" id="cMu-If-lvQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="categoryTitleLabel" destination="Ix9-hb-7F8" id="99H-Lp-Dsu"/>
+                <outlet property="categoryTitleLabelHeight" destination="Jvs-jL-G9c" id="ECc-51-wAH"/>
+                <outlet property="collectionView" destination="sPj-YM-Kau" id="fp9-cv-Y6e"/>
+                <outlet property="viewTop" destination="Kow-Ba-Tid" id="R9w-Oc-YQR"/>
+            </connections>
+            <point key="canvasLocation" x="-173.5" y="-202"/>
+        </tableViewCell>
+    </objects>
+</document>

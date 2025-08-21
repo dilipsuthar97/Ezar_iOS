@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Rated Heigher then most in Shanghai"; ObjectID = "33c-in-eE9"; */
+"33c-in-eE9.text" = "يقيم هيغتر ثم معظم في شنغهاي";
+
+/* Class = "UITextField"; placeholder = "Select Shipping Date"; ObjectID = "8H7-fa-7xx"; */
+"8H7-fa-7xx.placeholder" = "اختر تاريخ الشحن";
+
+/* Class = "UIButton"; normalTitle = " + INFO"; ObjectID = "EJc-9J-OHz"; */
+"EJc-9J-OHz.normalTitle" = "+ معلومات";
+
+/* Class = "UILabel"; text = "SR 00"; ObjectID = "JND-hB-WmH"; */
+"JND-hB-WmH.text" = "SR 00";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "R0L-Eo-EGt"; */
+"R0L-Eo-EGt.text" = "الفئة";
+
+/* Class = "UILabel"; text = "Shipping Date:"; ObjectID = "WTE-rX-qKB"; */
+"WTE-rX-qKB.text" = "تاريخ الشحن:";
+
+/* Class = "UILabel"; text = "Qty:"; ObjectID = "bnR-Rw-x2B"; */
+"bnR-Rw-x2B.text" = "الكمية:";
+
+/* Class = "UILabel"; text = "No description Available"; ObjectID = "bwX-NT-QCI"; */
+"bwX-NT-QCI.text" = "لا يوجد وصف متاح";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "dCo-Mg-eNs"; */
+"dCo-Mg-eNs.text" = "عنوان";
+
+/* Class = "UITextField"; placeholder = "Qty"; ObjectID = "dPk-12-iii"; */
+"dPk-12-iii.placeholder" = "الكمية";

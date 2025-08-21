@@ -1,0 +1,12 @@
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "A3F-6S-9AX"; */
+"A3F-6S-9AX.placeholder" = "بلد";
+
+/* Class = "UITextField"; placeholder = "Address *"; ObjectID = "HNF-qj-lEE"; */
+"HNF-qj-lEE.placeholder" = "عنوان *";
+
+/* Class = "UILabel"; text = "*"; ObjectID = "Q7v-D5-1hf"; */
+"Q7v-D5-1hf.text" = "*";
+
+/* Class = "UILabel"; text = "Contact Number"; ObjectID = "nmg-wU-HS5"; */
+"nmg-wU-HS5.text" = "رقم التواصل";

@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Points to expire"; ObjectID = "538-SV-pBZ"; */
+"538-SV-pBZ.text" = "النقاط التي تنتهي صلاحيتها";
+
+/* Class = "UILabel"; text = "Total Reward Points :"; ObjectID = "GR5-oh-jwq"; */
+"GR5-oh-jwq.text" = "نقاط المكافأة الإجمالية:";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "Krz-ZZ-6ig"; */
+"Krz-ZZ-6ig.text" = "200";
+
+/* Class = "UILabel"; text = "28-10-2018"; ObjectID = "Z4X-sa-Rtc"; */
+"Z4X-sa-Rtc.text" = "28-10-2018";
+
+/* Class = "UIButton"; normalTitle = "REDEEM"; ObjectID = "tH5-gq-Zr3"; */
+"tH5-gq-Zr3.normalTitle" = "استرداد القيمة";

@@ -1,0 +1,188 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name manikincreation
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Accelerate
+import CoreML
+import Darwin
+import Foundation
+import Swift
+import UIKit
+import VideoToolbox
+import Vision
+import _Concurrency
+import _StringProcessing
+public func ** (lhs: manikincreation.Tensor, rhs: manikincreation.Tensor) -> manikincreation.Tensor
+public func ** (lhs: manikincreation.Tensor, rhs: manikincreation.Tensor.Element) -> manikincreation.Tensor
+public func ** (lhs: manikincreation.Tensor.Element, rhs: manikincreation.Tensor) -> manikincreation.Tensor
+extension manikincreation.Tensor {
+  public func sin() -> manikincreation.Tensor
+  public func cos() -> manikincreation.Tensor
+  public func tan() -> manikincreation.Tensor
+  public func asin() -> manikincreation.Tensor
+  public func acos() -> manikincreation.Tensor
+  public func atan() -> manikincreation.Tensor
+  public func sinh() -> manikincreation.Tensor
+  public func cosh() -> manikincreation.Tensor
+  public func tanh() -> manikincreation.Tensor
+  public func exp() -> manikincreation.Tensor
+  public func log() -> manikincreation.Tensor
+  public func sqrt() -> manikincreation.Tensor
+  public func cbrt() -> manikincreation.Tensor
+}
+extension manikincreation.Tensor {
+  public func sigmoid() -> manikincreation.Tensor
+}
+extension UIKit.UIImage {
+  public func pixelBuffer(width: Swift.Int, height: Swift.Int) -> CoreVideo.CVPixelBuffer?
+  public func pixelBufferGray(width: Swift.Int, height: Swift.Int) -> CoreVideo.CVPixelBuffer?
+}
+extension UIKit.UIImage {
+  convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
+  convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer, context: CoreImage.CIContext)
+}
+extension UIKit.UIImage {
+  @nonobjc public class func fromByteArrayRGBA(_ bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int, scale: CoreFoundation.CGFloat = 0, orientation: UIKit.UIImage.Orientation = .up) -> UIKit.UIImage?
+  @nonobjc public class func fromByteArrayGray(_ bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int, scale: CoreFoundation.CGFloat = 0, orientation: UIKit.UIImage.Orientation = .up) -> UIKit.UIImage?
+}
+public struct Tensor {
+  public typealias Element = Swift.Float
+  public let shape: manikincreation.Shape
+  public var elements: [manikincreation.Tensor.Element] {
+    get
+  }
+  public init(shape: manikincreation.Shape, elements: [manikincreation.Tensor.Element])
+}
+extension manikincreation.Tensor {
+  public init(shape: manikincreation.Shape, element: manikincreation.Tensor.Element = 0.0)
+}
+extension manikincreation.Tensor {
+  public mutating func reshape(_ shape: manikincreation.Shape)
+  public func reshaped(_ shape: manikincreation.Shape) -> manikincreation.Tensor
+}
+extension manikincreation.Tensor {
+  public subscript(indices: Swift.Int...) -> manikincreation.Tensor.Element {
+    get
+    set
+  }
+  public func volume() -> Swift.Int
+}
+extension manikincreation.Tensor : Swift.Sequence {
+  public func makeIterator() -> Swift.IndexingIterator<[manikincreation.Tensor.Element]>
+  public typealias Iterator = Swift.IndexingIterator<[manikincreation.Tensor.Element]>
+}
+extension manikincreation.Tensor : Swift.Equatable {
+}
+public func == (lhs: manikincreation.Tensor, rhs: manikincreation.Tensor) -> Swift.Bool
+public func + (lhs: manikincreation.Tensor, rhs: manikincreation.Tensor) -> manikincreation.Tensor
+public func - (lhs: manikincreation.Tensor, rhs: manikincreation.Tensor) -> manikincreation.Tensor
+public func * (lhs: manikincreation.Tensor, rhs: manikincreation.Tensor) -> manikincreation.Tensor
+public func / (lhs: manikincreation.Tensor, rhs: manikincreation.Tensor) -> manikincreation.Tensor
+public func * (lhs: manikincreation.Tensor, rhs: Swift.Float) -> manikincreation.Tensor
+public func * (lhs: Swift.Float, rhs: manikincreation.Tensor) -> manikincreation.Tensor
+public func / (lhs: manikincreation.Tensor, rhs: Swift.Float) -> manikincreation.Tensor
+public func / (lhs: Swift.Float, rhs: manikincreation.Tensor) -> manikincreation.Tensor
+extension manikincreation.Tensor {
+  public func matmul(_ tensor: manikincreation.Tensor) -> manikincreation.Tensor
+}
+@_inheritsConvenienceInitializers @available(iOS 11.0, *)
+@objc public class PoseNetWrapper : ObjectiveC.NSObject {
+  @objc public func runCoreML(_ img: UIKit.UIImage) -> Foundation.NSArray
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct PriorityQueue<T> {
+  public init(sort: @escaping (T, T) -> Swift.Bool)
+  public var isEmpty: Swift.Bool {
+    get
+  }
+  public var count: Swift.Int {
+    get
+  }
+  public func peek() -> T?
+  public mutating func enqueue(_ element: T)
+  public mutating func dequeue() -> T?
+  public mutating func changePriority(index i: Swift.Int, value: T)
+}
+extension manikincreation.PriorityQueue where T : Swift.Equatable {
+  public func index(of element: T) -> Swift.Int?
+}
+extension manikincreation.Tensor {
+  public func softmax() -> manikincreation.Tensor
+  public func relu() -> manikincreation.Tensor
+}
+extension manikincreation.Tensor {
+  public func maxPool(kernelSize: [Swift.Int], strides: [Swift.Int]) -> manikincreation.Tensor
+  public func conv2d(filter: manikincreation.Tensor, strides: [Swift.Int]) -> manikincreation.Tensor
+}
+public struct Dimension {
+  public let value: Swift.Int
+  public init(_ value: Swift.Int)
+}
+extension manikincreation.Dimension : Swift.ExpressibleByIntegerLiteral {
+  public init(integerLiteral value: Swift.Int)
+  public typealias IntegerLiteralType = Swift.Int
+}
+extension manikincreation.Dimension : Swift.Equatable {
+}
+public func == (lhs: manikincreation.Dimension, rhs: manikincreation.Dimension) -> Swift.Bool
+extension manikincreation.Dimension : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+public func + (lhs: manikincreation.Dimension, rhs: manikincreation.Dimension) -> manikincreation.Dimension
+public func - (lhs: manikincreation.Dimension, rhs: manikincreation.Dimension) -> manikincreation.Dimension
+public func * (lhs: manikincreation.Dimension, rhs: manikincreation.Dimension) -> manikincreation.Dimension
+public func / (lhs: manikincreation.Dimension, rhs: manikincreation.Dimension) -> manikincreation.Dimension
+extension Swift.Array where Element == Swift.Double {
+  public var asArrayOfFloat: [Swift.Float] {
+    get
+  }
+}
+public struct Shape {
+  public let dimensions: [manikincreation.Dimension]
+  public func volume() -> Swift.Int
+  public init(_ dimensions: [manikincreation.Dimension])
+}
+extension manikincreation.Shape : Swift.ExpressibleByArrayLiteral {
+  public init(arrayLiteral elements: manikincreation.Dimension...)
+  public typealias ArrayLiteralElement = manikincreation.Dimension
+}
+extension manikincreation.Shape : Swift.Equatable {
+}
+public func == (lhs: manikincreation.Shape, rhs: manikincreation.Shape) -> Swift.Bool
+extension manikincreation.Shape : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+infix operator ** : PowerPrecedence
+precedencegroup PowerPrecedence {
+  associativity: right
+  higherThan: MultiplicationPrecedence
+}
+public struct Heap<T> {
+  public init(sort: @escaping (T, T) -> Swift.Bool)
+  public init(array: [T], sort: @escaping (T, T) -> Swift.Bool)
+  public var isEmpty: Swift.Bool {
+    get
+  }
+  public var count: Swift.Int {
+    get
+  }
+  public func peek() -> T?
+  public mutating func insert(_ value: T)
+  public mutating func insert<S>(_ sequence: S) where T == S.Element, S : Swift.Sequence
+  public mutating func replace(index i: Swift.Int, value: T)
+  @discardableResult
+  public mutating func remove() -> T?
+  @discardableResult
+  public mutating func remove(at index: Swift.Int) -> T?
+}
+extension manikincreation.Heap where T : Swift.Equatable {
+  public func index(of node: T) -> Swift.Int?
+  @discardableResult
+  public mutating func remove(node: T) -> T?
+}

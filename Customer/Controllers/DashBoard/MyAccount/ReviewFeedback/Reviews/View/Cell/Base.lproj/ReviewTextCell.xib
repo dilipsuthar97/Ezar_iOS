@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Futura Md BT Medium.TTF">
+            <string>FuturaBT-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReviewTextCell" rowHeight="90" id="KGk-i7-Jjw" customClass="ReviewTextCell" customModule="Customer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="71N-N9-fME">
+                        <rect key="frame" x="16" y="11" width="288" height="68"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Give your review a title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="119-EA-N8V">
+                                <rect key="frame" x="0.0" y="2" width="288" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="wP4-pv-cjQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FuturaBT-Medium" family="Futura" pointSize="13"/>
+                                <color key="textColor" red="0.1176470588" green="0.098039215690000001" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Answer" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Ckz-kA-COd" customClass="CustomTextField" customModule="Customer" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="30" width="288" height="35"/>
+                                <color key="backgroundColor" red="0.70506821065989844" green="0.70506821065989844" blue="0.70506821065989844" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                        <color key="value" red="0.70588235290000001" green="0.70588235290000001" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Ckz-kA-COd" secondAttribute="bottom" constant="3" id="5Xb-xK-atq"/>
+                            <constraint firstItem="119-EA-N8V" firstAttribute="leading" secondItem="71N-N9-fME" secondAttribute="leading" id="8T7-Ra-6CJ"/>
+                            <constraint firstAttribute="trailing" secondItem="Ckz-kA-COd" secondAttribute="trailing" id="DtR-LL-lcn"/>
+                            <constraint firstItem="Ckz-kA-COd" firstAttribute="top" secondItem="119-EA-N8V" secondAttribute="bottom" constant="4" id="X5p-mC-44q"/>
+                            <constraint firstAttribute="trailing" secondItem="119-EA-N8V" secondAttribute="trailing" id="dkM-2T-EIW"/>
+                            <constraint firstItem="119-EA-N8V" firstAttribute="top" secondItem="71N-N9-fME" secondAttribute="top" constant="2" id="gFF-dS-ZLJ"/>
+                            <constraint firstItem="Ckz-kA-COd" firstAttribute="leading" secondItem="71N-N9-fME" secondAttribute="leading" id="iQL-D0-LpT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="71N-N9-fME" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="8ev-A8-kvs"/>
+                    <constraint firstItem="71N-N9-fME" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="IE6-yQ-Zin"/>
+                    <constraint firstItem="71N-N9-fME" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Kda-Hi-Q4u"/>
+                    <constraint firstItem="71N-N9-fME" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="S2w-Ma-RCw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="textQuestion" destination="119-EA-N8V" id="Gd6-v2-dLZ"/>
+                <outlet property="titleTextField" destination="Ckz-kA-COd" id="2UL-fj-Klu"/>
+            </connections>
+            <point key="canvasLocation" x="44.799999999999997" y="41.379310344827587"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "31-10-2017  |  01.42 PM"; ObjectID = "5wo-qH-MU8"; */
+"5wo-qH-MU8.text" = "DD-MM-YYYY  |  00.00 PM";
+
+/* Class = "UILabel"; text = "Body Measurement"; ObjectID = "LLm-bg-5iw"; */
+"LLm-bg-5iw.text" = "Body Measurement";
+
+/* Class = "UIButton"; normalTitle = "Select Size"; ObjectID = "QQr-fw-thM"; */
+"QQr-fw-thM.normalTitle" = "أختر الحجم";
+
+/* Class = "UILabel"; text = "SELF MEASURED"; ObjectID = "VRW-ck-sEN"; */
+"VRW-ck-sEN.text" = "SELF MEASURED";
+
+/* Class = "UILabel"; text = "UAE Thobe"; ObjectID = "Va1-s0-aK9"; */
+"Va1-s0-aK9.text" = "UAE Thobe";
+
+/* Class = "UILabel"; text = "Perfect"; ObjectID = "gGD-X0-eq1"; */
+"gGD-X0-eq1.text" = "Perfect";
+
+/* Class = "UIButton"; normalTitle = "+ INFO"; ObjectID = "vtZ-mR-rHc"; */
+"vtZ-mR-rHc.normalTitle" = "+ معلومات";

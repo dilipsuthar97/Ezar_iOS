@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "You have no approved request."; ObjectID = "6zK-FW-ZIh"; */
+"6zK-FW-ZIh.text" = "You have no approved request.";
+
+/* Class = "UILabel"; text = "Approved Requests"; ObjectID = "9Zn-n6-VzQ"; */
+"9Zn-n6-VzQ.text" = "Approved Requests";
+
+/* Class = "UILabel"; text = "You have no pending request."; ObjectID = "mkA-pk-KgT"; */
+"mkA-pk-KgT.text" = "You have no pending request.";

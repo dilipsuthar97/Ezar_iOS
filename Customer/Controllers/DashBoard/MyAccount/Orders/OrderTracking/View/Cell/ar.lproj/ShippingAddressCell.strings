@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "(Default)"; ObjectID = "1nJ-HO-KqB"; */
+"1nJ-HO-KqB.text" = "(افتراضي)";
+
+/* Class = "UILabel"; text = "NA"; ObjectID = "HXi-Mj-sYg"; */
+"HXi-Mj-sYg.text" = "NA";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Kqm-W0-YYD"; */
+"Kqm-W0-YYD.text" = "اسم";
+
+/* Class = "UILabel"; text = "Notes :"; ObjectID = "lIm-eN-qyf"; */
+"lIm-eN-qyf.text" = "ملاحظات :";
+
+/* Class = "UILabel"; text = "Notes :"; ObjectID = "o8r-tl-H57"; */
+"o8r-tl-H57.text" = "ملاحظات :";
+
+/* Class = "UILabel"; text = "Mobile :"; ObjectID = "qJE-QT-3pd"; */
+"qJE-QT-3pd.text" = "التليفون المحمول :";
+
+/* Class = "UIButton"; normalTitle = "HOME"; ObjectID = "rQy-jn-DUd"; */
+"rQy-jn-DUd.normalTitle" = "الصفحة الرئيسية";

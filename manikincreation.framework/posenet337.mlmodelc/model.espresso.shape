@@ -1,0 +1,688 @@
+{
+  "layer_shapes" : {
+    "MobilenetV1\/Relu6_18:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_8:0" : {
+      "k" : 256,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "relu_MobilenetV1\/Relu6_13:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_19:0_clip" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_15:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_12:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_12:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_7:0" : {
+      "k" : 128,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "MobilenetV1\/Relu6_4:0" : {
+      "k" : 128,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "relu_MobilenetV1\/Relu6_3:0_clip" : {
+      "k" : 64,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "relu_MobilenetV1\/Relu6_22:0_clip" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_9:0_clip" : {
+      "k" : 256,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "relu_MobilenetV1\/Relu6_11:0" : {
+      "k" : 256,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_8:0_neg" : {
+      "k" : 256,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "relu_MobilenetV1\/Relu6_16:0_clip" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "heatmap_2:0" : {
+      "k" : 17,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_7:0_neg" : {
+      "k" : 128,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "relu_MobilenetV1\/Relu6_10:0" : {
+      "k" : 256,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "relu_MobilenetV1\/Relu6_2:0" : {
+      "k" : 64,
+      "w" : 169,
+      "n" : 1,
+      "h" : 169
+    },
+    "MobilenetV1\/Relu6_25:0" : {
+      "k" : 1024,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_9:0" : {
+      "k" : 256,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "relu_MobilenetV1\/Relu6_13:0_clip" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_22:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_11:0_neg" : {
+      "k" : 256,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_4:0_clip" : {
+      "k" : 128,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "relu_MobilenetV1\/Relu6_10:0_neg" : {
+      "k" : 256,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "displacement_bwd_2__0" : {
+      "k" : 32,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_5:0" : {
+      "k" : 128,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "relu_MobilenetV1\/Relu6_5:0" : {
+      "k" : 128,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "relu_MobilenetV1\/Relu6_6:0_neg" : {
+      "k" : 128,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "MobilenetV1\/Relu6_17:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_5:0_neg" : {
+      "k" : 128,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "relu_MobilenetV1\/Relu6_10:0_clip" : {
+      "k" : 256,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "relu_MobilenetV1\/Relu6_24:0_clip" : {
+      "k" : 1024,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_14:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_13:0_neg" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_1:0" : {
+      "k" : 32,
+      "w" : 169,
+      "n" : 1,
+      "h" : 169
+    },
+    "relu_MobilenetV1\/Relu6_12:0_neg" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_18:0_clip" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_26:0" : {
+      "k" : 1024,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_11:0" : {
+      "k" : 256,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_8:0" : {
+      "k" : 256,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "relu_MobilenetV1\/Relu6_25:0" : {
+      "k" : 1024,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "displacement_fwd_2__0" : {
+      "k" : 32,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "image__0" : {
+      "k" : 3,
+      "w" : 337,
+      "n" : 1,
+      "h" : 337
+    },
+    "relu_MobilenetV1\/Relu6_5:0_clip" : {
+      "k" : 128,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "relu_MobilenetV1\/Relu6_15:0_neg" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_21:0_neg" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_14:0_neg" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_20:0_neg" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_21:0_clip" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_15:0_clip" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_24:0" : {
+      "k" : 1024,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_4:0_neg" : {
+      "k" : 128,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "MobilenetV1\/Relu6_6:0" : {
+      "k" : 128,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "relu_MobilenetV1\/Relu6_3:0_neg" : {
+      "k" : 64,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "relu_MobilenetV1\/Relu6_17:0_neg" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_3:0" : {
+      "k" : 64,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "relu_MobilenetV1\/Relu6:0_neg" : {
+      "k" : 32,
+      "w" : 169,
+      "n" : 1,
+      "h" : 169
+    },
+    "MobilenetV1\/Relu6:0" : {
+      "k" : 32,
+      "w" : 169,
+      "n" : 1,
+      "h" : 169
+    },
+    "relu_MobilenetV1\/Relu6_16:0_neg" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6:0_clip" : {
+      "k" : 32,
+      "w" : 169,
+      "n" : 1,
+      "h" : 169
+    },
+    "relu_MobilenetV1\/Relu6_22:0_neg" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_23:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_21:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_22:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_23:0_neg" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_2:0" : {
+      "k" : 64,
+      "w" : 169,
+      "n" : 1,
+      "h" : 169
+    },
+    "relu_MobilenetV1\/Relu6_12:0_clip" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_24:0" : {
+      "k" : 1024,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_26:0_clip" : {
+      "k" : 1024,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_19:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_19:0_neg" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_21:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_6:0_clip" : {
+      "k" : 128,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "relu_MobilenetV1\/Relu6_25:0_neg" : {
+      "k" : 1024,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_18:0_neg" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_16:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_24:0_neg" : {
+      "k" : 1024,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_6:0" : {
+      "k" : 128,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "relu_MobilenetV1\/Relu6_1:0_clip" : {
+      "k" : 32,
+      "w" : 169,
+      "n" : 1,
+      "h" : 169
+    },
+    "relu_MobilenetV1\/Relu6_19:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_20:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_13:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_2:0_neg" : {
+      "k" : 64,
+      "w" : 169,
+      "n" : 1,
+      "h" : 169
+    },
+    "relu_MobilenetV1\/Relu6_23:0_clip" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "offset_2__0" : {
+      "k" : 34,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_18:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_1:0_neg" : {
+      "k" : 32,
+      "w" : 169,
+      "n" : 1,
+      "h" : 169
+    },
+    "relu_MobilenetV1\/Relu6_17:0_clip" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_10:0" : {
+      "k" : 256,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "MobilenetV1\/Relu6_7:0" : {
+      "k" : 128,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "relu_MobilenetV1\/Relu6_26:0_neg" : {
+      "k" : 1024,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "heatmap__0" : {
+      "k" : 17,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_17:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_1:0" : {
+      "k" : 32,
+      "w" : 169,
+      "n" : 1,
+      "h" : 169
+    },
+    "relu_MobilenetV1\/Relu6_9:0" : {
+      "k" : 256,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "relu_MobilenetV1\/Relu6_20:0_clip" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_3:0" : {
+      "k" : 64,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "relu_MobilenetV1\/Relu6_16:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_7:0_clip" : {
+      "k" : 128,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "relu_MobilenetV1\/Relu6:0" : {
+      "k" : 32,
+      "w" : 169,
+      "n" : 1,
+      "h" : 169
+    },
+    "relu_MobilenetV1\/Relu6_14:0_clip" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_26:0" : {
+      "k" : 1024,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_2:0_clip" : {
+      "k" : 64,
+      "w" : 169,
+      "n" : 1,
+      "h" : 169
+    },
+    "relu_MobilenetV1\/Relu6_15:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "MobilenetV1\/Relu6_23:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_8:0_clip" : {
+      "k" : 256,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "relu_MobilenetV1\/Relu6_4:0" : {
+      "k" : 128,
+      "w" : 85,
+      "n" : 1,
+      "h" : 85
+    },
+    "MobilenetV1\/Relu6_20:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_9:0_neg" : {
+      "k" : 256,
+      "w" : 43,
+      "n" : 1,
+      "h" : 43
+    },
+    "relu_MobilenetV1\/Relu6_14:0" : {
+      "k" : 512,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_25:0_clip" : {
+      "k" : 1024,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    },
+    "relu_MobilenetV1\/Relu6_11:0_clip" : {
+      "k" : 256,
+      "w" : 22,
+      "n" : 1,
+      "h" : 22
+    }
+  }
+}

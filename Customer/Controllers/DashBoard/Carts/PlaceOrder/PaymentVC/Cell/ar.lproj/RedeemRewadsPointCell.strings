@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "APPLY"; ObjectID = "0YO-72-De4"; */
+"0YO-72-De4.normalTitle" = "تطبيق";
+
+/* Class = "UILabel"; text = "2 Points"; ObjectID = "34c-AG-zdV"; */
+"34c-AG-zdV.text" = "نقاط";
+
+/* Class = "UILabel"; text = "Conversion Rate for 1 SAR "; ObjectID = "46P-jb-1go"; */
+"46P-jb-1go.text" = "معدل التحويل 1 ريال سعودي";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "6oE-Wb-EZ6"; */
+"6oE-Wb-EZ6.text" = "0";
+
+/* Class = "UITextField"; placeholder = "Use Reward Points"; ObjectID = "Pvs-Rw-kNG"; */
+"Pvs-Rw-kNG.placeholder" = "استخدام نقاط المكافأة";
+
+/* Class = "UILabel"; text = "Reward Points in Wallet"; ObjectID = "muX-mK-APt"; */
+"muX-mK-APt.text" = "نقاط المكافأة في المحفظة";

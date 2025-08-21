@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Regular 400.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+        <array key="Cairo SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OrderDetailTableCell" rowHeight="165" id="KGk-i7-Jjw" customClass="OrderDetailTableCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="46U-EP-mk5" customClass="ShaddowView" customModule="EZAR" customModuleProvider="target">
+                        <rect key="frame" x="8" y="33" width="304" height="124"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0  Item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEe-lD-aoC">
+                                <rect key="frame" x="8" y="8" width="41.5" height="18.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18.5" id="XOZ-My-CgM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="0.88342786815068497" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejE-Hy-4KB">
+                                <rect key="frame" x="8" y="34.5" width="288" height="0.5"/>
+                                <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="G8i-zN-XrZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Order" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwC-67-9o3">
+                                <rect key="frame" x="8" y="45" width="65" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="52o-pF-F7i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SR 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbg-Qr-Pha">
+                                <rect key="frame" x="268.5" y="41.5" width="27.5" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FREE" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5IL-eK-fjy">
+                                <rect key="frame" x="264.5" y="68.5" width="31.5" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                                <color key="textColor" red="0.19607843137254902" green="0.79607843137254897" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="srH-O4-fTP">
+                                <rect key="frame" x="8" y="72" width="48" height="19"/>
+                                <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Payable" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aK3-UF-H3y">
+                                <rect key="frame" x="8" y="99" width="79" height="17"/>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="14"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.83443921232876717" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SR 0" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8H-nq-CdS">
+                                <rect key="frame" x="268.5" y="94.5" width="27.5" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="14"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="0.83406464041095896" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UEe-lD-aoC" secondAttribute="trailing" constant="8" id="28q-VT-sHZ"/>
+                            <constraint firstItem="srH-O4-fTP" firstAttribute="top" secondItem="jwC-67-9o3" secondAttribute="bottom" constant="8" id="5ce-ZU-MdM"/>
+                            <constraint firstAttribute="trailing" secondItem="cbg-Qr-Pha" secondAttribute="trailing" constant="8" id="8gM-kz-h6A"/>
+                            <constraint firstItem="srH-O4-fTP" firstAttribute="leading" secondItem="46U-EP-mk5" secondAttribute="leading" constant="8" id="9U6-co-WHs"/>
+                            <constraint firstAttribute="bottom" secondItem="aK3-UF-H3y" secondAttribute="bottom" constant="8" id="9iS-Oc-Zxr"/>
+                            <constraint firstItem="aK3-UF-H3y" firstAttribute="top" secondItem="srH-O4-fTP" secondAttribute="bottom" constant="8" id="CRQ-Cc-fet"/>
+                            <constraint firstAttribute="trailing" secondItem="ejE-Hy-4KB" secondAttribute="trailing" constant="8" id="Ez2-74-8yZ"/>
+                            <constraint firstItem="cbg-Qr-Pha" firstAttribute="centerY" secondItem="jwC-67-9o3" secondAttribute="centerY" id="GKR-eZ-tMb"/>
+                            <constraint firstAttribute="trailing" secondItem="5IL-eK-fjy" secondAttribute="trailing" constant="8" id="L0H-3h-XwR"/>
+                            <constraint firstItem="5IL-eK-fjy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="srH-O4-fTP" secondAttribute="trailing" constant="8" id="TTx-K1-e6r"/>
+                            <constraint firstItem="h8H-nq-CdS" firstAttribute="centerY" secondItem="aK3-UF-H3y" secondAttribute="centerY" id="csW-v7-1qv"/>
+                            <constraint firstItem="h8H-nq-CdS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="aK3-UF-H3y" secondAttribute="trailing" constant="8" id="eaa-0l-exs"/>
+                            <constraint firstItem="UEe-lD-aoC" firstAttribute="top" secondItem="46U-EP-mk5" secondAttribute="top" constant="8" id="fVp-lO-3O2"/>
+                            <constraint firstItem="aK3-UF-H3y" firstAttribute="leading" secondItem="46U-EP-mk5" secondAttribute="leading" constant="8" id="gR2-Ve-o7B"/>
+                            <constraint firstItem="jwC-67-9o3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="ejE-Hy-4KB" secondAttribute="bottom" constant="10" id="jUw-lo-hAf"/>
+                            <constraint firstItem="cbg-Qr-Pha" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="jwC-67-9o3" secondAttribute="trailing" constant="8" id="kOU-yr-iRj"/>
+                            <constraint firstItem="5IL-eK-fjy" firstAttribute="centerY" secondItem="srH-O4-fTP" secondAttribute="centerY" id="luG-st-gmT"/>
+                            <constraint firstAttribute="trailing" secondItem="h8H-nq-CdS" secondAttribute="trailing" constant="8" id="mib-sZ-mZT"/>
+                            <constraint firstItem="jwC-67-9o3" firstAttribute="leading" secondItem="46U-EP-mk5" secondAttribute="leading" constant="8" id="oI7-fV-Qra"/>
+                            <constraint firstItem="ejE-Hy-4KB" firstAttribute="leading" secondItem="46U-EP-mk5" secondAttribute="leading" constant="8" id="sSr-iS-RrF"/>
+                            <constraint firstItem="srH-O4-fTP" firstAttribute="height" secondItem="jwC-67-9o3" secondAttribute="height" id="tPZ-ff-oy2"/>
+                            <constraint firstItem="UEe-lD-aoC" firstAttribute="leading" secondItem="46U-EP-mk5" secondAttribute="leading" constant="8" id="vXE-ub-0le"/>
+                            <constraint firstItem="ejE-Hy-4KB" firstAttribute="top" secondItem="UEe-lD-aoC" secondAttribute="bottom" constant="8" id="wT0-6m-2sM"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                                <point key="value" x="0.0" y="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LK3-LQ-iLi">
+                        <rect key="frame" x="8" y="8" width="85" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="37n-Oe-gzR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="46U-EP-mk5" secondAttribute="trailing" constant="8" id="3UK-Qi-xtx"/>
+                    <constraint firstItem="LK3-LQ-iLi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Ea2-5C-e9b"/>
+                    <constraint firstAttribute="bottom" secondItem="46U-EP-mk5" secondAttribute="bottom" constant="8" id="Hl2-Az-9v1"/>
+                    <constraint firstItem="46U-EP-mk5" firstAttribute="top" secondItem="LK3-LQ-iLi" secondAttribute="bottom" constant="8" id="Ons-oX-QN8"/>
+                    <constraint firstItem="LK3-LQ-iLi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="cyq-El-CoJ"/>
+                    <constraint firstItem="46U-EP-mk5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="nwr-cd-xIh"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="LK3-LQ-iLi" secondAttribute="trailing" constant="8" id="rIa-yo-oed"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="deliveryLbl" destination="srH-O4-fTP" id="bgD-VZ-p0v"/>
+                <outlet property="deliveryTypeLbl" destination="5IL-eK-fjy" id="Q3M-TW-JdA"/>
+                <outlet property="itemCountLbl" destination="UEe-lD-aoC" id="phh-Ln-fEO"/>
+                <outlet property="orderDetailLbl" destination="LK3-LQ-iLi" id="80O-QA-NFG"/>
+                <outlet property="orderLbl" destination="jwC-67-9o3" id="DPF-t9-3kx"/>
+                <outlet property="payableLbl" destination="aK3-UF-H3y" id="OXt-vd-5v2"/>
+                <outlet property="totalOrderLbl" destination="cbg-Qr-Pha" id="xJy-46-Hrd"/>
+                <outlet property="totalPayableLbl" destination="h8H-nq-CdS" id="A7D-bU-tRg"/>
+            </connections>
+            <point key="canvasLocation" x="-347" y="8"/>
+        </tableViewCell>
+    </objects>
+</document>

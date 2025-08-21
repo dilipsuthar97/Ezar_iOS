@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Bold 700.ttf">
+            <string>Cairo-Bold</string>
+        </array>
+        <array key="Cairo SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShippingMethodsVC" customModule="EZAR" customModuleProvider="target">
+            <connections>
+                <outlet property="continueBtn" destination="h4T-KR-IeI" id="cIi-Ld-px3"/>
+                <outlet property="tableView" destination="xok-cp-SG4" id="qOl-j3-hVS"/>
+                <outlet property="totalAmountLbl" destination="cYO-3q-NjF" id="ljQ-XA-hcv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xok-cp-SG4">
+                    <rect key="frame" x="0.0" y="40" width="375" height="577"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QpG-H8-68C" customClass="ShaddowView" customModule="EZAR" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4T-KR-IeI" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                            <rect key="frame" x="4" y="0.0" width="225" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="16"/>
+                            <state key="normal" title="CONTINUE">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="onClickContinue:" destination="-2" eventType="touchUpInside" id="Kae-zD-TD1"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SR 0" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYO-3q-NjF">
+                            <rect key="frame" x="237" y="4" width="130" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="130" id="vfa-tZ-Ywo"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z4a-2n-5NV">
+                            <rect key="frame" x="227" y="0.0" width="2" height="50"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="2" id="Nfe-HH-dWp"/>
+                                <constraint firstAttribute="height" constant="50" id="inQ-ye-wVu"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Z4a-2n-5NV" firstAttribute="trailing" secondItem="h4T-KR-IeI" secondAttribute="trailing" id="6E1-mC-P4f"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="ATQ-32-WUv"/>
+                        <constraint firstAttribute="bottom" secondItem="cYO-3q-NjF" secondAttribute="bottom" constant="4" id="Ggf-g5-JHa"/>
+                        <constraint firstItem="h4T-KR-IeI" firstAttribute="width" secondItem="QpG-H8-68C" secondAttribute="width" multiplier="0.6" id="L0O-Dq-odq"/>
+                        <constraint firstItem="Z4a-2n-5NV" firstAttribute="bottom" secondItem="h4T-KR-IeI" secondAttribute="bottom" id="X5E-rj-TK9"/>
+                        <constraint firstItem="h4T-KR-IeI" firstAttribute="top" secondItem="QpG-H8-68C" secondAttribute="top" id="ZGM-8h-YUn"/>
+                        <constraint firstItem="cYO-3q-NjF" firstAttribute="leading" secondItem="h4T-KR-IeI" secondAttribute="trailing" constant="8" symbolic="YES" id="aOX-3t-pI2"/>
+                        <constraint firstItem="h4T-KR-IeI" firstAttribute="leading" secondItem="QpG-H8-68C" secondAttribute="leading" constant="4" id="aSC-d3-RQU"/>
+                        <constraint firstAttribute="height" constant="50" id="f84-Q7-8HK"/>
+                        <constraint firstAttribute="bottom" secondItem="h4T-KR-IeI" secondAttribute="bottom" id="jjx-33-VYb"/>
+                        <constraint firstItem="Z4a-2n-5NV" firstAttribute="top" secondItem="h4T-KR-IeI" secondAttribute="top" id="lDZ-qb-G6f"/>
+                        <constraint firstItem="cYO-3q-NjF" firstAttribute="top" secondItem="QpG-H8-68C" secondAttribute="top" constant="4" id="wsh-7Y-UkT"/>
+                        <constraint firstAttribute="trailing" secondItem="cYO-3q-NjF" secondAttribute="trailing" constant="8" id="y7x-Z3-KuF"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                            <point key="value" x="1" y="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                            <color key="value" name="dark_gradient"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                            <color key="value" name="light_gradient"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="25"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Deliver Method" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9dA-n2-lsd">
+                    <rect key="frame" x="16" y="0.0" width="343" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="GI2-fD-BIu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Cairo-Bold" family="Cairo" pointSize="13"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9dA-n2-lsd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="3vZ-oi-9c4"/>
+                <constraint firstItem="QpG-H8-68C" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="EDq-dW-kWW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="QpG-H8-68C" secondAttribute="bottom" id="GI3-ed-qlD"/>
+                <constraint firstItem="xok-cp-SG4" firstAttribute="top" secondItem="9dA-n2-lsd" secondAttribute="bottom" id="KEi-DX-h1r"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xok-cp-SG4" secondAttribute="trailing" id="L8N-aI-nFL"/>
+                <constraint firstItem="QpG-H8-68C" firstAttribute="top" secondItem="xok-cp-SG4" secondAttribute="bottom" id="O25-El-4YH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="QpG-H8-68C" secondAttribute="trailing" id="Sjg-DR-ub7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9dA-n2-lsd" secondAttribute="trailing" constant="16" id="Teq-fR-jIB"/>
+                <constraint firstItem="9dA-n2-lsd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="imB-Kn-FWU"/>
+                <constraint firstItem="xok-cp-SG4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="mf2-77-BeA"/>
+            </constraints>
+            <point key="canvasLocation" x="-135.19999999999999" y="-13.043478260869566"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="h4T-KR-IeI">
+            <size key="intrinsicContentSize" width="73" height="42"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="dark_gradient">
+            <color red="0.019607843137254902" green="0.15294117647058825" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="light_gradient">
+            <color red="0.21176470588235294" green="0.68235294117647061" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

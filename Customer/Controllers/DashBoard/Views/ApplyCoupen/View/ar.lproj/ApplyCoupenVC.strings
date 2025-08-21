@@ -1,0 +1,6 @@
+
+/* Class = "UITextField"; placeholder = "Enter Coupen code"; ObjectID = "fqh-DF-fBX"; */
+"fqh-DF-fBX.placeholder" = "أدخل رمز القسيمة";
+
+/* Class = "UIButton"; normalTitle = "Apply"; ObjectID = "lV0-An-Evz"; */
+"lV0-An-Evz.normalTitle" = "تطبيق";

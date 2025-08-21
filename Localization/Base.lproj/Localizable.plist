@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>yes</key>
+	<string>Yes</string>
+	<key>customer_properties</key>
+	<string>with following properties.</string>
+	<key>customer_slim</key>
+	<string>Slim</string>
+	<key>customer_pocket</key>
+	<string>Pocket</string>
+	<key>customer_message</key>
+	<string>Message</string>
+	<key>customer_signup_title</key>
+	<string>You are just one step away from exploring &amp; creating new and exciting luxurious products.</string>
+	<key>customer_resend_otp</key>
+	<string>Resend OTP</string>
+	<key>customer_search_manufacturer</key>
+	<string>Search Manufacturer</string>
+	<key>customer_filters</key>
+	<string>Filters</string>
+	<key>customer_sort</key>
+	<string>Sort</string>
+	<key>customer_certified_buyer</key>
+	<string>Certified Buyer</string>
+	<key>customer_delegate_details</key>
+	<string>Delegate Detail</string>
+	<key>customer_loading_shopping_bag</key>
+	<string>Shopping Cart</string>
+	<key>customer_perfect</key>
+	<string>Perfect</string>
+	<key>customer_edit_address_city</key>
+	<string>City *</string>
+	<key>customer_info_plus</key>
+	<string>+ More Info</string>
+	<key>customer_bag_total</key>
+	<string>Bag Total</string>
+	<key>customer_continue_shopping</key>
+	<string>Continue Shopping</string>
+	<key>customer_black_white</key>
+	<string>Black &amp; White</string>
+	<key>customer_loading_shopping_bag_des</key>
+	<string>Loading ...</string>
+	<key>customer_edit_this_product</key>
+	<string>Are you sure you want to edit this product?</string>
+	<key>customer_edit_address</key>
+	<string>Edit Address</string>
+	<key>customer_warning</key>
+	<string>Warning</string>
+	<key>customer_score_board</key>
+	<string>Score Board</string>
+	<key>customer_vat_value_initial</key>
+	<string>0%</string>
+	<key>delegate_status</key>
+	<string>Delegate status is pending</string>
+	<key>customer_orders</key>
+	<string>Orders</string>
+	<key>cancel_request_message</key>
+	<string>Are you sure you want to cancel this request?</string>
+	<key>customer_latest_purchase</key>
+	<string>Latest Purchase :</string>
+	<key>customer_enter_weight</key>
+	<string>Select Weight (lbs)</string>
+	<key>customer_product_info_not_available.</key>
+	<string>Product info is not available.</string>
+	<key>customer_select_height</key>
+	<string>Select Height</string>
+	<key>customer_redeem</key>
+	<string>Redeem</string>
+	<key>customer_approve_reject_request</key>
+	<string>Approve/ Reject Request</string>
+	<key>customer_size</key>
+	<string>size</string>
+	<key>customer_choose_fabric_online</key>
+	<string>Choose Fabric Online</string>
+	<key>customer_previous_measurements</key>
+	<string>Previous Measurement</string>
+	<key>customer_select_fabric_to_proceed</key>
+	<string>Please select fabric to proceed</string>
+	<key>customer_payment_method</key>
+	<string>Payment Method</string>
+	<key>customer_request_details</key>
+	<string>Request Details</string>
+	<key>customer_phoneno</key>
+	<string>Phone No.</string>
+	<key>customer_request_delegate</key>
+	<string>Request Delegate</string>
+	<key>customer_order_amount</key>
+	<string>Order Amount</string>
+	<key>customer_country_code</key>
+	<string>country code</string>
+	<key>customer_square_pocket</key>
+	<string>Square Pocket</string>
+	<key>customer_price_low_high</key>
+	<string>Price Low - High</string>
+	<key>customer_design_title</key>
+	<string>Design your</string>
+	<key>customer_manufacturer</key>
+	<string>Manufacturer</string>
+	<key>customer_previous_measurement</key>
+	<string>Previous Measurement</string>
+	<key>customer_confirm_pay</key>
+	<string>Confirm And Pay</string>
+	<key>customer_error_empty_name</key>
+	<string>Please enter your </string>
+	<key>customer_orderID</key>
+	<string>Order ID</string>
+	<key>customer_password</key>
+	<string>Password</string>
+	<key>customer_hello</key>
+	<string>Hello</string>
+	<key>customer_subscribed</key>
+	<string>Subscribed</string>
+	<key>customer_product_list_empty</key>
+	<string>Product List Empty</string>
+	<key>customer_apply_coupon</key>
+	<string>Apply Coupon</string>
+	<key>customer_category</key>
+	<string>Category</string>
+	<key>customer_paymentHistory</key>
+	<string>Payment History</string>
+	<key>customer_please_enter</key>
+	<string>Please enter </string>
+	<key>customer_my_previous_measurement</key>
+	<string>My Previous Measurement</string>
+	<key>customer_my_tailor_measurement</key>
+	<string>Tailor&apos;s Measurement</string>
+	<key>customer_shipping_method</key>
+	<string>Shipping Method</string>
+	<key>customer_statusDel</key>
+	<string>Status</string>
+	<key>customer_requests</key>
+	<string>Requests</string>
+	<key>customer_edit_product</key>
+	<string>Edit Product</string>
+	<key>customer_TransactionsHistory</key>
+	<string>Transactions history</string>
+	<key>customer_faqs</key>
+	<string>FAQs</string>
+	<key>customer_approve</key>
+	<string>Approve</string>
+	<key>customer_saved_address</key>
+	<string>saved address</string>
+	<key>customer_sleeve</key>
+	<string>Sleeve</string>
+	<key>customer_delivery_date</key>
+	<string>Delivery Date</string>
+	<key>customer_edit_profile</key>
+	<string>Edit Profile</string>
+	<key>customer_select</key>
+	<string>Select</string>
+	<key>Ok</key>
+	<string>Ok</string>
+	<key>customer_select_delivery_date</key>
+	<string>Select Delivery Date</string>
+	<key>customer_rewards</key>
+	<string>Rewards</string>
+	<key>customer_nonZero_Quantity</key>
+	<string>Please select quantity more than 0</string>
+	<key>customer_country</key>
+	<string>Country</string>
+	<key>customer_add_new_measurement</key>
+	<string>Add New Measurement</string>
+	<key>customer_orderHistory</key>
+	<string>Order History</string>
+	<key>customer_help_give_feedback</key>
+	<string>Give Feedback</string>
+	<key>customer_select_size</key>
+	<string>Select size</string>
+	<key>customer_item</key>
+	<string>Item</string>
+	<key>customer_location_name</key>
+	<string>Location Name</string>
+	<key>customer_reward_points</key>
+	<string>Reward Points</string>
+	<key>customer_select_deliver_method</key>
+	<string>Select Deliver Method</string>
+	<key>customer_minRange</key>
+	<string>Are you sure to proceed with this size as its min value is : </string>
+	<key>customer_delegate</key>
+	<string>Delegate</string>
+	<key>customer_delete_this_product</key>
+	<string>Are you sure you want to delete this product?</string>
+	<key>customer_save</key>
+	<string>Save</string>
+	<key>customer_total_order_amount</key>
+	<string>Total Order Amount</string>
+	<key>customer_address</key>
+	<string>Address</string>
+	<key>customer_edit_address_postcode</key>
+	<string>Postcode *</string>
+	<key>customer_custommade_outfit</key>
+	<string>Please note that all these are custom-made outfits.</string>
+	<key>customer_reject</key>
+	<string>Reject</string>
+	<key>customer_straight</key>
+	<string>Straight</string>
+	<key>customer_street</key>
+	<string>Street</string>
+	<key>customer_view_cart</key>
+	<string>View Cart</string>
+	<key>customer_register</key>
+	<string>Register</string>
+	<key>customer_email_address_star</key>
+	<string>Email Address*</string>
+	<key>customer_add_new_address</key>
+	<string>Add New Address</string>
+	<key>customer_submit</key>
+	<string>Submit</string>
+	<key>cancel_Request</key>
+	<string>Cancel Request</string>
+	<key>customer_take_from_existing_garment</key>
+	<string>Take from existing garments</string>
+	<key>customer_choose_fabric</key>
+	<string>Choose Fabric</string>
+	<key>customer_men</key>
+	<string>Men</string>
+	<key>customer_popularity</key>
+	<string>Popularity</string>
+	<key>customer_arabic</key>
+	<string>عربى</string>
+	<key>customer_measurement_loose_weight</key>
+	<string>My size at Ead Aalfeter 1440</string>
+	<key>customer_emailaddress</key>
+	<string>Email Address</string>
+	<key>customer_need_help</key>
+	<string>I need help with:</string>
+	<key>customer_arrived</key>
+	<string>Arrived</string>
+	<key>customer_total_reward_points</key>
+	<string>Total Reward Points</string>
+	<key>cutomer_video_description</key>
+	<string>Please go through the video to know which type of Fit suitable for you.</string>
+	<key>customer_enter_size</key>
+	<string>Enter size (in cms)</string>
+	<key>customer_signup</key>
+	<string>Sign Up</string>
+	<key>customer_notes</key>
+	<string>Notes :</string>
+	<key>customer_measurement_name</key>
+	<string>Save Measurement As</string>
+	<key>customer_max_rating_value</key>
+	<string>/5</string>
+	<key>customer_phone_number_star</key>
+	<string>Phone No.*</string>
+	<key>customer_confirm_password</key>
+	<string>Confirm Password</string>
+	<key>customer_payment</key>
+	<string>Payment</string>
+	<key>customer_loose</key>
+	<string>Loose</string>
+	<key>customer_all</key>
+	<string>All</string>
+	<key>customer_discount</key>
+	<string>Discount</string>
+	<key>customer_price_high_low</key>
+	<string>Price High - Low</string>
+	<key>customer_products</key>
+	<string>Products</string>
+	<key>customer_full_sleeves</key>
+	<string>Full Sleeves</string>
+	<key>customer_choose style</key>
+	<string>Choose Styles</string>
+	<key>customer_phone_number</key>
+	<string>phone number</string>
+	<key>customer_enter_height</key>
+	<string>Select Height (cm)</string>
+	<key>customer_let_search</key>
+	<string>LET&apos;S SEARCH</string>
+	<key>password_not_match</key>
+	<string>Password does not match</string>
+	<key>customer_orderdeliveryDate</key>
+	<string>Order Delivery Date</string>
+	<key>customer_rated_higher</key>
+	<string>Rated Higher then most in Shanghai</string>
+	<key>customer_new_flag</key>
+	<string>New</string>
+	<key>customer_cuff</key>
+	<string>Cuff</string>
+	<key>customer_home</key>
+	<string>Home</string>
+	<key>customer_select_gender</key>
+	<string>Select Gender</string>
+	<key>customer_height</key>
+	<string>height</string>
+	<key>customer_whats_new</key>
+	<string>What’s new</string>
+	<key>customer_show_more</key>
+	<string>Show More</string>
+	<key>customer_style</key>
+	<string>Style</string>
+	<key>customer_office</key>
+	<string>Office</string>
+	<key>customer_track_location</key>
+	<string>Track Delegate Location</string>
+	<key>customer_edit_address_user_address</key>
+	<string>Address *</string>
+	<key>customer_share_text</key>
+	<string>This is some text that I want to share.</string>
+	<key>customer_comments_by_others</key>
+	<string>Comments by others</string>
+	<key>customer_choose</key>
+	<string>Choose</string>
+	<key>customer_delivery</key>
+	<string>Delivery</string>
+	<key>customer_purchasedDate</key>
+	<string>Purchased Date</string>
+	<key>Done</key>
+	<string>Done</string>
+	<key>customer_social_password</key>
+	<string>Social user cannot change password.</string>
+	<key>customer_state</key>
+	<string>State</string>
+	<key>customer_custom_made</key>
+	<string>Custom Made</string>
+	<key>customer_mobile</key>
+	<string>Mobile :</string>
+	<key>customer_pending_requests</key>
+	<string>Pending Requests</string>
+	<key>order_tracking</key>
+	<string>Order Tracking</string>
+	<key>customer_locate</key>
+	<string>Locate</string>
+	<key>customer_select_measurement_to_proceed</key>
+	<string>Please select measurement to proceed</string>
+	<key>customer_my_collar_size_hint</key>
+	<string>My Preferred Collar Size (Optional)</string>
+	<key>customer_other</key>
+	<string>Other</string>
+	<key>cancel</key>
+	<string>Cancel</string>
+	<key>customer_notifications</key>
+	<string>Notifications</string>
+	<key>customer_forgot_password</key>
+	<string>Forgot Password?</string>
+	<key>customer_track_project_delegate</key>
+	<string>Track Delegate Location</string>
+	<key>customer_paymentDetails</key>
+	<string>Payment Details</string>
+	<key>customer_view_map</key>
+	<string>View Map</string>
+	<key>customer_info</key>
+	<string>#NAME?</string>
+	<key>customer_status</key>
+	<string>Status:</string>
+	<key>customer_reviews</key>
+	<string>Reviews</string>
+	<key>customer_collar</key>
+	<string>Collar</string>
+	<key>customer_empty_shopping_bag</key>
+	<string>Shopping Bag Empty</string>
+	<key>customer_female</key>
+	<string>Female</string>
+	<key>customer_options</key>
+	<string>Options</string>
+	<key>customer_zabour</key>
+	<string>Zabour</string>
+	<key>customer_password_star</key>
+	<string>Password*</string>
+	<key>customer_help_how_to_use</key>
+	<string>How to use:</string>
+	<key>customer_nearest_delegate</key>
+	<string>Nearest Delegate</string>
+	<key>customer_default_title</key>
+	<string>(Default)</string>
+	<key>customer_check_status</key>
+	<string>Check Status</string>
+	<key>customer_postcode</key>
+	<string>Postcode *</string>
+	<key>customer_video_tutorial_failure</key>
+	<string>This tutorial was inspired by the video tutorial below but found it outdated and complicated.</string>
+	<key>customer_title</key>
+	<string>Title</string>
+	<key>customer_shopping_bag</key>
+	<string>Shopping Bag</string>
+	<key>customer_select_fabric</key>
+	<string>Select Fabric </string>
+	<key>customer_max</key>
+	<string>Max</string>
+	<key>customer_default_address</key>
+	<string>Default Address</string>
+	<key>customer_enter_collar_size</key>
+	<string>Select Collar Size</string>
+	<key>customer_help_login_issue</key>
+	<string>Login issue</string>
+	<key>customer_english</key>
+	<string>English</string>
+	<key>error_internet_connection</key>
+	<string>Please check your Internet connection</string>
+	<key>customer_pending</key>
+	<string>pending</string>
+	<key>customer_track_order</key>
+	<string>Track Order</string>
+	<key>customer_logout</key>
+	<string>Logout</string>
+	<key>customer_call</key>
+	<string>Call</string>
+	<key>customer_mark_arrived</key>
+	<string>Mark Arrived</string>
+	<key>customer_select_thobe_type</key>
+	<string>Select *** type</string>
+	<key>customer_push_notification</key>
+	<string>Enable your Push notifications</string>
+	<key>no</key>
+	<string>No</string>
+	<key>customer_enter_type</key>
+	<string>Select type</string>
+	<key>customer_contact_delegate</key>
+	<string>Contact Project Delegate</string>
+	<key>customer_continue_process</key>
+	<string>Continue</string>
+	<key>customer_measurements</key>
+	<string>Measurements</string>
+	<key>customer_content_description</key>
+	<string>Image</string>
+	<key>customer_select_measurement</key>
+	<string>Select measurement</string>
+	<key>customer_enable_gps</key>
+	<string>Enable your GPS location</string>
+	<key>customer_qty</key>
+	<string>Qty</string>
+	<key>customer_points_to_expire</key>
+	<string>Points to expire</string>
+	<key>customer_or</key>
+	<string>Or</string>
+	<key>customer_signin</key>
+	<string>Sign in</string>
+	<key>customer_sub_total</key>
+	<string>Sub total</string>
+	<key>customer_delete_product</key>
+	<string>Delete Product</string>
+	<key>customer_selectLanguage</key>
+	<string>Select Language</string>
+	<key>customer_update</key>
+	<string>Update</string>
+	<key>customer_error_enter_valid</key>
+	<string>Please enter valid </string>
+	<key>customer_fit</key>
+	<string>Fit</string>
+	<key>customer_city_star</key>
+	<string>City *</string>
+	<key>customer_select_section</key>
+	<string>Select Section</string>
+	<key>customer_price_details</key>
+	<string>Price Details</string>
+	<key>customer_measurement_details</key>
+	<string>Measurement Details</string>
+	<key>customer_style_info</key>
+	<string>Style Info</string>
+	<key>login</key>
+	<string>Login</string>
+	<key>customer_skip</key>
+	<string>Skip</string>
+	<key>customer_manufacturer_tailor</key>
+	<string>Manufacturer/Tailor</string>
+	<key>customer_take_measurements</key>
+	<string>Take Measurements</string>
+	<key>customer_help</key>
+	<string>Help</string>
+	<key>customer_username</key>
+	<string>Email</string>
+	<key>customer_orderTotal</key>
+	<string>Order Total</string>
+	<key>customer_see</key>
+	<string>See</string>
+	<key>customer_bag_discount</key>
+	<string>Bag Discount</string>
+	<key>customer_change_language</key>
+	<string>Change Language</string>
+	<key>customer_delete_account</key>
+	<string>Delete Account</string>
+	<key>customer_delete_account_msg</key>
+	<string>Are you sure you want to delete your account?</string>
+	<key>customer_start_from</key>
+	<string>Start from :</string>
+	<key>customer_my_height</key>
+	<string>My Height</string>
+	<key>customer_get_directions</key>
+	<string>Get Directions</string>
+	<key>customer_ready_made</key>
+	<string>Ready Made</string>
+	<key>customer_choose_your_location</key>
+	<string>Choose your location</string>
+	<key>customer_dummy_text</key>
+	<string></string>
+	<key>customer_check_your_address</key>
+	<string>Check your address</string>
+	<key>customer_settings</key>
+	<string>Settings</string>
+	<key>customer_gift_wrap</key>
+	<string>Gift Wrap</string>
+	<key>customer_instructions</key>
+	<string>Instructions</string>
+	<key>customer_clear_all</key>
+	<string>Clear All</string>
+	<key>customer_coupon_discount</key>
+	<string>Coupon Discount</string>
+	<key>customer_login</key>
+	<string>Log in</string>
+	<key>customer_free</key>
+	<string>Free</string>
+	<key>customer_side_pocket</key>
+	<string>Side-Pocket</string>
+	<key>customer_superslim</key>
+	<string>Superslim</string>
+	<key>customer_you_will_get</key>
+	<string>You will get</string>
+	<key>customer_orderDetails</key>
+	<string>Order Details</string>
+	<key>customer_help_search_customer</key>
+	<string>Search Customer</string>
+	<key>customer_edit_address_contact_number</key>
+	<string>Contact Number *</string>
+	<key>app</key>
+	<string>Demo</string>
+	<key>customer_maxRange</key>
+	<string>Are you sure to proceed with this size as its max value is : </string>
+	<key>customer_confirm_details</key>
+	<string>CONFIRM DETAILS</string>
+	<key>customer_cufflink_style</key>
+	<string>Cufflink Style</string>
+	<key>customer_confirm_password_star</key>
+	<string>Confirm Password*</string>
+	<key>customer_forgot_password_title</key>
+	<string>Forgot Password</string>
+	<key>customer_my_own_fabric</key>
+	<string>My Own Fabric</string>
+	<key>customer_explore_more_products</key>
+	<string>Explore More Products</string>
+	<key>customer_paymentRequests</key>
+	<string>Payments</string>
+	<key>customer_date_of_birth</key>
+	<string>Date of Birth</string>
+	<key>customer_payment_successful</key>
+	<string>Payment Successful</string>
+	<key>customer_help_profile_change</key>
+	<string>Profile Change</string>
+	<key>customer_see_all_reviews</key>
+	<string>See all reviews</string>
+	<key>customer_weight</key>
+	<string>weight</string>
+	<key>customer_shopping_bag_des</key>
+	<string>Please add items</string>
+	<key>customer_mobile_number</key>
+	<string>Mobile Number</string>
+	<key>customer_edit_address_name</key>
+	<string>Name *</string>
+	<key>customer_name</key>
+	<string>Name</string>
+	<key>customer_change_password</key>
+	<string>Change Password</string>
+	<key>customer_feedback_and_review</key>
+	<string>Feedback and Review</string>
+	<key>customer_vat</key>
+	<string>VAT Included</string>
+	<key>customer_total_payable</key>
+	<string>Total Payable</string>
+	<key>customer_search_location</key>
+	<string>Search Location</string>
+	<key>customer_next</key>
+	<string>Next</string>
+	<key>customer_place_order</key>
+	<string>Place Order</string>
+	<key>customer_item_total</key>
+	<string>Total :</string>
+	<key>customer_zipper_style</key>
+	<string>Zipper Style</string>
+	<key>customer_commision</key>
+	<string>Delegate Commission</string>
+	<key>customer_use_this_address</key>
+	<string>Use this address</string>
+	<key>customer_select_make</key>
+	<string>Select Make</string>
+	<key>customer_email</key>
+	<string>Email</string>
+	<key>customer_delivery_instruction</key>
+	<string>Delivery Instructions</string>
+	<key>customer_item_initial</key>
+	<string>Item (0)</string>
+	<key>customer_not_edit_this_product</key>
+	<string>You cannot edit this product.</string>
+	<key>customer_filter</key>
+	<string>filter</string>
+	<key>signup</key>
+	<string>Signup</string>
+	<key>customer_already_member</key>
+	<string>Already on Ezar? Sign in</string>
+	<key>customer_complete</key>
+	<string>complete</string>
+	<key>customer_male</key>
+	<string>Male</string>
+	<key>customer_quantity</key>
+	<string>Quantity:</string>
+	<key>customer_invite_friends</key>
+	<string>Invite Friends</string>
+	<key>customer_item_total_initial</key>
+	<string>Total : 0.0</string>
+	<key>customer_filter_price_title</key>
+	<string>Slide handles to select min and max prices range</string>
+	<key>customer_password_validation</key>
+	<string>Password must contain 6 characters.</string>
+	<key>customer_na</key>
+	<string>NA</string>
+	<key>customer_women</key>
+	<string>Women</string>
+	<key>customer_view_details</key>
+	<string>View Details</string>
+	<key>customer_favorite</key>
+	<string>Favorites</string>
+	<key>customer_gps_location</key>
+	<string>GPS Location</string>
+	<key>customer_no_des_avail</key>
+	<string>No description Available</string>
+	<key>customer_measurement_name_star</key>
+	<string>Measurement Name *</string>
+	<key>customer_no_account</key>
+	<string>Don&apos;t have account? Signup</string>
+	<key>customer_city</key>
+	<string>City *</string>
+	<key>customer_contact_number</key>
+	<string>Contact Number </string>
+	<key>invite_delegate</key>
+	<string>Invite Delegate</string>
+	<key>customer_my_account</key>
+	<string>My Account</string>
+	<key>customer_change_address</key>
+	<string>Change Address</string>
+	<key>customer_help_feedback</key>
+	<string>Feedback</string>
+	<key>customer_comfort</key>
+	<string>Comfort</string>
+	<key>customer_rangeAlert</key>
+	<string> and max value : </string>
+	<key>customer_invite_your_friends</key>
+	<string>Invite your Friends</string>
+	<key>customer_let_go</key>
+	<string>Let&apos;s Go</string>
+	<key>customer_edit_address_state</key>
+	<string>State/Region *</string>
+	<key>customer_select_model</key>
+	<string>Select Model</string>
+	<key>customer_invite_code</key>
+	<string>Share your invite code</string>
+	<key>customer_add_to_cart</key>
+	<string>Add to cart</string>
+	<key>customer_edit_address_country</key>
+	<string>Country *</string>
+	<key>customer_customized</key>
+	<string>Customized</string>
+	<key>customer_my_weight</key>
+	<string>My Weight</string>
+	<key>customer_customerID</key>
+	<string>Customer ID</string>
+	<key>customer_CustomerName</key>
+	<string>Customer Name</string>
+	<key>customer_paymentMethod</key>
+	<string>Payment Method</string>
+	<key>customer_purchasePoint</key>
+	<string>Purchase Point</string>
+	<key>customer_requestID</key>
+	<string>Request ID</string>
+	<key>customer_amount</key>
+	<string>Amount</string>
+	<key>customer_requestDate</key>
+	<string>Requested Date</string>
+	<key>customer_paymentMade</key>
+	<string>Payment Made</string>
+	<key>customer_paidDate</key>
+	<string>Paid Date</string>
+	<key>customer_delegateID</key>
+	<string>Delegate ID</string>
+	<key>customer_transactionID</key>
+	<string>Transaction ID</string>
+	<key>customer_transactionType</key>
+	<string>Transaction Type</string>
+	<key>customer_date</key>
+	<string>Date</string>
+	<key>customer_delegateCharges</key>
+	<string>Delegate Charges</string>
+	<key>customer_perPiece</key>
+	<string>Per Piece</string>
+	<key>customer_perOrder</key>
+	<string>Per Order</string>
+	<key>customer_totalAmount</key>
+	<string>Total Amount</string>
+	<key>customer_enterComment</key>
+	<string>Enter Comment</string>
+	<key>customer_amountMsg</key>
+	<string>Your Enter amount should be less or equal to Total amount</string>
+	<key>customer_commentMsg</key>
+	<string>Please enter comment</string>
+	<key>customer_emptyMsg</key>
+	<string>Field cannot be empty</string>
+	<key>customer_amountValidMsg</key>
+	<string>Please enter valid amount</string>
+	<key>customer_withdrawAmount</key>
+	<string>Withdraw Amount</string>
+	<key>customer_enterAmount</key>
+	<string>Enter Amount</string>
+	<key>customer_rewardsHistory</key>
+	<string>Reward Point History</string>
+	<key>customer_login_required</key>
+	<string>Login Required</string>
+	<key>customer_guest_alert</key>
+	<string>Please login to access this feature.</string>
+	<key>New item</key>
+	<string>Are you sure to proceed with size as min value : </string>
+	<key>maxValueAlert</key>
+	<string> and max value : </string>
+	<key>onlyMinValue</key>
+	<string>Are you sure to proceed with this size as its min value is : </string>
+	<key>onlyMaxValueAlert</key>
+	<string>Are you sure to proceed with this size as its max value is : </string>
+	<key>customer_skipSign</key>
+	<string>Skip Sign In</string>
+	<key>customer_remaining_reward_points</key>
+	<string>Remaining Reward Point</string>
+	<key>customer_update_password</key>
+	<string>Please enter your new password</string>
+	<key>customer_info_minus</key>
+	<string>- More Info</string>
+	<key>customer_termsAndCondition</key>
+	<string>Terms &amp; Conditions</string>
+	<key>customer_privacy_policy</key>
+	<string>Privacy Policy</string>
+	<key>customer_offer</key>
+	<string>Offer</string>
+	<key>customer_shippingDate</key>
+	<string>Shipping Date</string>
+	<key>customer_quantity_colon</key>
+	<string>Quantity:</string>
+	<key>customer_rewardspoinsInWallet</key>
+	<string>Reward Points in Wallet</string>
+	<key>customer_conversationRate</key>
+	<string>Conversion Rate for 1 SAR</string>
+	<key>customer_size_chart</key>
+	<string>Size Chart</string>
+	<key>customer_description</key>
+	<string>Description</string>
+	<key>customer_created</key>
+	<string>Created At</string>
+	<key>customer_balance</key>
+	<string>Balance</string>
+	<key>customer_DownloadPdf</key>
+	<string>Download Pdf</string>
+	<key>customer_Download_Success</key>
+	<string>Downloaded Successfully</string>
+	<key>customer_chooseOptions</key>
+	<string>Choose Options</string>
+	<key>customer_broadCast_request</key>
+	<string>Broadcast Request</string>
+	<key>customer_ChooseList</key>
+	<string>Choose From List</string>
+	<key>customer_soldBy</key>
+	<string>Sold by :</string>
+	<key>customer_noData_available</key>
+	<string>No Data Available</string>
+	<key>customer_request_broadcasted</key>
+	<string>Request Broadcasted</string>
+	<key>customer_model_type</key>
+	<string>Model type</string>
+	<key>customer_measurement_type</key>
+	<string>Measurement type</string>
+	<key>customer_request_already_broadcasted</key>
+	<string>Request already broadcasted.</string>
+	<key>customer_not_downloaded</key>
+	<string>Not Downloaded</string>
+	<key>customer_not_available</key>
+	<string>Not Available</string>
+	<key>customer_seller_not_avaliable</key>
+	<string>Seller is not available, please select another date</string>
+	<key>customer_select_empty_msg</key>
+	<string>Please select your</string>
+	<key>customer_please_rate</key>
+	<string>Please rate this</string>
+	<key>customer_product_review</key>
+	<string>Product review</string>
+	<key>customer_seller_review</key>
+	<string>Seller review</string>
+	<key>customer_delegate_review</key>
+	<string>Delegate review</string>
+	<key>customer_reviewed</key>
+	<string>Reviewed</string>
+	<key>customer_delegate_msg</key>
+	<string>Please search any delegate then you can give to review for delegate</string>
+	<key>customer_minValMsg</key>
+	<string>These measurements may be inappropriate Note that the expected size between </string>
+	<key>customer_and</key>
+	<string>and</string>
+	<key>customer_maxValMsg</key>
+	<string>Do you want to follow under your own responsibility.</string>
+	<key>customer_product_feedback</key>
+	<string>Did you like this product?</string>
+	<key>customer_seller_feedback</key>
+	<string>Did you like the service of the manufacturer?</string>
+	<key>customer_select_category</key>
+	<string>Select category</string>
+	<key>please_text</key>
+	<string>Please</string>
+	<key>customer_payment_id</key>
+	<string>Payment ID</string>
+	<key>customer_return_item_msg</key>
+	<string>You do not have product for return</string>
+	<key>customer_product_select_msg</key>
+	<string>Please select product for return</string>
+	<key>customer_delivered_status</key>
+	<string>Delivered</string>
+	<key>customer_style_msg</key>
+	<string>Please click pencil icon for selecting style to proceed.</string>
+	<key>customer_search_text</key>
+	<string>Please enter search text.</string>
+	<key>customer_see_other_request</key>
+	<string>SEE OTHER REQUESTS</string>
+	<key>customer_style_charges</key>
+	<string>Style Charges</string>
+	<key>customer_current_location</key>
+	<string>Current Location</string>
+	<key>customer_track_status_processing</key>
+	<string>Processing</string>
+	<key>customer_track_status_refunded</key>
+	<string>Refunded</string>
+	<key>customer_track_status_shipped</key>
+	<string>Shipped</string>
+	<key>customer_track_status_complete</key>
+	<string>Complete</string>
+	<key>customer_close</key>
+	<string>Closed</string>
+	<key>customer_needHelp</key>
+	<string>Need Help ?</string>
+	<key>customer_select_this_location</key>
+	<string>Select this location</string>
+	<key>customer_reorder</key>
+	<string>Re-Order</string>
+	<key>customer_configure_product</key>
+	<string>Options and add to cart</string>
+	<key>customer_whatsApp_us</key>
+	<string>WhatsApp us</string>
+	<key>customer_vat_price</key>
+	<string>VAT Price</string>
+	<key>customer_scan_body</key>
+	<string>Scan body measurement</string>
+	<key>customer_terms_and_condition_msg</key>
+	<string>Please accept Terms&amp;Conditions.</string>
+	<key>customer_scan_body_desc</key>
+	<string>Are you sure you want to submit this measurement ?</string>
+	<key>customer_store_msg</key>
+	<string>Please check this in the app</string>
+	<key>customer_delivery_time</key>
+	<string>Delivery time</string>
+	<key>customer_body_detail</key>
+	<string>Body detail</string>
+	<key>customer_body_detail_msg</key>
+	<string>Please enter your body detail</string>
+	<key>customer_validation_msg</key>
+	<string>Please enter all details.</string>
+	<key>customer_preview_photo</key>
+	<string>Preview</string>
+	<key>customer_confirm_photo</key>
+	<string>Confirm</string>
+	<key>customer_retake_photo</key>
+	<string>Retake</string>
+	<key>customer_retake_msg</key>
+	<string>Do you want to retake photo ?</string>
+	<key>customer_confirm_msg</key>
+	<string>Do you want to proceed ?</string>
+	<key>customer_confirm</key>
+	<string>Confirm</string>
+	<key>customer_height_msg</key>
+	<string>Enter your height</string>
+	<key>customer_weight_msg</key>
+	<string>Enter your weight</string>
+	<key>customer_measurement_msg</key>
+	<string>Your measurement is under review , Please try again after some time</string>
+	<key>customer_upright_msg</key>
+	<string>PLACE YOUR DEVICE UPRIGHT</string>
+	<key>customer_move_msg</key>
+	<string>PERFECT NOW MOVE BACK</string>
+	<key>customer_start_msg</key>
+	<string>START</string>
+	<key>customer_name_msg</key>
+	<string>Name (put your measurement name)</string>
+	<key>customer_fit_msg</key>
+	<string>select type (please select your fit )</string>
+	<key>customer_edit_size</key>
+	<string>update size</string>
+	<key>UPLOADING_SEQUENCE</key>
+	<string>Please wait, We are processing your images...</string>
+	<key>UPLOAD_ERROR</key>
+	<string>Something went wrong while processing your images, Please try again</string>
+	<key>NE_DEVICE_VERTICALITY_WARNING</key>
+	<string>Device is not at the right position, make sure that it is not tilted to the left, right, forward or backward</string>
+	<key>NE_BEFORE_SCAN_SPEECH_SHORT</key>
+	<string>Stand facing camera. Scan will start automatically in a few seconds after you fix your position, alternatively use start/stop button on the screen.</string>
+	<key>NE_FRONT_PICTURE_SPEECH_SHORT</key>
+	<string>Let&apos;s start front scan now. Your full-length body including entire length of the arms should be inside the screen. Keep body centered versa vertical green line. Listen to the countdown.</string>
+	<key>NE_FRONT_AUTOSTART_PICTURE_SPEECH_SHORT</key>
+	<string>Hold this pose now !</string>
+	<key>NE_SIDE_PICTURE_SPEECH_SHORT</key>
+	<string>Let&apos;s do side scan now. Turn ninety degrees to the right. Your left side should be facing camera for the body profile view. Keep body centered versa vertical green line on the screen, listen to the countdown.</string>
+	<key>NE_BACKGROUND_PICTURE_SPEECH_SHORT</key>
+	<string>Finally, leave the scene. The device will now take the background image.</string>
+	<key>NE_AFTER_SCAN_SPEECH_SHORT</key>
+	<string>Congratulations! Your scan has been completed.</string>
+	<key>NE_DEVICE_VERTICALITY_ERROR_SHORT</key>
+	<string>Device is not at the right position, make sure that it is not tilted to the left, right, forward or backward</string>
+	<key>NE_ONE_SPEECH</key>
+	<string>One</string>
+	<key>NE_TWO_SPEECH</key>
+	<string>Two</string>
+	<key>NE_THREE_SPEECH</key>
+	<string>Three</string>
+	<key>NE_NO_CAMERA_ACCESS</key>
+	<string>Access request</string>
+	<key>NE_NO_CAMERA_ACCESS_MSG_IOS8</key>
+	<string>Ezar needs your permission for Camera access. Please tap on \&quot;Setting\&quot; to allow it.</string>
+	<key>NE_NO_CAMERA_ACCESS_SETTINGS</key>
+	<string>Settings</string>
+	<key>NE_NO_CAMERA_ACCESS_CANCEL</key>
+	<string>Cancel</string>
+	<key>NE_CONFIRM_QUIT_CAMERASCREEN</key>
+	<string>You are about to quit phototaking. Do you want to leave this measure process?</string>
+	<key>NE_CONTINUE</key>
+	<string>Continue</string>
+	<key>NE_QUIT</key>
+	<string>Quit</string>
+	<key>NE_OK</key>
+	<string>Ok</string>
+	<key>NE_RECORDING_PICTURES</key>
+	<string>Processing Images...</string>
+	<key>NE_PREFLIGHT_MISSING_CONFIGURATION</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_PREFLIGHT_MISSING_USERINFO_0</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_PREFLIGHT_REQUEST_1_ERROR</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_PREFLIGHT_DUPLICATEID</key>
+	<string>This user already exists.</string>
+	<key>NE_PREFLIGHT_UNKNOWNUSER</key>
+	<string>This user can&apos;t be found.</string>
+	<key>NE_PREFLIGHT_NO_INTERNET</key>
+	<string>Cloud is not available. Check device&apos;s Internet.</string>
+	<key>NE_PREFLIGHT_MISSING_USERINFO_1</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_PREFLIGHT_REQUEST_2_ERROR</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_PREFLIGHT_MISSING_USERINFO_2</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_PREFLIGHT_REQUEST_3_ERROR</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_PREFLIGHT_REQUEST_4_ERROR</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_WS_NOT_HTTP_RESPONSE</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_WS_INVALID_HTTP_CODE</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_WS_EXPECTED_JSON_DICTIONNARY</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_WS_EXPECTED_JSON_ARRAY</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_WS_CHECK_CONNECTION</key>
+	<string>Cloud is not available. Check device&apos;s Internet or try again later.</string>
+	<key>NE_WS_AMAZON_NOT_HTTP_RESPONSE</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_WS_AMAZON_INVALID_HTTP_CODE</key>
+	<string>Sorry, cloud service is temporarily unavailable, please try again later.</string>
+	<key>NE_DEFAULT_ERROR</key>
+	<string>An error occured while processing this request</string>
+	<key>NE_DEFAULT_WS_ERROR</key>
+	<string>Cloud is not available. Check device&apos;s Internet or try again later.</string>
+	<key>NE_DEFAULT_UNATTENDED_ANSWER_WS_ERROR</key>
+	<string>Cloud is not available. Try again later.</string>
+	<key>NE_DEFAULT_CREDENTIALS_WS_ERROR</key>
+	<string>Cloud is not available. Try again later.</string>
+	<key>NE_DEFAULT_CONNECTION_WS_ERROR</key>
+	<string>Cloud communication error. Check internet connectivity.</string>
+	<key>NE_NO_INTERNET_TITLE</key>
+	<string>Oops !</string>
+	<key>NE_NO_INTERNET_MESSAGE</key>
+	<string>Cloud is not available. Check device&apos;s Internet.</string>
+	<key>NE_GENERIC_ERROR_TITLE</key>
+	<string>Oops !</string>
+	<key>NE_GENERIC_ERROR</key>
+	<string>An error occured please, retry later!</string>
+	<key>NE_BEFORE_SCAN_SPEECH</key>
+	<string>Stand facing camera. Scan will start automatically in a few seconds after you fix your position, alternatively use start/stop button on the screen.</string>
+	<key>NE_FRONT_PICTURE_SPEECH</key>
+	<string>Let’s start front scan now. Your full-length body including entire length of the arms should be inside the screen. Keep body centered versa vertical green line. Listen to the countdown.</string>
+	<key>NE_FRONT_AUTOSTART_PICTURE_SPEECH</key>
+	<string>Hold this pose now !</string>
+	<key>NE_SIDE_PICTURE_SPEECH</key>
+	<string>Let&apos;s do side scan now. Turn ninety degrees to the right. Your left side should be facing camera for the body profile view. Keep body centered versa vertical green line on the screen, listen to the countdown.</string>
+	<key>NE_BACKGROUND_PICTURE_SPEECH</key>
+	<string>Finally, leave the scene. The device will now take the background image.</string>
+	<key>NE_AFTER_SCAN_SPEECH</key>
+	<string>Congratulations! Your scan has been completed.</string>
+	<key>NE_DEVICE_VERTICALITY_ERROR</key>
+	<string>Device is not at the right position, make sure that it is not tilted to the left, right, forward or backward</string>
+	<key>customer_tailor_measurement</key>
+	<string>My Tailor&apos;s Measurement</string>
+	<key>customer_tailor_details</key>
+	<string>Tailor&apos;s Measurement</string>
+	<key>customer_tailor_measurement_title</key>
+	<string>Please enter your details at tailor</string>
+	<key>customer_tailor_measurement_placeholder</key>
+	<string>My detail at the tailor (Put your ID or phone number at the tailor)</string>
+	<key>customer_tailor_details_validation_msg</key>
+	<string>Please enter tarilor details</string>
+	<key>customer_orderCancel</key>
+	<string>Cancel</string>
+	<key>customer_cancel_item_msg</key>
+	<string>The items already in the way to you and it can’t be returned now, You can send a request after delivery with your comments</string>
+	<key>customer_updateMeasurement</key>
+	<string>Update Measurement</string>
+	<key>customer_scanIntro</key>
+	<string>Scan Intro</string>
+	<key>onboarding_title</key>
+	<string>Onboarding Title</string>
+	<key>onboarding_description</key>
+	<string>Shop the best clothes from hundreds of premium
+stores Kingdom level</string>
+</dict>
+</plist>

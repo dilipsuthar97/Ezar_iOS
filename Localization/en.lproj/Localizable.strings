@@ -1,0 +1,96 @@
+/* 
+  Localizable.strings
+  EzarNett
+
+  Created by Ahmed ElGenedy on 02/03/2022.
+  
+*/
+
+"UPLOADING_SEQUENCE" = "Please wait, We are processing your images...";
+"UPLOAD_ERROR" = "Something went wrong while processing your images, Please try again";
+
+
+"NE_DEVICE_VERTICALITY_WARNING" = "Device is not at the right position, make sure that it is not tilted to the left, right, forward or backward";
+
+"NE_BEFORE_SCAN_SPEECH_SHORT" = "Stand facing camera. Scan will start automatically in a few seconds after you fix your position, alternatively use start/stop button on the screen.";
+"NE_FRONT_PICTURE_SPEECH_SHORT" = "Let's start front scan now. Your full-length body including entire length of the arms should be inside the screen. Keep body centered versa vertical green line. Listen to the countdown.";
+"NE_FRONT_AUTOSTART_PICTURE_SPEECH_SHORT" = "Hold this pose now !";
+"NE_SIDE_PICTURE_SPEECH_SHORT" = "Let's do side scan now. Turn ninety degrees to the right. Your left side should be facing camera for the body profile view. Keep body centered versa vertical green line on the screen, listen to the countdown.";
+"NE_BACKGROUND_PICTURE_SPEECH_SHORT" = "Finally, leave the scene. The device will now take the background image.";
+"NE_AFTER_SCAN_SPEECH_SHORT" = "Congratulations! Your scan has been completed.";
+
+"NE_DEVICE_VERTICALITY_ERROR_SHORT" = "Device is not at the right position, make sure that it is not tilted to the left, right, forward or backward";
+
+"NE_ONE_SPEECH" = "One";
+"NE_TWO_SPEECH" = "Two";
+"NE_THREE_SPEECH" = "Three";
+
+
+"NE_NO_CAMERA_ACCESS" = "Access request";
+"NE_NO_CAMERA_ACCESS_MSG_IOS8" = "Ezar needs your permission for Camera access. Please tap on \"Setting\" to allow it.";
+"NE_NO_CAMERA_ACCESS_SETTINGS" = "Settings";
+"NE_NO_CAMERA_ACCESS_CANCEL" = "Cancel";
+
+"NE_CONFIRM_QUIT_CAMERASCREEN" = "You are about to quit phototaking. Do you want to leave this measure process?";
+
+"NE_CONTINUE"  = "Continue";
+"NE_QUIT" = "Quit";
+"NE_OK" = "Ok";
+"NE_RECORDING_PICTURES" = "Processing Images...";
+
+"NE_PREFLIGHT_MISSING_CONFIGURATION" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+"NE_PREFLIGHT_MISSING_USERINFO_0" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+"NE_PREFLIGHT_REQUEST_1_ERROR" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+"NE_PREFLIGHT_DUPLICATEID" = "This user already exists.";
+"NE_PREFLIGHT_UNKNOWNUSER" = "This user can't be found.";
+"NE_PREFLIGHT_NO_INTERNET" = "Cloud is not available. Check device's Internet.";
+"NE_PREFLIGHT_MISSING_USERINFO_1" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+"NE_PREFLIGHT_REQUEST_2_ERROR" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+"NE_PREFLIGHT_MISSING_USERINFO_2" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+"NE_PREFLIGHT_REQUEST_3_ERROR" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+"NE_PREFLIGHT_REQUEST_4_ERROR" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+
+"NE_WS_NOT_HTTP_RESPONSE" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+"NE_WS_INVALID_HTTP_CODE" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+"NE_WS_EXPECTED_JSON_DICTIONNARY" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+"NE_WS_EXPECTED_JSON_ARRAY" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+"NE_WS_CHECK_CONNECTION" = "Cloud is not available. Check device's Internet or try again later.";
+"NE_WS_AMAZON_NOT_HTTP_RESPONSE" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+"NE_WS_AMAZON_INVALID_HTTP_CODE" = "Sorry, cloud service is temporarily unavailable, please try again later.";
+
+"NE_DEFAULT_ERROR" = "An error occured while processing this request";
+"NE_DEFAULT_WS_ERROR" = "Cloud is not available. Check device's Internet or try again later.";
+"NE_DEFAULT_UNATTENDED_ANSWER_WS_ERROR" = "Cloud is not available. Try again later.";
+"NE_DEFAULT_CREDENTIALS_WS_ERROR" = "Cloud is not available. Try again later.";
+"NE_DEFAULT_CONNECTION_WS_ERROR" = "Cloud communication error. Check internet connectivity.";
+"NE_NO_INTERNET_TITLE" = "Oops !";
+"NE_NO_INTERNET_MESSAGE" = "Cloud is not available. Check device's Internet.";
+
+"NE_GENERIC_ERROR_TITLE" = "Oops !";
+"NE_GENERIC_ERROR" = "An error occured please, retry later!";
+
+// Possibly unused
+"NE_BEFORE_SCAN_SPEECH" = "Stand facing camera. Scan will start automatically in a few seconds after you fix your position, alternatively use start/stop button on the screen.";
+"NE_FRONT_PICTURE_SPEECH" = "Let’s start front scan now. Your full-length body including entire length of the arms should be inside the screen. Keep body centered versa vertical green line. Listen to the countdown.";
+"NE_FRONT_AUTOSTART_PICTURE_SPEECH" = "Hold this pose now !";
+"NE_SIDE_PICTURE_SPEECH" = "Let's do side scan now. Turn ninety degrees to the right. Your left side should be facing camera for the body profile view. Keep body centered versa vertical green line on the screen, listen to the countdown.";
+"NE_BACKGROUND_PICTURE_SPEECH" = "Finally, leave the scene. The device will now take the background image.";
+"NE_AFTER_SCAN_SPEECH" = "Congratulations! Your scan has been completed.";
+
+"NE_DEVICE_VERTICALITY_ERROR" = "Device is not at the right position, make sure that it is not tilted to the left, right, forward or backward";
+
+
+//Unused
+"NE_WARNING_ARMSTRAIGHT_SPEECH" = "";
+"NE_WARNING_ARMTOOHIGH_SPEECH" = "";
+"NE_WARNING_ARMTOOLOW_SPEECH" = "";
+"NE_WARNING_FEETSTOOCLOSE_SPEECH" = "";
+"NE_WARNING_TOPTOOCLOSE_SPEECH" = "";
+"NE_WARNING_GOFURTHERTOOCLOSE_SPEECH" = "";
+"NE_WARNING_TOOSMALLONSCREEN_SPEECH" = "";
+"NE_WARNING_OFFCENTERED_SPEECH" = "";
+"NE_WARNING_FEETSTOOHIGH_SPEECH" = "";
+"NE_WARNING_FEETSANGLE_SPEECH" = "";
+"NE_WARNING_FINGERTOOCLOSE_SPEECH" = "";
+"NE_WARNING_HEADTOOLOW_SPEECH" = "";
+"NE_WARNING_WAYTOOCLOSE_SPEECH" = "";

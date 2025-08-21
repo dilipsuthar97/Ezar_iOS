@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ElMessiri-Bold.ttf">
+            <string>ElMessiri-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeApprovedRequestCell" id="gTV-IL-0wX" customClass="HomeApprovedRequestCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="202"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="170" height="202"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tRt-1i-34C" customClass="ShaddowView" customModule="EZAR" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="170" height="202"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="MZi-VQ-Bon">
+                                <rect key="frame" x="0.0" y="0.0" width="170" height="172"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thobe" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPm-XM-JhE">
+                                <rect key="frame" x="0.0" y="172" width="170" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="f9C-c9-sUb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ElMessiri-Bold" family="El Messiri" pointSize="14"/>
+                                <color key="textColor" red="0.10196078431372549" green="0.074509803921568626" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="dPm-XM-JhE" secondAttribute="bottom" id="7Kz-Hl-Lcc"/>
+                            <constraint firstItem="MZi-VQ-Bon" firstAttribute="leading" secondItem="tRt-1i-34C" secondAttribute="leading" id="9wo-k0-VVe"/>
+                            <constraint firstItem="dPm-XM-JhE" firstAttribute="leading" secondItem="tRt-1i-34C" secondAttribute="leading" id="FFO-5G-WOM"/>
+                            <constraint firstAttribute="trailing" secondItem="MZi-VQ-Bon" secondAttribute="trailing" id="KpB-Dc-XuT"/>
+                            <constraint firstAttribute="trailing" secondItem="dPm-XM-JhE" secondAttribute="trailing" id="SoB-hU-ieO"/>
+                            <constraint firstItem="dPm-XM-JhE" firstAttribute="top" secondItem="MZi-VQ-Bon" secondAttribute="bottom" id="jbE-5Z-azW"/>
+                            <constraint firstItem="MZi-VQ-Bon" firstAttribute="top" secondItem="tRt-1i-34C" secondAttribute="top" id="pfv-nd-5H9"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerBorder">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.20000000000000001"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="0.20000000000000001"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" red="0.17254901960784313" green="0.15686274509803921" blue="0.1803921568627451" alpha="0.0" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="tRt-1i-34C" secondAttribute="bottom" id="9Qa-lR-pbH"/>
+                <constraint firstItem="tRt-1i-34C" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="c9B-1S-6ij"/>
+                <constraint firstItem="tRt-1i-34C" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mlH-zX-YyG"/>
+                <constraint firstAttribute="trailing" secondItem="tRt-1i-34C" secondAttribute="trailing" id="vS6-YM-ZLm"/>
+            </constraints>
+            <size key="customSize" width="187" height="210"/>
+            <connections>
+                <outlet property="imgBgView" destination="tRt-1i-34C" id="Lvg-J2-mcc"/>
+                <outlet property="productImage" destination="MZi-VQ-Bon" id="JbP-iR-Aca"/>
+                <outlet property="titleLbl" destination="dPm-XM-JhE" id="iGE-ah-Yoe"/>
+                <outlet property="titleLblHeightConstraints" destination="f9C-c9-sUb" id="yTh-yN-zKn"/>
+            </connections>
+            <point key="canvasLocation" x="-312" y="-42"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder" width="125" height="125"/>
+    </resources>
+</document>

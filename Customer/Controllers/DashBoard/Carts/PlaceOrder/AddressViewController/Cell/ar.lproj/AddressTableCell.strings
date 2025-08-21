@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "746, Grace ST, Monterery, California 93940"; ObjectID = "70G-HP-tq4"; */
+"70G-HP-tq4.text" = "";
+
+/* Class = "UILabel"; text = "Krunal Salvi"; ObjectID = "7mT-zp-IkO"; */
+"7mT-zp-IkO.text" = "";
+
+/* Class = "UILabel"; text = "Head towards north and call me."; ObjectID = "BGe-hj-5df"; */
+"BGe-hj-5df.text" = "";
+
+/* Class = "UILabel"; text = "+91-8520215150"; ObjectID = "BhY-Cd-zLv"; */
+"BhY-Cd-zLv.text" = "";
+
+/* Class = "UIButton"; normalTitle = "ADD NEW ADDRESS"; ObjectID = "KBw-2w-5L2"; */
+"KBw-2w-5L2.normalTitle" = "إضافة عنوان جديد";
+
+/* Class = "UILabel"; text = "(Default)"; ObjectID = "PQt-Zx-9Je"; */
+"PQt-Zx-9Je.text" = "(افتراضي)";
+
+/* Class = "UIButton"; normalTitle = "EDIT ADDRESS"; ObjectID = "aI9-sH-GlD"; */
+"aI9-sH-GlD.normalTitle" = "تعديل العنوان";
+
+/* Class = "UILabel"; text = "Mobile :"; ObjectID = "l68-nY-VO1"; */
+"l68-nY-VO1.text" = "التليفون المحمول :";
+
+/* Class = "UIButton"; normalTitle = "HOME"; ObjectID = "vAX-tk-OsO"; */
+"vAX-tk-OsO.normalTitle" = "الصفحة الرئيسية";
+
+/* Class = "UILabel"; text = "Notes :"; ObjectID = "zcz-dM-Zi1"; */
+"zcz-dM-Zi1.text" = "ملاحظات :";

@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "FREE"; ObjectID = "5IL-eK-fjy"; */
+"5IL-eK-fjy.text" = "حر";
+
+/* Class = "UILabel"; text = "CONFIRM DETAILS"; ObjectID = "LK3-LQ-iLi"; */
+"LK3-LQ-iLi.text" = "تأكيد التفاصيل";
+
+/* Class = "UILabel"; text = "1  ITEM"; ObjectID = "UEe-lD-aoC"; */
+"UEe-lD-aoC.text" = "بند 1";
+
+/* Class = "UILabel"; text = "Total Payable"; ObjectID = "aK3-UF-H3y"; */
+"aK3-UF-H3y.text" = "مجموع مستحق";
+
+/* Class = "UILabel"; text = "SR 862"; ObjectID = "cbg-Qr-Pha"; */
+"cbg-Qr-Pha.text" = "";
+
+/* Class = "UILabel"; text = "SR 862"; ObjectID = "h8H-nq-CdS"; */
+"h8H-nq-CdS.text" = "";
+
+/* Class = "UILabel"; text = "Total Order"; ObjectID = "jwC-67-9o3"; */
+"jwC-67-9o3.text" = "من أجل الكاملة";
+
+/* Class = "UILabel"; text = "Delivery"; ObjectID = "srH-O4-fTP"; */
+"srH-O4-fTP.text" = "توصيل";

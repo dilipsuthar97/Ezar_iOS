@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Regular 400.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+        <array key="Cairo SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MessagePopUpVC" customModule="EZAR" customModuleProvider="target">
+            <connections>
+                <outlet property="closeBtn" destination="53s-5h-d7U" id="5tV-YX-EpE"/>
+                <outlet property="messageTxtView" destination="Wpo-ka-ptM" id="qXd-xc-add"/>
+                <outlet property="sendMessageBtn" destination="UAd-za-ZmF" id="Dye-8g-UNo"/>
+                <outlet property="titleLbl" destination="dx6-Tt-iwr" id="OP2-sN-fIj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="333" height="266"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SBD-hb-iH4" customClass="ShaddowView" customModule="EZAR" customModuleProvider="target">
+                    <rect key="frame" x="5" y="5" width="323" height="256"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53s-5h-d7U" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                            <rect key="frame" x="291" y="10" width="22" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="KlO-Qz-oZP"/>
+                                <constraint firstAttribute="width" constant="22" id="Roq-K5-FOT"/>
+                            </constraints>
+                            <state key="normal" image="cancel_red"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAd-za-ZmF" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                            <rect key="frame" x="10" y="206" width="303" height="45"/>
+                            <color key="backgroundColor" red="0.20784313730000001" green="0.18823529410000001" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="5yS-w0-c3r"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="16"/>
+                            <state key="normal" title="SEND MESSAGE">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="22.5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                    <color key="value" name="dark_gradient"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                    <color key="value" name="light_gradient"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Wpo-ka-ptM">
+                            <rect key="frame" x="16" y="58" width="290" height="127"/>
+                            <color key="backgroundColor" red="0.92544168230000001" green="0.92552381750000001" blue="0.92537313700000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </textView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dx6-Tt-iwr">
+                            <rect key="frame" x="16" y="19" width="82.5" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="U1k-4f-xcY"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="53s-5h-d7U" firstAttribute="top" secondItem="SBD-hb-iH4" secondAttribute="top" constant="10" id="9dF-a2-L2a"/>
+                        <constraint firstItem="Wpo-ka-ptM" firstAttribute="top" secondItem="dx6-Tt-iwr" secondAttribute="bottom" constant="18" id="CKj-Uf-gNF"/>
+                        <constraint firstAttribute="trailing" secondItem="Wpo-ka-ptM" secondAttribute="trailing" constant="17" id="KG4-ca-1Wf"/>
+                        <constraint firstItem="UAd-za-ZmF" firstAttribute="top" secondItem="Wpo-ka-ptM" secondAttribute="bottom" constant="21" id="LE5-FG-Z4t"/>
+                        <constraint firstItem="dx6-Tt-iwr" firstAttribute="leading" secondItem="SBD-hb-iH4" secondAttribute="leading" constant="16" id="QUb-l2-45b"/>
+                        <constraint firstItem="UAd-za-ZmF" firstAttribute="leading" secondItem="SBD-hb-iH4" secondAttribute="leading" constant="10" id="Tbm-h9-sZn"/>
+                        <constraint firstItem="dx6-Tt-iwr" firstAttribute="top" secondItem="SBD-hb-iH4" secondAttribute="top" constant="19" id="Upn-ib-Aid"/>
+                        <constraint firstItem="Wpo-ka-ptM" firstAttribute="leading" secondItem="SBD-hb-iH4" secondAttribute="leading" constant="16" id="aaZ-6c-KND"/>
+                        <constraint firstItem="53s-5h-d7U" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="dx6-Tt-iwr" secondAttribute="trailing" constant="10" id="dav-3L-inZ"/>
+                        <constraint firstAttribute="bottom" secondItem="UAd-za-ZmF" secondAttribute="bottom" constant="5" id="mpu-bM-Gt3"/>
+                        <constraint firstAttribute="trailing" secondItem="UAd-za-ZmF" secondAttribute="trailing" constant="10" id="x7F-HC-M2h"/>
+                        <constraint firstAttribute="trailing" secondItem="53s-5h-d7U" secondAttribute="trailing" constant="10" id="yAh-rE-rt7"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="0.5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="point" keyPath="shadowOffset">
+                            <point key="value" x="0.0" y="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="SBD-hb-iH4" secondAttribute="trailing" constant="5" id="F28-nu-dK9"/>
+                <constraint firstAttribute="bottom" secondItem="SBD-hb-iH4" secondAttribute="bottom" constant="5" id="H1k-7g-3gr"/>
+                <constraint firstItem="SBD-hb-iH4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="Oo9-PK-X1H"/>
+                <constraint firstItem="SBD-hb-iH4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="5" id="zTy-YT-yT3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="252.5" y="-34"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="53s-5h-d7U">
+            <size key="intrinsicContentSize" width="32.5" height="32.5"/>
+        </designable>
+        <designable name="UAd-za-ZmF">
+            <size key="intrinsicContentSize" width="110" height="42"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="cancel_red" width="32.5" height="32.5"/>
+        <namedColor name="dark_gradient">
+            <color red="0.019607843137254902" green="0.15294117647058825" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="light_gradient">
+            <color red="0.21176470588235294" green="0.68235294117647061" blue="0.70588235294117652" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

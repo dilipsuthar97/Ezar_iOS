@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Number of Products :"; ObjectID = "08I-kb-Jvm"; */
+"08I-kb-Jvm.text" = "عدد من المنتجات :";
+
+/* Class = "UILabel"; text = "2000000623"; ObjectID = "2pK-fv-D0G"; */
+"2pK-fv-D0G.text" = "2000000623";
+
+/* Class = "UILabel"; text = "No Payme"; ObjectID = "3ju-Uk-1MO"; */
+"3ju-Uk-1MO.text" = "لا يوجد دفع";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "5DN-eU-UZP"; */
+"5DN-eU-UZP.text" = "1";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "5bV-Vz-AeA"; */
+"5bV-Vz-AeA.text" = "1";
+
+/* Class = "UILabel"; text = "OrderId"; ObjectID = "Uan-pA-d2r"; */
+"Uan-pA-d2r.text" = "رقم الطلب";
+
+/* Class = "UILabel"; text = "DELIVERED"; ObjectID = "enN-Ny-w4C"; */
+"enN-Ny-w4C.text" = "";
+
+/* Class = "UILabel"; text = "31-10-2017 | 01.42 PM"; ObjectID = "j0H-3M-PgW"; */
+"j0H-3M-PgW.text" = "DD/MM/YYYY";
+
+/* Class = "UILabel"; text = "Total :"; ObjectID = "ku3-Bt-ydJ"; */
+"ku3-Bt-ydJ.text" = "مجموع :";
+
+/* Class = "UILabel"; text = "Delivery :"; ObjectID = "lfs-3U-AYZ"; */
+"lfs-3U-AYZ.text" = "توصيل :";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "pLt-HP-79d"; */
+"pLt-HP-79d.text" = "0";
+
+/* Class = "UILabel"; text = "Payment mode :"; ObjectID = "t8S-IS-xZ1"; */
+"t8S-IS-xZ1.text" = "طريقة الدفع :";

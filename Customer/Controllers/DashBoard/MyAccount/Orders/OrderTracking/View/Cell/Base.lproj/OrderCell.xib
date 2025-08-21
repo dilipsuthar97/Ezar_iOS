@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo Regular 400.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+        <array key="Cairo SemiBold.ttf">
+            <string>Cairo-SemiBold</string>
+        </array>
+        <array key="Futura Md BT Medium.TTF">
+            <string>FuturaBT-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OrderCell" rowHeight="213" id="KGk-i7-Jjw" customClass="OrderCell" customModule="EZAR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="213"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="213"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4yr-XU-J5c" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                        <rect key="frame" x="16" y="8" width="117" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="JKr-6B-gGO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="14"/>
+                        <state key="normal" title="Re-Order">
+                            <color key="titleColor" red="1" green="0.13303263339999999" blue="0.1524899461" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PgK-Xt-I4j" customClass="ActionButton" customModule="EZAR" customModuleProvider="target">
+                        <rect key="frame" x="274" y="11" width="30" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="0dt-Yt-DjX"/>
+                            <constraint firstAttribute="height" constant="31" id="nf1-gc-j4Q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
+                        <state key="normal">
+                            <color key="titleColor" red="1" green="0.13303263339999999" blue="0.1524899461" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Id :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z8B-zr-rZR">
+                        <rect key="frame" x="16" y="33" width="284" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="X3R-LU-2aL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9C5-eB-jw4">
+                        <rect key="frame" x="16" y="58" width="284" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="ovM-Gi-KBi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="15"/>
+                        <color key="textColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rr2-Jz-33I">
+                        <rect key="frame" x="16" y="83" width="284" height="1"/>
+                        <color key="backgroundColor" systemColor="separatorColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="52O-jY-GFc"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created At :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBT-9x-oY2">
+                        <rect key="frame" x="16" y="89" width="284" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="G9U-7U-kcu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iCi-za-d5y">
+                        <rect key="frame" x="16" y="112" width="284" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="JTz-xe-yI9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Cairo-SemiBold" family="Cairo" pointSize="15"/>
+                        <color key="textColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xW3-g7-ylg">
+                        <rect key="frame" x="16" y="140" width="284" height="1"/>
+                        <color key="backgroundColor" systemColor="separatorColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="c2v-9e-MNZ"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Status :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCu-ec-Wz5">
+                        <rect key="frame" x="16" y="146" width="284" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="EQJ-e6-sIG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9b-7F-Kni">
+                        <rect key="frame" x="12" y="171" width="284" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="43t-jM-dpf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="FuturaBT-Medium" family="Futura" pointSize="15"/>
+                        <color key="textColor" red="0.050980392159999999" green="0.050980392159999999" blue="0.050980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" name="bgColor"/>
+                <constraints>
+                    <constraint firstItem="9C5-eB-jw4" firstAttribute="leading" secondItem="Z8B-zr-rZR" secondAttribute="leading" id="1uB-Jk-w5J"/>
+                    <constraint firstItem="4yr-XU-J5c" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="4mN-Ou-Z6m"/>
+                    <constraint firstItem="Rr2-Jz-33I" firstAttribute="trailing" secondItem="9C5-eB-jw4" secondAttribute="trailing" id="7hC-6e-3j5"/>
+                    <constraint firstItem="OCu-ec-Wz5" firstAttribute="leading" secondItem="xW3-g7-ylg" secondAttribute="leading" id="8py-Cb-4yp"/>
+                    <constraint firstAttribute="bottom" secondItem="g9b-7F-Kni" secondAttribute="bottom" constant="23" id="ANZ-OZ-wO9"/>
+                    <constraint firstItem="Rr2-Jz-33I" firstAttribute="leading" secondItem="9C5-eB-jw4" secondAttribute="leading" id="CVM-vu-0IP"/>
+                    <constraint firstItem="xW3-g7-ylg" firstAttribute="leading" secondItem="iCi-za-d5y" secondAttribute="leading" id="Cfl-QM-mXu"/>
+                    <constraint firstItem="xW3-g7-ylg" firstAttribute="trailing" secondItem="iCi-za-d5y" secondAttribute="trailing" id="Dvp-6G-bwW"/>
+                    <constraint firstItem="9C5-eB-jw4" firstAttribute="top" secondItem="Z8B-zr-rZR" secondAttribute="bottom" constant="5" id="Ef6-Kf-F1B"/>
+                    <constraint firstAttribute="trailing" secondItem="4yr-XU-J5c" secondAttribute="trailing" constant="187" id="IAG-w3-s3N"/>
+                    <constraint firstAttribute="trailing" secondItem="Z8B-zr-rZR" secondAttribute="trailing" constant="20" id="J8T-D0-f8w"/>
+                    <constraint firstItem="g9b-7F-Kni" firstAttribute="trailing" secondItem="OCu-ec-Wz5" secondAttribute="trailing" constant="-4" id="KN2-fA-W5y"/>
+                    <constraint firstItem="BBT-9x-oY2" firstAttribute="trailing" secondItem="Rr2-Jz-33I" secondAttribute="trailing" id="Lqp-ak-Dw2"/>
+                    <constraint firstItem="iCi-za-d5y" firstAttribute="leading" secondItem="BBT-9x-oY2" secondAttribute="leading" id="Lsl-Zl-FCc"/>
+                    <constraint firstAttribute="trailing" secondItem="PgK-Xt-I4j" secondAttribute="trailing" constant="16" id="MAg-pD-m45"/>
+                    <constraint firstItem="4yr-XU-J5c" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="PFA-OX-l6D"/>
+                    <constraint firstItem="Z8B-zr-rZR" firstAttribute="top" secondItem="4yr-XU-J5c" secondAttribute="bottom" constant="5" id="QPp-iR-4gU"/>
+                    <constraint firstItem="iCi-za-d5y" firstAttribute="top" secondItem="BBT-9x-oY2" secondAttribute="bottom" constant="3" id="S6r-cA-mSC"/>
+                    <constraint firstItem="PgK-Xt-I4j" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="S8Q-Mb-g7D"/>
+                    <constraint firstItem="iCi-za-d5y" firstAttribute="trailing" secondItem="BBT-9x-oY2" secondAttribute="trailing" id="Ty4-eA-t8s"/>
+                    <constraint firstItem="OCu-ec-Wz5" firstAttribute="trailing" secondItem="xW3-g7-ylg" secondAttribute="trailing" id="Wt0-Bw-VTp"/>
+                    <constraint firstItem="BBT-9x-oY2" firstAttribute="leading" secondItem="Rr2-Jz-33I" secondAttribute="leading" id="aHF-e4-Ab5"/>
+                    <constraint firstItem="Rr2-Jz-33I" firstAttribute="top" secondItem="9C5-eB-jw4" secondAttribute="bottom" constant="5" id="gdn-2P-hWs"/>
+                    <constraint firstItem="g9b-7F-Kni" firstAttribute="leading" secondItem="OCu-ec-Wz5" secondAttribute="leading" constant="-4" id="hIA-A7-IS1"/>
+                    <constraint firstItem="g9b-7F-Kni" firstAttribute="top" secondItem="OCu-ec-Wz5" secondAttribute="bottom" constant="5" id="mMp-vw-Cz7"/>
+                    <constraint firstItem="xW3-g7-ylg" firstAttribute="top" secondItem="iCi-za-d5y" secondAttribute="bottom" constant="8" symbolic="YES" id="srs-TG-ieK"/>
+                    <constraint firstAttribute="trailing" secondItem="9C5-eB-jw4" secondAttribute="trailing" constant="20" id="xDu-h9-wdj"/>
+                    <constraint firstItem="OCu-ec-Wz5" firstAttribute="top" secondItem="xW3-g7-ylg" secondAttribute="bottom" constant="5" id="xzt-iq-fYg"/>
+                    <constraint firstItem="Z8B-zr-rZR" firstAttribute="leading" secondItem="4yr-XU-J5c" secondAttribute="leading" id="y8Y-10-wIp"/>
+                    <constraint firstItem="BBT-9x-oY2" firstAttribute="top" secondItem="Rr2-Jz-33I" secondAttribute="bottom" constant="5" id="yJd-FO-BWf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnReturnIyem" destination="PgK-Xt-I4j" id="8YA-FP-Fce"/>
+                <outlet property="idLabel" destination="Z8B-zr-rZR" id="fmJ-rw-hCe"/>
+                <outlet property="lblCreatedAt" destination="iCi-za-d5y" id="dl2-ch-hMo"/>
+                <outlet property="lblOrderId" destination="9C5-eB-jw4" id="lK9-Zz-TkY"/>
+                <outlet property="lblOrderstatuc" destination="g9b-7F-Kni" id="wuY-Xz-0Ec"/>
+                <outlet property="reOrderBtn" destination="4yr-XU-J5c" id="aNS-VI-22R"/>
+                <outlet property="statusLabel" destination="OCu-ec-Wz5" id="1Hk-DI-br2"/>
+                <outlet property="timeLabel" destination="BBT-9x-oY2" id="I4C-QB-fvd"/>
+            </connections>
+            <point key="canvasLocation" x="-78.400000000000006" y="58.920539730134934"/>
+        </tableViewCell>
+    </objects>
+    <designables>
+        <designable name="4yr-XU-J5c">
+            <size key="intrinsicContentSize" width="59" height="29"/>
+        </designable>
+        <designable name="PgK-Xt-I4j">
+            <size key="intrinsicContentSize" width="30" height="31"/>
+        </designable>
+    </designables>
+    <resources>
+        <namedColor name="bgColor">
+            <color red="0.97299998998641968" green="0.97299998998641968" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="separatorColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

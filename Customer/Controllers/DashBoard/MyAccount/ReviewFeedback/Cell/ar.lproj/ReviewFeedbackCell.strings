@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "DELIVERED"; ObjectID = "2h0-Fn-B61"; */
+"2h0-Fn-B61.text" = "تم التوصيل";
+
+/* Class = "UILabel"; text = "Payment mode : Debit card"; ObjectID = "65D-Nq-JtC"; */
+"65D-Nq-JtC.text" = "طريقة الدفع: بطاقة الخصم";
+
+/* Class = "UILabel"; text = "31.10.2017 | 01:42 PM"; ObjectID = "LE0-jU-e31"; */
+"LE0-jU-e31.text" = "DD.MM.YYYY | 00:42 PM";
+
+/* Class = "UILabel"; text = "SR 100"; ObjectID = "fvj-jb-96s"; */
+"fvj-jb-96s.text" = "SR 0";
+
+/* Class = "UILabel"; text = "Saudi Thoab"; ObjectID = "lBi-BX-Ab5"; */
+"lBi-BX-Ab5.text" = "ثواب السعودي";
+
+/* Class = "UIButton"; normalTitle = "Review Item"; ObjectID = "xeZ-62-PFj"; */
+"xeZ-62-PFj.normalTitle" = "مراجعة البند";

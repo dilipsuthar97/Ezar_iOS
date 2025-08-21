@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>EZAR</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIcons</key>
+	<dict/>
+	<key>CFBundleIcons~ipad</key>
+	<dict/>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>FB</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb3440923959261089</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>Google</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.125857722951-3ogbqq6076rf2u4bgjt0p3fr6hbs3v85</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>ezarapp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>ezarapp</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FacebookAppID</key>
+	<string>3440923959261089</string>
+	<key>FacebookDisplayName</key>
+	<string>EZAR</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>tel</string>
+		<string>whatsapp</string>
+		<string>https://ezarksa/invite</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost.com</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<false/>
+				<key>NSExceptionMinimumTLSVersion</key>
+				<string>TLSv1.2</string>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<true/>
+				<key>NSIncludesSubdomains</key>
+				<false/>
+				<key>NSRequiresCertificateTransparency</key>
+				<false/>
+				<key>NSThirdPartyExceptionAllowsInsecureHTTPLoads</key>
+				<false/>
+				<key>NSThirdPartyExceptionMinimumTLSVersion</key>
+				<string>TLSv1.2</string>
+				<key>NSThirdPartyExceptionRequiresForwardSecrecy</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>EZAR want to access you camera to capture pictures for measurement</string>
+	<key>NSCameraUsageDescription</key>
+	<string>EZAR want to access you camera to capture pictures for profile.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>EZAR want to access your location for display it on map, search nearby results and estimate travel time.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>EZAR want to access your location for display it on map, search nearby results and estimate travel time.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>EZAR want to access your location for display it on map, search nearby results and estimate travel time.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>EZAR wants to your permission to save pictures for measurement</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>EZAR want to access your photo library to select profile pictures.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>ElMessiri-Bold.ttf</string>
+		<string>ElMessiri-Medium.ttf</string>
+		<string>ElMessiri-Regular.ttf</string>
+		<string>ElMessiri-SemiBold.ttf</string>
+		<string>UBUNTU-BOLD_0.TTF</string>
+		<string>UBUNTU-LIGHT (1).TTF</string>
+		<string>UBUNTU-MEDIUM.TTF</string>
+		<string>UBUNTU-MEDIUMITALIC.TTF</string>
+		<string>UBUNTU-REGULAR.TTF</string>
+		<string>Futura Bk BT Italic.TTF</string>
+		<string>Futura Bk BT.TTF</string>
+		<string>Futura Hv BT.TTF</string>
+		<string>Futura MD BT Bold.ttf</string>
+		<string>Futura MD BT Italic.TTF</string>
+		<string>Futura Md BT Medium Italic.TTF</string>
+		<string>Futura Md BT Medium.TTF</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+</dict>
+</plist>
