@@ -33,7 +33,7 @@ class URLs {
         case .development:
             return "http://alnaseej.php-dev.in/"
         default:
-            return "https://ezarksa.com/"
+            return "https://ezarapp.com/"
         }
     }
 

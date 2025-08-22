@@ -117,7 +117,8 @@ class LandingViewController: UIViewController, ButtonActionDelegate{
     }
     
     func configUI() {
-    
+//        let vc = OnboardingsViewController.loadFromNib()
+//        self.navigationController?.pushViewController(vc, animated: true)
     }
     
         func initialize() {
