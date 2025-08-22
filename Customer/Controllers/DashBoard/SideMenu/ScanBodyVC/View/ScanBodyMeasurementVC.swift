@@ -64,7 +64,7 @@ class ScanBodyMeasurementVC: BaseViewController ,AVPlayerViewControllerDelegate 
         if ScanBodyViewModel.getTermsConditionsSkipOption() {
             skipButton.isUserInteractionEnabled = true
         } else {
-            skipButton.isUserInteractionEnabled = false
+            skipButton.isUserInteractionEnabled = true // false prev
         }
         
         self.playButton.touchUp = { button in
